@@ -1,0 +1,121 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "melon",
+        "chart": "MELON_MONTHLY_CHART",
+        "songId": "32720013",
+        "timeUnit": "MONTHS",
+        "size": 16,
+        "totalSize": 16,
+        "pagination": {
+            "currentSize": 16,
+            "pageSize": 100,
+            "totalItems": 16,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "ranking": 55,
+                "previous": 0,
+                "year": 2020,
+                "month": 6
+            },
+            {
+                "ranking": 1,
+                "previous": 55,
+                "year": 2020,
+                "month": 7
+            },
+            {
+                "ranking": 3,
+                "previous": 1,
+                "year": 2020,
+                "month": 8
+            },
+            {
+                "ranking": 7,
+                "previous": 3,
+                "year": 2020,
+                "month": 9
+            },
+            {
+                "ranking": 10,
+                "previous": 7,
+                "year": 2020,
+                "month": 10
+            },
+            {
+                "ranking": 15,
+                "previous": 10,
+                "year": 2020,
+                "month": 11
+            },
+            {
+                "ranking": 28,
+                "previous": 15,
+                "year": 2020,
+                "month": 12
+            },
+            {
+                "ranking": 25,
+                "previous": 28,
+                "year": 2021,
+                "month": 1
+            },
+            {
+                "ranking": 32,
+                "previous": 25,
+                "year": 2021,
+                "month": 2
+            },
+            {
+                "ranking": 36,
+                "previous": 32,
+                "year": 2021,
+                "month": 3
+            },
+            {
+                "ranking": 55,
+                "previous": 36,
+                "year": 2021,
+                "month": 4
+            },
+            {
+                "ranking": 62,
+                "previous": 55,
+                "year": 2021,
+                "month": 5
+            },
+            {
+                "ranking": 65,
+                "previous": 62,
+                "year": 2021,
+                "month": 6
+            },
+            {
+                "ranking": 78,
+                "previous": 65,
+                "year": 2021,
+                "month": 7
+            },
+            {
+                "ranking": 87,
+                "previous": 78,
+                "year": 2021,
+                "month": 8
+            },
+            {
+                "ranking": 98,
+                "previous": 87,
+                "year": 2021,
+                "month": 9
+            }
+        ]
+    }
+}

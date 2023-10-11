@@ -1,0 +1,102 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "melon",
+        "chart": "MELON_WEEKLY_CHART",
+        "songId": "32961716",
+        "timeUnit": "WEEKS",
+        "size": 11,
+        "totalSize": 11,
+        "pagination": {
+            "currentSize": 11,
+            "pageSize": 100,
+            "totalItems": 11,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "time": "2020-10-05T00:00:00",
+                "ranking": 88,
+                "previous": 0,
+                "year": 2020,
+                "week": 41
+            },
+            {
+                "time": "2020-10-12T00:00:00",
+                "ranking": 65,
+                "previous": 88,
+                "year": 2020,
+                "week": 42
+            },
+            {
+                "time": "2020-10-19T00:00:00",
+                "ranking": 53,
+                "previous": 65,
+                "year": 2020,
+                "week": 43
+            },
+            {
+                "time": "2020-10-26T00:00:00",
+                "ranking": 54,
+                "previous": 53,
+                "year": 2020,
+                "week": 44
+            },
+            {
+                "time": "2020-11-02T00:00:00",
+                "ranking": 52,
+                "previous": 54,
+                "year": 2020,
+                "week": 45
+            },
+            {
+                "time": "2020-11-09T00:00:00",
+                "ranking": 53,
+                "previous": 52,
+                "year": 2020,
+                "week": 46
+            },
+            {
+                "time": "2020-11-16T00:00:00",
+                "ranking": 63,
+                "previous": 53,
+                "year": 2020,
+                "week": 47
+            },
+            {
+                "time": "2020-11-23T00:00:00",
+                "ranking": 77,
+                "previous": 63,
+                "year": 2020,
+                "week": 48
+            },
+            {
+                "time": "2020-11-30T00:00:00",
+                "ranking": 78,
+                "previous": 77,
+                "year": 2020,
+                "week": 49
+            },
+            {
+                "time": "2020-12-07T00:00:00",
+                "ranking": 88,
+                "previous": 78,
+                "year": 2020,
+                "week": 50
+            },
+            {
+                "time": "2020-12-14T00:00:00",
+                "ranking": 98,
+                "previous": 88,
+                "year": 2020,
+                "week": 51
+            }
+        ]
+    }
+}

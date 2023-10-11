@@ -1,0 +1,39 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "melon",
+        "chart": "MELON_WEEKLY_CHART",
+        "songId": "31131276",
+        "timeUnit": "WEEKS",
+        "size": 2,
+        "totalSize": 2,
+        "pagination": {
+            "currentSize": 2,
+            "pageSize": 1600,
+            "totalItems": 2,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "time": "2018-06-18T00:00:00",
+                "ranking": 72,
+                "previous": 0,
+                "year": 2018,
+                "week": 25
+            },
+            {
+                "time": "2018-06-25T00:00:00",
+                "ranking": 85,
+                "previous": 72,
+                "year": 2018,
+                "week": 26
+            }
+        ]
+    }
+}

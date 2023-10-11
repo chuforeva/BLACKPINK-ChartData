@@ -1,0 +1,519 @@
+{
+    "latest_update": "2023-10-10",
+    "data": [
+        {
+            "album": "SQUARE ONE",
+            "artist": "BLACKPINK",
+            "release_date": "2016-08-08",
+            "image_url": "https://cdnimg.melon.co.kr/cm/album/images/027/03/168/2703168_1000.jpg",
+            "songs": [
+                {
+                    "title": "휘파람",
+                    "song_id": {
+                        "melon": 8304594,
+                        "genie": 86525644,
+                        "bugs": 30349371,
+                        "vive": 6243851
+                    },
+                    "json_id": "whistle"
+                },
+                {
+                    "title": "붐바야",
+                    "song_id": {
+                        "melon": 8304595,
+                        "genie": 86525645,
+                        "bugs": 30349372,
+                        "vive": 6243852
+                    },
+                    "json_id": "boombayah"
+                }
+            ]
+        },
+        {
+            "album": "SQUARE TWO",
+            "artist": "BLACKPINK",
+            "release_date": "2016-11-01",
+            "image_url": "https://cdnimg.melon.co.kr/cm/album/images/100/11/491/10011491_1000.jpg",
+            "songs": [
+                {
+                    "title": "불장난",
+                    "song_id": {
+                        "melon": 30069773,
+                        "genie": 86700924,
+                        "bugs": 30436007,
+                        "vive": 12274401
+                    },
+                    "json_id": "pwf"
+                },
+                {
+                    "title": "STAY",
+                    "song_id": {
+                        "melon": 30069774,
+                        "genie": 86700925,
+                        "bugs": 30436008,
+                        "vive": 12274399
+                    },
+                    "json_id": "stay"
+                },
+                {
+                    "title": "휘파람 (Acoustic Ver.)",
+                    "song_id": {
+                        "melon": 30069775,
+                        "genie": 86700926,
+                        "bugs": 30436008,
+                        "vive": 12274400
+                    },
+                    "json_id": "whislte_acoustic"
+                }
+            ]
+        },
+        {
+            "album": "마지막처럼",
+            "artist": "BLACKPINK",
+            "release_date": "2017-06-22",
+            "image_url": "https://cdnimg.melon.co.kr/cm/album/images/100/72/696/10072696_1000.jpg",
+            "songs": [
+                {
+                    "title": "마지막처럼",
+                    "song_id": {
+                        "melon": 30481578,
+                        "genie": 87230562,
+                        "bugs": 30695454,
+                        "vive": 18087487
+                    },
+                    "json_id": "aiiyl"
+                }
+            ]
+        },
+        {
+            "album": "SQUARE UP",
+            "artist": "BLACKPINK",
+            "release_date": "2018-06-15",
+            "image_url": "https://cdnimg.melon.co.kr/cm/album/images/101/76/415/10176415_1000.jpg",
+            "songs": [
+                {
+                    "title": "뚜두뚜두",
+                    "song_id": {
+                        "melon": 31131273,
+                        "genie": 88040624,
+                        "bugs": 31107976,
+                        "vive": 21376317
+                    },
+                    "json_id": "dddd"
+                },
+                {
+                    "title": "Forever Young",
+                    "song_id": {
+                        "melon": 31131274,
+                        "genie": 88040625,
+                        "bugs": 31107977,
+                        "vive": 21376318
+                    },
+                    "json_id": "fy"
+                },
+                {
+                    "title": "Really",
+                    "song_id": {
+                        "melon": 31131275,
+                        "genie": 88040626,
+                        "bugs": 31107978,
+                        "vive": 21376331
+                    },
+                    "json_id": "really"
+                },
+                {
+                    "title": "See U Later",
+                    "song_id": {
+                        "melon": 31131276,
+                        "genie": 88040627,
+                        "bugs": 31107979,
+                        "vive": 21376319
+                    },
+                    "json_id": "sul"
+                }
+            ]
+        },
+        {
+            "album": "SOLO",
+            "artist": "JENNIE",
+            "release_date": "2018-11-12",
+            "image_url": "https://cdnimg.melon.co.kr/cm/album/images/102/21/424/10221424_1000.jpg",
+            "songs": [
+                {
+                    "title": "SOLO",
+                    "song_id": {
+                        "melon": 31417871,
+                        "genie": 88363609,
+                        "bugs": 31309023,
+                        "vive": 22760339
+                    },
+                    "json_id": "solo"
+                }
+            ]
+        },
+        {
+            "album": "KILL THIS LOVE",
+            "artist": "BLACKPINK",
+            "release_date": "2019-04-05",
+            "image_url": "https://cdnimg.melon.co.kr/cm/album/images/102/70/288/10270288_1000.jpg",
+            "songs": [
+                {
+                    "title": "Kill This Love",
+                    "song_id": {
+                        "melon": 31717822,
+                        "genie": 88740321,
+                        "bugs": 31535714,
+                        "vive": 26687892
+                    },
+                    "json_id": "ktl"
+                },
+                {
+                    "title": "Don't Know What To Do",
+                    "song_id": {
+                        "melon": 31717823,
+                        "genie": 88740322,
+                        "bugs": 31535715,
+                        "vive": 26687894
+                    },
+                    "json_id": "dkwtd"
+                },
+                {
+                    "title": "Kick It",
+                    "song_id": {
+                        "melon": 31717824,
+                        "genie": 88740323,
+                        "bugs": 31535716,
+                        "vive": 26687895
+                    },
+                    "json_id": "kickit"
+                },
+                {
+                    "title": "아니길 (Hope Not)",
+                    "song_id": {
+                        "melon": 31717825,
+                        "genie": 88740324,
+                        "bugs": 31535717,
+                        "vive": 26687893
+                    },
+                    "json_id": "hopenot"
+                },
+                {
+                    "title": "뚜두뚜두 (DDU-DU DDU-DU) (Remix)",
+                    "song_id": {
+                        "melon": 31717826,
+                        "genie": 88740325,
+                        "bugs": 31535718,
+                        "vive": 26687896
+                    },
+                    "json_id": "dddd_remix"
+                }
+            ]
+        },
+        {
+            "album": "THE ALBUM",
+            "artist": "BLACKPINK",
+            "release_date": "2020-10-02",
+            "image_url": "https://cdnimg.melon.co.kr/cm2/album/images/104/98/032/10498032_20200929122954_1000.jpg",
+            "songs": [
+                {
+                    "title": "How You Like That",
+                    "song_id": {
+                        "melon": 32720013,
+                        "genie": 90443299,
+                        "bugs": 31954275,
+                        "vive": 40636498
+                    },
+                    "json_id": "hylt"
+                },
+                {
+                    "title": "Ice Cream (with Selena Gomez)",
+                    "song_id": {
+                        "melon": 32889003,
+                        "genie": 90751091,
+                        "bugs": 32005270,
+                        "vive": 41848856
+                    },
+                    "json_id": "icecream"
+                },
+                {
+                    "title": "Pretty Savage",
+                    "song_id": {
+                        "melon": 32961716,
+                        "genie": 90947951,
+                        "bugs": 32031228,
+                        "vive": 42644551
+                    },
+                    "json_id": "ps"
+                },
+                {
+                    "title": "Bet You Wanna (Feat. Cardi B)",
+                    "song_id": {
+                        "melon": 32961717,
+                        "genie": 90947952,
+                        "bugs": 32031229,
+                        "vive": 42644552
+                    },
+                    "json_id": "byw"
+                },
+                {
+                    "title": "Lovesick Girls",
+                    "song_id": {
+                        "melon": 32961718,
+                        "genie": 90947953,
+                        "bugs": 32031230,
+                        "vive": 42644553
+                    },
+                    "json_id": "lsg"
+                },
+                {
+                    "title": "Crazy Over You",
+                    "song_id": {
+                        "melon": 32961719,
+                        "genie": 90947954,
+                        "bugs": 32031231,
+                        "vive": 42644554
+                    },
+                    "json_id": "coy"
+                },
+                {
+                    "title": "Love To Hate Me",
+                    "song_id": {
+                        "melon": 32961720,
+                        "genie": 90947955,
+                        "bugs": 32031232,
+                        "vive": 42644556
+                    },
+                    "json_id": "lthm"
+                },
+                {
+                    "title": "You Never Know",
+                    "song_id": {
+                        "melon": 32961721,
+                        "genie": 90947956,
+                        "bugs": 32031233,
+                        "vive": 42644555
+                    },
+                    "json_id": "ynk"
+                }
+            ]
+        },
+        {
+            "album": "R",
+            "artist": "ROSÉ",
+            "release_date": "2021-03-12",
+            "image_url": "https://cdnimg.melon.co.kr/cm2/album/images/105/76/966/10576966_20210312112253_1000.jpg",
+            "songs": [
+                {
+                    "title": "On The Ground",
+                    "song_id": {
+                        "melon": 33346446,
+                        "genie": 92604203,
+                        "bugs": 32179132,
+                        "vive": 45294296
+                    },
+                    "json_id": "otg"
+                },
+                {
+                    "title": "Gone",
+                    "song_id": {
+                        "melon": 33346447,
+                        "genie": 92604204,
+                        "bugs": 32179133,
+                        "vive": 45294297
+                    },
+                    "json_id": "gone"
+                }
+            ]
+        },
+        {
+            "album": "LALISA",
+            "artist": "LISA",
+            "release_date": "2021-09-10",
+            "image_url": "https://cdnimg.melon.co.kr/cm2/album/images/107/10/695/10710695_20210910105303_1000.jpg",
+            "songs": [
+                {
+                    "title": "LALISA",
+                    "song_id": {
+                        "melon": 33940932,
+                        "genie": 94272863,
+                        "bugs": 6128245,
+                        "vive": 50639464
+                    },
+                    "json_id": "lalisa"
+                },
+                {
+                    "title": "MONEY",
+                    "song_id": {
+                        "melon": 33940933,
+                        "genie": 94272864,
+                        "bugs": 6128246,
+                        "vive": 50639465
+                    },
+                    "json_id": "money"
+                }
+            ]
+        },
+        {
+            "album": "BORN PINK",
+            "artist": "BLACKPINK",
+            "release_date": "2022-09-16",
+            "image_url": "https://cdnimg.melon.co.kr/cm2/album/images/110/33/394/11033394_20220916124707_1000.jpg",
+            "songs": [
+                {
+                    "title": "Pink Venom",
+                    "song_id": {
+                        "melon": 35542908,
+                        "genie": 97970302,
+                        "bugs": 6172716,
+                        "vive": 56983993
+                    },
+                    "json_id": "pv"
+                },
+                {
+                    "title": "Shut Down",
+                    "song_id": {
+                        "melon": 35640077,
+                        "genie": 98314955,
+                        "bugs": 6176179,
+                        "vive": 57488470
+                    },
+                    "json_id": "sd"
+                },
+                {
+                    "title": "Typa Girl",
+                    "song_id": {
+                        "melon": 35640078,
+                        "genie": 98314956,
+                        "bugs": 6176180,
+                        "vive": 57488471
+                    },
+                    "json_id": "tg"
+                },
+                {
+                    "title": "Yeah Yeah Yeah",
+                    "song_id": {
+                        "melon": 35640079,
+                        "genie": 98314957,
+                        "bugs": 6176181,
+                        "vive": 57488472
+                    },
+                    "json_id": "yyy"
+                },
+                {
+                    "title": "Hard to Love",
+                    "song_id": {
+                        "melon": 35640080,
+                        "genie": 98314958,
+                        "bugs": 6176182,
+                        "vive": 57488473
+                    },
+                    "json_id": "htl"
+                },
+                {
+                    "title": "The Happiest Girl",
+                    "song_id": {
+                        "melon": 35640081,
+                        "genie": 98314959,
+                        "bugs": 6176183,
+                        "vive": 57488474
+                    },
+                    "json_id": "thg"
+                },
+                {
+                    "title": "Tally",
+                    "song_id": {
+                        "melon": 35640082,
+                        "genie": 98314960,
+                        "bugs": 6176184,
+                        "vive": 57488475
+                    },
+                    "json_id": "tally"
+                },
+                {
+                    "title": "Ready For Love",
+                    "song_id": {
+                        "melon": 35640083,
+                        "genie": 98314961,
+                        "bugs": 6176185,
+                        "vive": 57488476
+                    },
+                    "json_id": "rfl"
+                }
+            ]
+        },
+        {
+            "album": "ME",
+            "artist": "JISOO",
+            "release_date": "2023-03-31",
+            "image_url": "https://cdnimg.melon.co.kr/cm2/album/images/112/14/411/11214411_20230330163342_1000.jpg",
+            "songs": [
+                {
+                    "title": "꽃",
+                    "song_id": {
+                        "melon": 36331121,
+                        "genie": 101132628,
+                        "bugs": 6195057,
+                        "vive": 63275420
+                    },
+                    "json_id": "flower"
+                },
+                {
+                    "title": "All Eyes On Me",
+                    "song_id": {
+                        "melon": 36331122,
+                        "genie": 101132629,
+                        "bugs": 6195058,
+                        "vive": 63275421
+                    },
+                    "json_id": "aeom"
+                }
+            ]
+        },
+        {
+            "album": "THE GIRLS (BLACKPINK THE GAME OST)",
+            "artist": "BLACKPINK",
+            "release_date": "2023-08-25",
+            "image_url": "https://cdnimg.melon.co.kr/cm2/album/images/113/13/789/11313789_20230825134553_1000.jpg",
+            "songs": [
+                {
+                    "title": "THE GIRLS (BLACKPINK THE GAME OST)",
+                    "song_id": {
+                        "melon": 36734937,
+                        "genie": 103220826,
+                        "bugs": 6213737,
+                        "vive": 66761486
+                    },
+                    "json_id": "thegirls"
+                }
+            ]
+        },
+        {
+            "album": "You & Me",
+            "artist": "JENNIE",
+            "release_date": "2023-10-06",
+            "image_url": "https://cdnimg.melon.co.kr/cm2/album/images/113/39/556/11339556_20231005170424_1000.jpg",
+            "songs": [
+                {
+                    "title": "You & Me",
+                    "song_id": {
+                        "melon": 36852553,
+                        "genie": 103797393,
+                        "bugs": 6217653,
+                        "vive": 67725695
+                    },
+                    "json_id": "youme"
+                },
+                {
+                    "title": "You & Me (Coachella ver.)",
+                    "song_id": {
+                        "melon": 36852554,
+                        "genie": 103797394,
+                        "bugs": 6217654,
+                        "vive": 67725696
+                    },
+                    "json_id": "youme_coachella"
+                }
+            ]
+        }
+    ]
+}

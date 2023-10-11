@@ -1,0 +1,43 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "melon",
+        "chart": "MELON_MONTHLY_CHART",
+        "songId": "32889003",
+        "timeUnit": "MONTHS",
+        "size": 3,
+        "totalSize": 3,
+        "pagination": {
+            "currentSize": 3,
+            "pageSize": 100,
+            "totalItems": 3,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "ranking": 23,
+                "previous": 0,
+                "year": 2020,
+                "month": 9
+            },
+            {
+                "ranking": 35,
+                "previous": 23,
+                "year": 2020,
+                "month": 10
+            },
+            {
+                "ranking": 64,
+                "previous": 35,
+                "year": 2020,
+                "month": 11
+            }
+        ]
+    }
+}

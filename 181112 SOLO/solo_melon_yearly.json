@@ -1,0 +1,35 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "melon",
+        "chart": "MELON_YEARLY_CHART",
+        "songId": "31417871",
+        "timeUnit": "YEARS",
+        "size": 2,
+        "totalSize": 2,
+        "pagination": {
+            "currentSize": 2,
+            "pageSize": 1600,
+            "totalItems": 2,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "ranking": 92,
+                "previous": 0,
+                "year": 2018
+            },
+            {
+                "ranking": 49,
+                "previous": 92,
+                "year": 2019
+            }
+        ]
+    }
+}

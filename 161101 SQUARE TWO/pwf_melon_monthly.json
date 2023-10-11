@@ -1,0 +1,97 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "melon",
+        "chart": "MELON_MONTHLY_CHART",
+        "songId": "30069773",
+        "timeUnit": "MONTHS",
+        "size": 12,
+        "totalSize": 12,
+        "pagination": {
+            "currentSize": 12,
+            "pageSize": 1600,
+            "totalItems": 12,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "ranking": 3,
+                "previous": 0,
+                "year": 2016,
+                "month": 11
+            },
+            {
+                "ranking": 11,
+                "previous": 3,
+                "year": 2016,
+                "month": 12
+            },
+            {
+                "ranking": 18,
+                "previous": 11,
+                "year": 2017,
+                "month": 1
+            },
+            {
+                "ranking": 27,
+                "previous": 18,
+                "year": 2017,
+                "month": 2
+            },
+            {
+                "ranking": 28,
+                "previous": 27,
+                "year": 2017,
+                "month": 3
+            },
+            {
+                "ranking": 42,
+                "previous": 28,
+                "year": 2017,
+                "month": 4
+            },
+            {
+                "ranking": 36,
+                "previous": 42,
+                "year": 2017,
+                "month": 5
+            },
+            {
+                "ranking": 44,
+                "previous": 36,
+                "year": 2017,
+                "month": 6
+            },
+            {
+                "ranking": 40,
+                "previous": 44,
+                "year": 2017,
+                "month": 7
+            },
+            {
+                "ranking": 46,
+                "previous": 40,
+                "year": 2017,
+                "month": 8
+            },
+            {
+                "ranking": 56,
+                "previous": 46,
+                "year": 2017,
+                "month": 9
+            },
+            {
+                "ranking": 83,
+                "previous": 56,
+                "year": 2017,
+                "month": 10
+            }
+        ]
+    }
+}

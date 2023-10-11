@@ -1,0 +1,60 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "melon",
+        "chart": "MELON_WEEKLY_CHART",
+        "songId": "32961717",
+        "timeUnit": "WEEKS",
+        "size": 5,
+        "totalSize": 5,
+        "pagination": {
+            "currentSize": 5,
+            "pageSize": 100,
+            "totalItems": 5,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "time": "2020-10-05T00:00:00",
+                "ranking": 60,
+                "previous": 0,
+                "year": 2020,
+                "week": 41
+            },
+            {
+                "time": "2020-10-12T00:00:00",
+                "ranking": 59,
+                "previous": 60,
+                "year": 2020,
+                "week": 42
+            },
+            {
+                "time": "2020-10-19T00:00:00",
+                "ranking": 69,
+                "previous": 59,
+                "year": 2020,
+                "week": 43
+            },
+            {
+                "time": "2020-10-26T00:00:00",
+                "ranking": 85,
+                "previous": 69,
+                "year": 2020,
+                "week": 44
+            },
+            {
+                "time": "2020-11-02T00:00:00",
+                "ranking": 98,
+                "previous": 85,
+                "year": 2020,
+                "week": 45
+            }
+        ]
+    }
+}

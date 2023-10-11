@@ -1,0 +1,35 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "melon",
+        "chart": "MELON_YEARLY_CHART",
+        "songId": "32720013",
+        "timeUnit": "YEARS",
+        "size": 2,
+        "totalSize": 2,
+        "pagination": {
+            "currentSize": 2,
+            "pageSize": 100,
+            "totalItems": 2,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "ranking": 15,
+                "previous": 0,
+                "year": 2020
+            },
+            {
+                "ranking": 61,
+                "previous": 15,
+                "year": 2021
+            }
+        ]
+    }
+}

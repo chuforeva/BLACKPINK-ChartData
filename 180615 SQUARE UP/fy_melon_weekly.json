@@ -1,0 +1,207 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "melon",
+        "chart": "MELON_WEEKLY_CHART",
+        "songId": "31131274",
+        "timeUnit": "WEEKS",
+        "size": 26,
+        "totalSize": 26,
+        "pagination": {
+            "currentSize": 26,
+            "pageSize": 1600,
+            "totalItems": 26,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "time": "2018-06-11T00:00:00",
+                "ranking": 42,
+                "previous": 0,
+                "year": 2018,
+                "week": 24
+            },
+            {
+                "time": "2018-06-18T00:00:00",
+                "ranking": 3,
+                "previous": 42,
+                "year": 2018,
+                "week": 25
+            },
+            {
+                "time": "2018-06-25T00:00:00",
+                "ranking": 3,
+                "previous": 3,
+                "year": 2018,
+                "week": 26
+            },
+            {
+                "time": "2018-07-02T00:00:00",
+                "ranking": 3,
+                "previous": 3,
+                "year": 2018,
+                "week": 27
+            },
+            {
+                "time": "2018-07-09T00:00:00",
+                "ranking": 6,
+                "previous": 3,
+                "year": 2018,
+                "week": 28
+            },
+            {
+                "time": "2018-07-16T00:00:00",
+                "ranking": 7,
+                "previous": 6,
+                "year": 2018,
+                "week": 29
+            },
+            {
+                "time": "2018-07-23T00:00:00",
+                "ranking": 7,
+                "previous": 7,
+                "year": 2018,
+                "week": 30
+            },
+            {
+                "time": "2018-07-30T00:00:00",
+                "ranking": 8,
+                "previous": 7,
+                "year": 2018,
+                "week": 31
+            },
+            {
+                "time": "2018-08-06T00:00:00",
+                "ranking": 10,
+                "previous": 8,
+                "year": 2018,
+                "week": 32
+            },
+            {
+                "time": "2018-08-13T00:00:00",
+                "ranking": 10,
+                "previous": 10,
+                "year": 2018,
+                "week": 33
+            },
+            {
+                "time": "2018-08-20T00:00:00",
+                "ranking": 11,
+                "previous": 10,
+                "year": 2018,
+                "week": 34
+            },
+            {
+                "time": "2018-08-27T00:00:00",
+                "ranking": 13,
+                "previous": 11,
+                "year": 2018,
+                "week": 35
+            },
+            {
+                "time": "2018-09-03T00:00:00",
+                "ranking": 19,
+                "previous": 13,
+                "year": 2018,
+                "week": 36
+            },
+            {
+                "time": "2018-09-10T00:00:00",
+                "ranking": 21,
+                "previous": 19,
+                "year": 2018,
+                "week": 37
+            },
+            {
+                "time": "2018-09-17T00:00:00",
+                "ranking": 24,
+                "previous": 21,
+                "year": 2018,
+                "week": 38
+            },
+            {
+                "time": "2018-09-24T00:00:00",
+                "ranking": 25,
+                "previous": 24,
+                "year": 2018,
+                "week": 39
+            },
+            {
+                "time": "2018-10-01T00:00:00",
+                "ranking": 31,
+                "previous": 25,
+                "year": 2018,
+                "week": 40
+            },
+            {
+                "time": "2018-10-08T00:00:00",
+                "ranking": 36,
+                "previous": 31,
+                "year": 2018,
+                "week": 41
+            },
+            {
+                "time": "2018-10-15T00:00:00",
+                "ranking": 39,
+                "previous": 36,
+                "year": 2018,
+                "week": 42
+            },
+            {
+                "time": "2018-10-22T00:00:00",
+                "ranking": 43,
+                "previous": 39,
+                "year": 2018,
+                "week": 43
+            },
+            {
+                "time": "2018-10-29T00:00:00",
+                "ranking": 48,
+                "previous": 43,
+                "year": 2018,
+                "week": 44
+            },
+            {
+                "time": "2018-11-05T00:00:00",
+                "ranking": 54,
+                "previous": 48,
+                "year": 2018,
+                "week": 45
+            },
+            {
+                "time": "2018-11-12T00:00:00",
+                "ranking": 61,
+                "previous": 54,
+                "year": 2018,
+                "week": 46
+            },
+            {
+                "time": "2018-11-19T00:00:00",
+                "ranking": 72,
+                "previous": 61,
+                "year": 2018,
+                "week": 47
+            },
+            {
+                "time": "2018-11-26T00:00:00",
+                "ranking": 91,
+                "previous": 72,
+                "year": 2018,
+                "week": 48
+            },
+            {
+                "time": "2018-12-03T00:00:00",
+                "ranking": 100,
+                "previous": 91,
+                "year": 2018,
+                "week": 49
+            }
+        ]
+    }
+}

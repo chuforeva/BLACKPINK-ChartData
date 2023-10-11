@@ -1,0 +1,32 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "melon",
+        "chart": "MELON_WEEKLY_CHART",
+        "songId": "36852553",
+        "timeUnit": "WEEKS",
+        "size": 1,
+        "totalSize": 1,
+        "pagination": {
+            "currentSize": 1,
+            "pageSize": 100,
+            "totalItems": 1,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "time": "2023-10-02T00:00:00",
+                "ranking": 67,
+                "previous": 0,
+                "year": 2023,
+                "week": 40
+            }
+        ]
+    }
+}
