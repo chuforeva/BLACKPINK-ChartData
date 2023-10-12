@@ -13,8 +13,6 @@ nav {
     width           : 300px;
     height          : 100vh;
     user-select     : none;
-    overflow-y      : scroll;
-    overflow-x      : hidden;
     transition      : max-width 0.2s ease;
 }
 
@@ -41,29 +39,37 @@ nav.close {
     transition: max-width 0.2s ease;
 }
 
-nav::-webkit-scrollbar {
-    width: 5px;
-}
-
-nav::-webkit-scrollbar-track {
-    background: transparent
-}
-
-nav::-webkit-scrollbar-thumb {
-    background   : #555;
-    border-radius: 5px;
-}
-
-nav::-webkit-scrollbar-thumb:hover {
-    background: #888;
-}
-
-nav div {
-    line-height: 25px;
+#nav_h1.close {
+    max-width: 0;
+    overflow : hidden;
 }
 
 #nav_albums {
     margin-top: 70px;
+    height    : calc(100vh - 70px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#nav_albums::-webkit-scrollbar {
+    width: 5px;
+}
+
+#nav_albums::-webkit-scrollbar-track {
+    background: transparent
+}
+
+#nav_albums::-webkit-scrollbar-thumb {
+    background   : #555;
+    border-radius: 5px;
+}
+
+#nav_albums::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+#nav_albums div {
+    line-height: 25px;
 }
 
 .album {
@@ -81,14 +87,6 @@ nav div {
 
 .album.selected {
     background-color: #333333;
-}
-
-.album:first-child {
-    margin-top: 20px;
-}
-
-.album:last-child {
-    margin-bottom: 20px;
 }
 
 .album img {
@@ -146,7 +144,6 @@ main.wide {
     font-weight: bold;
     padding    : 20px;
     cursor     : pointer;
-    visibility : hidden;
 }
 
 /* header */
@@ -160,6 +157,7 @@ header {
 
 #header_cover {
     background-color: rgba(0, 0, 0, 0.4);
+    padding: 40px 0;
 }
 
 #header_album {
@@ -231,6 +229,7 @@ header {
 
 .chart {
     margin-top: -80px;
+    text-align: -webkit-center;
 }
 
 .table {

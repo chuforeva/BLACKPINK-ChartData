@@ -29,7 +29,7 @@ var select_data = {
 
 var chart_options = {
     backgroundColor: 'transparent',
-    width: '100%',
+    width: window.innerWidth > 400 ? window.innerWidth - 300 : "100%",
     height: '800',
     series: {
         0: { color: '#FCA7BC' }
@@ -121,6 +121,10 @@ function loadPage() {
     }
 
     chart_select.append(select);
+
+    // if (window.innerWidth > 400) {
+    //     openNav();
+    // }
 
     loadData(urlParams);
 }
@@ -782,19 +786,19 @@ function displayMelonYearly(artist, song) {
 function closeNav() {
     document.getElementsByTagName("nav")[0].classList.add("close");
     document.getElementsByTagName("main")[0].classList.add("wide");
-    document.getElementById("nav_h1").style.maxWidth = "0";
+    document.getElementById("nav_h1").classList.add("close");
     document.getElementById("nav_open").style.visibility = "visible";
 }
 
 function openNav() {
     document.getElementsByTagName("nav")[0].classList.remove("close");
     document.getElementsByTagName("main")[0].classList.remove("wide");
-    document.getElementById("nav_h1").style.maxWidth = "300px";
+    document.getElementById("nav_h1").classList.remove("close");
     document.getElementById("nav_open").style.visibility = "hidden";
 }
 
 function openPage(param) {
-    var url = location.origin + location.pathname ;
+    var url = location.origin + location.pathname;
     if (param) {
         url += "?" + param;
     }
