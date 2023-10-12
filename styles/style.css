@@ -214,11 +214,20 @@ header {
 
 table#melon_top100 th:first-child,
 table#melon_realtime th:first-child,
-table#melon_daily th:first-child {
+table#melon_daily th:first-child,
+table#melon_weekly th:first-child,
+table#melon_monthly th:first-child,
+table#melon_yearly th:first-child {
     width: 120px;
 }
 
-table#melon_daily th:nth-child(2) {
+table#melon_daily th:nth-child(2),
+table#melon_weekly th:nth-child(2),
+table#melon_weekly th:nth-child(3),
+table#melon_monthly th:nth-child(2),
+table#melon_monthly th:nth-child(3),
+table#melon_yearly th:nth-child(2),
+table#melon_yearly th:nth-child(3) {
     width: 50px;
 }
 

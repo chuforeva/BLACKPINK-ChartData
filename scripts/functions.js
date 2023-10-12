@@ -5,6 +5,7 @@ var select_data = {
         "melon_daily": "Melon 일간 차트",
         "melon_weekly": "Melon 주간 차트",
         "melon_monthly": "Melon 월간 차트",
+        "melon_yearly": "Melon 연간 차트",
         "melon_24hour": "Melon 24시간 이용자 수"
     },
     "Genie": {
@@ -194,6 +195,12 @@ function loadData(urlParams) {
                 displayMelonRealtime(selected_data.artist, selected_song);
             } else if (chart == "melon_daily") {
                 displayMelonDaily(selected_data.artist, selected_song);
+            } else if (chart == "melon_weekly") {
+                displayMelonWeekly(selected_data.artist, selected_song);
+            } else if (chart == "melon_monthly") {
+                displayMelonMonthly(selected_data.artist, selected_song);
+            } else if (chart == "melon_yearly") {
+                displayMelonYearly(selected_data.artist, selected_song);
             }
         });
 }
@@ -514,6 +521,257 @@ function displayMelonDaily(artist, song) {
             title.classList.add("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon 일간 차트 추이"
+            title.appendChild(h1);
+            table_div.prepend(title);
+
+            table_div.innerHTML += "<span>데이터 없음</span>";
+        });
+}
+
+function displayMelonWeekly(artist, song) {
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_melon_weekly.json`)
+        .then((res) => res.json())
+        .then((json) => {
+            var table = document.createElement("table");
+            table.id = "melon_weekly"
+            var header_tr = document.createElement("tr");
+            var header_th_1 = document.createElement("th");
+            header_th_1.innerHTML = "연도/주차";
+            var header_th_2 = document.createElement("th");
+            header_th_2.innerHTML = "순위";
+            var header_th_3 = document.createElement("th");
+            header_th_3.innerHTML = "변동";
+            header_tr.append(header_th_1, header_th_2, header_th_3);
+            table.appendChild(header_tr);
+
+            var rows = [];
+
+            for (var d of json.body.data) {
+                var date = new Date(d.time);
+                var dateFormat = `${d.year}/${pad(d.week, 2)}`;
+
+                var tr = document.createElement("tr");
+                var td_1 = document.createElement("td");
+                td_1.innerHTML = dateFormat;
+                var td_2 = document.createElement("td");
+                td_2.innerHTML = d.ranking;
+                var td_3 = document.createElement("td");
+                if (d.previous == 0) {
+                    td_3.innerHTML = "NEW";
+                    td_3.style.color = "green";
+                } else {
+                    if (d.previous > d.ranking) {
+                        td_3.innerHTML = "&#9650;" + (d.previous - d.ranking);
+                        td_3.style.color = "red";
+                    } else if (d.previous == d.ranking) {
+                        td_3.innerHTML = "-";
+                    } else {
+                        td_3.innerHTML = "&#9660;" + (d.ranking - d.previous);
+                        td_3.style.color = "blue";
+                    }
+                }
+
+                tr.append(td_1, td_2, td_3);
+                table.appendChild(tr);
+
+                var r = [];
+                r.push(date);
+
+                if (d.ranking) {
+                    r.push(d.ranking);
+                } else {
+                    r.push(null);
+                }
+                rows.push(r);
+            }
+
+            var chartData = new google.visualization.DataTable();
+            chartData.addColumn('date', 'Date');
+            chartData.addColumn('number', `${artist} - ${song.title}`);
+            chartData.addRows(rows);
+
+            var table_div = document.getElementById("trend-table");
+            table_div.appendChild(table);
+
+            var title = document.createElement("div");
+            title.classList.add("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Melon 주간 차트 추이"
+            title.appendChild(h1);
+            var h2 = document.createElement("span");
+            h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
+            title.appendChild(h2);
+            table_div.prepend(title);
+
+            var chart_div = document.getElementById('trend-chart');
+            var chart = new google.visualization.LineChart(chart_div);
+            chart.draw(chartData, chart_options);
+        })
+        .catch(function () {
+            var table_div = document.getElementById("trend-table");
+            var title = document.createElement("div");
+            title.classList.add("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Melon 주간 차트 추이"
+            title.appendChild(h1);
+            table_div.prepend(title);
+
+            table_div.innerHTML += "<span>데이터 없음</span>";
+        });
+}
+
+function displayMelonMonthly(artist, song) {
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_melon_monthly.json`)
+        .then((res) => res.json())
+        .then((json) => {
+            var table = document.createElement("table");
+            table.id = "melon_monthly"
+            var header_tr = document.createElement("tr");
+            var header_th_1 = document.createElement("th");
+            header_th_1.innerHTML = "연도/월";
+            var header_th_2 = document.createElement("th");
+            header_th_2.innerHTML = "순위";
+            var header_th_3 = document.createElement("th");
+            header_th_3.innerHTML = "변동";
+            header_tr.append(header_th_1, header_th_2, header_th_3);
+            table.appendChild(header_tr);
+
+            var rows = [];
+
+            for (var d of json.body.data) {
+                var dateFormat = `${d.year}/${pad(d.month, 2)}`;
+
+                var tr = document.createElement("tr");
+                var td_1 = document.createElement("td");
+                td_1.innerHTML = dateFormat;
+                var td_2 = document.createElement("td");
+                td_2.innerHTML = d.ranking;
+                var td_3 = document.createElement("td");
+                if (d.previous == 0) {
+                    td_3.innerHTML = "NEW";
+                    td_3.style.color = "green";
+                } else {
+                    if (d.previous > d.ranking) {
+                        td_3.innerHTML = "&#9650;" + (d.previous - d.ranking);
+                        td_3.style.color = "red";
+                    } else if (d.previous == d.ranking) {
+                        td_3.innerHTML = "-";
+                    } else {
+                        td_3.innerHTML = "&#9660;" + (d.ranking - d.previous);
+                        td_3.style.color = "blue";
+                    }
+                }
+
+                tr.append(td_1, td_2, td_3);
+                table.appendChild(tr);
+
+                var r = [];
+                r.push(dateFormat);
+
+                if (d.ranking) {
+                    r.push(d.ranking);
+                } else {
+                    r.push(null);
+                }
+                rows.push(r);
+            }
+
+            var chartData = new google.visualization.DataTable();
+            chartData.addColumn('string', 'Date');
+            chartData.addColumn('number', `${artist} - ${song.title}`);
+            chartData.addRows(rows);
+
+            var table_div = document.getElementById("trend-table");
+            table_div.appendChild(table);
+
+            var title = document.createElement("div");
+            title.classList.add("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Melon 월간 차트 추이"
+            title.appendChild(h1);
+            var h2 = document.createElement("span");
+            h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
+            title.appendChild(h2);
+            table_div.prepend(title);
+
+            var chart_div = document.getElementById('trend-chart');
+            var chart = new google.visualization.LineChart(chart_div);
+            chart.draw(chartData, chart_options);
+        })
+        .catch(function () {
+            var table_div = document.getElementById("trend-table");
+            var title = document.createElement("div");
+            title.classList.add("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Melon 월간 차트 추이"
+            title.appendChild(h1);
+            table_div.prepend(title);
+
+            table_div.innerHTML += "<span>데이터 없음</span>";
+        });
+}
+
+function displayMelonYearly(artist, song) {
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_melon_yearly.json`)
+        .then((res) => res.json())
+        .then((json) => {
+            var table = document.createElement("table");
+            table.id = "melon_yearly"
+            var header_tr = document.createElement("tr");
+            var header_th_1 = document.createElement("th");
+            header_th_1.innerHTML = "연도";
+            var header_th_2 = document.createElement("th");
+            header_th_2.innerHTML = "순위";
+            var header_th_3 = document.createElement("th");
+            header_th_3.innerHTML = "변동";
+            header_tr.append(header_th_1, header_th_2, header_th_3);
+            table.appendChild(header_tr);
+
+            for (var d of json.body.data) {
+                var tr = document.createElement("tr");
+                var td_1 = document.createElement("td");
+                td_1.innerHTML = d.year;
+                var td_2 = document.createElement("td");
+                td_2.innerHTML = d.ranking;
+                var td_3 = document.createElement("td");
+                if (d.previous == 0) {
+                    td_3.innerHTML = "NEW";
+                    td_3.style.color = "green";
+                } else {
+                    if (d.previous > d.ranking) {
+                        td_3.innerHTML = "&#9650;" + (d.previous - d.ranking);
+                        td_3.style.color = "red";
+                    } else if (d.previous == d.ranking) {
+                        td_3.innerHTML = "-";
+                    } else {
+                        td_3.innerHTML = "&#9660;" + (d.ranking - d.previous);
+                        td_3.style.color = "blue";
+                    }
+                }
+
+                tr.append(td_1, td_2, td_3);
+                table.appendChild(tr);
+            }
+
+            var table_div = document.getElementById("trend-table");
+            table_div.appendChild(table);
+
+            var title = document.createElement("div");
+            title.classList.add("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Melon 연간 차트 추이"
+            title.appendChild(h1);
+            var h2 = document.createElement("span");
+            h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
+            title.appendChild(h2);
+            table_div.prepend(title);
+        })
+        .catch(function () {
+            var table_div = document.getElementById("trend-table");
+            var title = document.createElement("div");
+            title.classList.add("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Melon 연간 차트 추이"
             title.appendChild(h1);
             table_div.prepend(title);
 

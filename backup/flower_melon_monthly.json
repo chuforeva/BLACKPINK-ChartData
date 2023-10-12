@@ -1,1 +1,61 @@
-{"code":200,"message":"OK","body":{"platform":"melon","chart":"MELON_MONTHLY_CHART","songId":"36331121","timeUnit":"MONTHS","size":6,"totalSize":6,"pagination":{"currentSize":6,"pageSize":100,"totalItems":6,"currentPage":1,"totalPages":1,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false},"data":[{"ranking":2,"previous":0,"year":2023,"month":4},{"ranking":5,"previous":2,"year":2023,"month":5},{"ranking":7,"previous":5,"year":2023,"month":6},{"ranking":13,"previous":7,"year":2023,"month":7},{"ranking":23,"previous":13,"year":2023,"month":8},{"ranking":39,"previous":23,"year":2023,"month":9}]}}
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "melon",
+        "chart": "MELON_MONTHLY_CHART",
+        "songId": "36331121",
+        "timeUnit": "MONTHS",
+        "size": 6,
+        "totalSize": 6,
+        "pagination": {
+            "currentSize": 6,
+            "pageSize": 100,
+            "totalItems": 6,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "ranking": 2,
+                "previous": 0,
+                "year": 2023,
+                "month": 4
+            },
+            {
+                "ranking": 5,
+                "previous": 2,
+                "year": 2023,
+                "month": 5
+            },
+            {
+                "ranking": 7,
+                "previous": 5,
+                "year": 2023,
+                "month": 6
+            },
+            {
+                "ranking": 13,
+                "previous": 7,
+                "year": 2023,
+                "month": 7
+            },
+            {
+                "ranking": 23,
+                "previous": 13,
+                "year": 2023,
+                "month": 8
+            },
+            {
+                "ranking": 39,
+                "previous": 23,
+                "year": 2023,
+                "month": 9
+            }
+        ]
+    }
+}

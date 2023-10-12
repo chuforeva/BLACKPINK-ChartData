@@ -1,1 +1,30 @@
-{"code":200,"message":"OK","body":{"platform":"melon","chart":"MELON_YEARLY_CHART","songId":"8304594","timeUnit":"YEARS","size":1,"totalSize":1,"pagination":{"currentSize":1,"pageSize":1600,"totalItems":1,"currentPage":1,"totalPages":1,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false},"data":[{"ranking":32,"previous":0,"year":2016}]}}
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "melon",
+        "chart": "MELON_YEARLY_CHART",
+        "songId": "8304594",
+        "timeUnit": "YEARS",
+        "size": 1,
+        "totalSize": 1,
+        "pagination": {
+            "currentSize": 1,
+            "pageSize": 1600,
+            "totalItems": 1,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "ranking": 32,
+                "previous": 0,
+                "year": 2016
+            }
+        ]
+    }
+}
