@@ -9,16 +9,36 @@
 nav {
     float           : left;
     background-color: #222222;
+    max-width       : 300px;
     width           : 300px;
     height          : 100vh;
     user-select     : none;
     overflow-y      : scroll;
     overflow-x      : hidden;
+    transition      : max-width 0.2s ease;
 }
 
-nav h1 {
-    text-align: center;
-    padding   : 20px 0;
+#nav_h1 {
+    background-color: #222222;
+    text-align      : center;
+    padding         : 20px 0;
+    max-width       : 300px;
+    width           : 300px;
+    position        : fixed;
+    overflow        : hidden;
+    transition      : max-width 0.2s ease;
+}
+
+span#nav_close {
+    float       : right;
+    margin-right: 20px;
+    cursor      : pointer;
+}
+
+nav.close {
+    max-width : 0;
+    overflow  : hidden;
+    transition: max-width 0.2s ease;
 }
 
 nav::-webkit-scrollbar {
@@ -40,6 +60,10 @@ nav::-webkit-scrollbar-thumb:hover {
 
 nav div {
     line-height: 25px;
+}
+
+#nav_albums {
+    margin-top: 70px;
 }
 
 .album {
@@ -102,11 +126,26 @@ nav div {
 /* main */
 
 main {
-    width     : calc(100% - 300px);
+    min-width : calc(100% - 300px);
     float     : right;
     height    : 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
+    transition: min-width 0.2s ease;
+}
+
+main.wide {
+    min-width : 100%;
+    transition: min-width 0.2s ease;
+}
+
+#nav_open {
+    float      : left;
+    font-size  : 1.5em;
+    font-weight: bold;
+    padding    : 20px;
+    cursor     : pointer;
+    visibility : hidden;
 }
 
 /* header */

@@ -72,7 +72,7 @@ function displayAlbumPanel(data) {
     urlParams.set('album', data.id);
     urlParams.delete('song');
 
-    var nav = document.getElementsByTagName("nav")[0];
+    var nav_albums = document.getElementById("nav_albums");
     var album_div = document.createElement("div");
     album_div.classList.add("album")
     album_div.id = data.id;
@@ -93,7 +93,7 @@ function displayAlbumPanel(data) {
     album_div.appendChild(album_title);
     album_div.appendChild(album_artist);
     album_div.appendChild(album_release);
-    nav.appendChild(album_div);
+    nav_albums.appendChild(album_div);
 }
 
 function loadPage() {
@@ -777,6 +777,20 @@ function displayMelonYearly(artist, song) {
 
             table_div.innerHTML += "<span>데이터 없음</span>";
         });
+}
+
+function closeNav() {
+    document.getElementsByTagName("nav")[0].classList.add("close");
+    document.getElementsByTagName("main")[0].classList.add("wide");
+    document.getElementById("nav_h1").style.maxWidth = "0";
+    document.getElementById("nav_open").style.visibility = "visible";
+}
+
+function openNav() {
+    document.getElementsByTagName("nav")[0].classList.remove("close");
+    document.getElementsByTagName("main")[0].classList.remove("wide");
+    document.getElementById("nav_h1").style.maxWidth = "300px";
+    document.getElementById("nav_open").style.visibility = "hidden";
 }
 
 function openPage(param) {
