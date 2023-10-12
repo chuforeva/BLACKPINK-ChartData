@@ -1,0 +1,6003 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "melon",
+        "chart": "MELON_TOP100_CHART",
+        "songId": "33346446",
+        "timeUnit": "HOURS",
+        "size": 854,
+        "totalSize": 854,
+        "pagination": {
+            "currentSize": 854,
+            "pageSize": 10000,
+            "totalItems": 854,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "time": "2021-08-09T10:00:00",
+                "ranking": 88,
+                "previous": 88,
+                "count1": null,
+                "count2": 97467
+            },
+            {
+                "time": "2021-08-09T11:00:00",
+                "ranking": 86,
+                "previous": 88,
+                "count1": null,
+                "count2": 98818
+            },
+            {
+                "time": "2021-08-09T12:00:00",
+                "ranking": 83,
+                "previous": 86,
+                "count1": null,
+                "count2": 99846
+            },
+            {
+                "time": "2021-08-09T13:00:00",
+                "ranking": 77,
+                "previous": 83,
+                "count1": null,
+                "count2": 101172
+            },
+            {
+                "time": "2021-08-09T14:00:00",
+                "ranking": 71,
+                "previous": 77,
+                "count1": 10294,
+                "count2": 102734
+            },
+            {
+                "time": "2021-08-09T15:00:00",
+                "ranking": 68,
+                "previous": 71,
+                "count1": 10948,
+                "count2": 104289
+            },
+            {
+                "time": "2021-08-09T16:00:00",
+                "ranking": 70,
+                "previous": 68,
+                "count1": null,
+                "count2": 105106
+            },
+            {
+                "time": "2021-08-09T17:00:00",
+                "ranking": 70,
+                "previous": 70,
+                "count1": null,
+                "count2": 105963
+            },
+            {
+                "time": "2021-08-09T18:00:00",
+                "ranking": 72,
+                "previous": 70,
+                "count1": null,
+                "count2": 106892
+            },
+            {
+                "time": "2021-08-09T19:00:00",
+                "ranking": 76,
+                "previous": 72,
+                "count1": 10326,
+                "count2": 108452
+            },
+            {
+                "time": "2021-08-09T20:00:00",
+                "ranking": 74,
+                "previous": 76,
+                "count1": null,
+                "count2": 109523
+            },
+            {
+                "time": "2021-08-09T21:00:00",
+                "ranking": 77,
+                "previous": 74,
+                "count1": null,
+                "count2": 110215
+            },
+            {
+                "time": "2021-08-09T22:00:00",
+                "ranking": 84,
+                "previous": 77,
+                "count1": null,
+                "count2": 111149
+            },
+            {
+                "time": "2021-08-09T23:00:00",
+                "ranking": 89,
+                "previous": 84,
+                "count1": null,
+                "count2": 111629
+            },
+            {
+                "time": "2021-08-10T00:00:00",
+                "ranking": 92,
+                "previous": 89,
+                "count1": null,
+                "count2": 111961
+            },
+            {
+                "time": "2021-08-10T01:00:00",
+                "ranking": 68,
+                "previous": 68,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-10T02:00:00",
+                "ranking": 69,
+                "previous": 68,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-10T03:00:00",
+                "ranking": 69,
+                "previous": 69,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-10T04:00:00",
+                "ranking": 69,
+                "previous": 69,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-10T05:00:00",
+                "ranking": 69,
+                "previous": 69,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-10T06:00:00",
+                "ranking": 69,
+                "previous": 69,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-10T07:00:00",
+                "ranking": 69,
+                "previous": 69,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-10T08:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": 112104
+            },
+            {
+                "time": "2021-08-10T09:00:00",
+                "ranking": 89,
+                "previous": 94,
+                "count1": null,
+                "count2": 112132
+            },
+            {
+                "time": "2021-08-10T10:00:00",
+                "ranking": 87,
+                "previous": 89,
+                "count1": null,
+                "count2": 112171
+            },
+            {
+                "time": "2021-08-10T11:00:00",
+                "ranking": 83,
+                "previous": 87,
+                "count1": null,
+                "count2": 112223
+            },
+            {
+                "time": "2021-08-10T12:00:00",
+                "ranking": 82,
+                "previous": 83,
+                "count1": null,
+                "count2": 112216
+            },
+            {
+                "time": "2021-08-10T13:00:00",
+                "ranking": 76,
+                "previous": 82,
+                "count1": null,
+                "count2": 111929
+            },
+            {
+                "time": "2021-08-10T14:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": 111500
+            },
+            {
+                "time": "2021-08-10T15:00:00",
+                "ranking": 68,
+                "previous": 76,
+                "count1": 10933,
+                "count2": 111430
+            },
+            {
+                "time": "2021-08-10T16:00:00",
+                "ranking": 68,
+                "previous": 68,
+                "count1": null,
+                "count2": 111840
+            },
+            {
+                "time": "2021-08-10T17:00:00",
+                "ranking": 69,
+                "previous": 68,
+                "count1": null,
+                "count2": 112303
+            },
+            {
+                "time": "2021-08-10T18:00:00",
+                "ranking": 70,
+                "previous": 69,
+                "count1": 10269,
+                "count2": 112913
+            },
+            {
+                "time": "2021-08-10T19:00:00",
+                "ranking": 74,
+                "previous": 70,
+                "count1": 10911,
+                "count2": 113120
+            },
+            {
+                "time": "2021-08-10T20:00:00",
+                "ranking": 70,
+                "previous": 74,
+                "count1": 10037,
+                "count2": 113495
+            },
+            {
+                "time": "2021-08-10T21:00:00",
+                "ranking": 71,
+                "previous": 70,
+                "count1": null,
+                "count2": 113960
+            },
+            {
+                "time": "2021-08-10T22:00:00",
+                "ranking": 80,
+                "previous": 71,
+                "count1": null,
+                "count2": 114309
+            },
+            {
+                "time": "2021-08-10T23:00:00",
+                "ranking": 88,
+                "previous": 80,
+                "count1": null,
+                "count2": 114422
+            },
+            {
+                "time": "2021-08-11T00:00:00",
+                "ranking": 95,
+                "previous": 88,
+                "count1": null,
+                "count2": 114474
+            },
+            {
+                "time": "2021-08-11T01:00:00",
+                "ranking": 67,
+                "previous": 67,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-11T02:00:00",
+                "ranking": 67,
+                "previous": 67,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-11T03:00:00",
+                "ranking": 67,
+                "previous": 67,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-11T04:00:00",
+                "ranking": 67,
+                "previous": 67,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-11T05:00:00",
+                "ranking": 67,
+                "previous": 67,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-11T06:00:00",
+                "ranking": 67,
+                "previous": 67,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-11T07:00:00",
+                "ranking": 67,
+                "previous": 67,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-11T08:00:00",
+                "ranking": 93,
+                "previous": 93,
+                "count1": null,
+                "count2": 114653
+            },
+            {
+                "time": "2021-08-11T09:00:00",
+                "ranking": 90,
+                "previous": 93,
+                "count1": null,
+                "count2": 114640
+            },
+            {
+                "time": "2021-08-11T10:00:00",
+                "ranking": 89,
+                "previous": 90,
+                "count1": null,
+                "count2": 114581
+            },
+            {
+                "time": "2021-08-11T11:00:00",
+                "ranking": 86,
+                "previous": 89,
+                "count1": null,
+                "count2": 114560
+            },
+            {
+                "time": "2021-08-11T12:00:00",
+                "ranking": 85,
+                "previous": 86,
+                "count1": null,
+                "count2": 114360
+            },
+            {
+                "time": "2021-08-11T13:00:00",
+                "ranking": 78,
+                "previous": 85,
+                "count1": null,
+                "count2": 114292
+            },
+            {
+                "time": "2021-08-11T14:00:00",
+                "ranking": 74,
+                "previous": 78,
+                "count1": 10063,
+                "count2": 114296
+            },
+            {
+                "time": "2021-08-11T15:00:00",
+                "ranking": 71,
+                "previous": 74,
+                "count1": 10828,
+                "count2": 114187
+            },
+            {
+                "time": "2021-08-11T16:00:00",
+                "ranking": 73,
+                "previous": 71,
+                "count1": 10120,
+                "count2": 114492
+            },
+            {
+                "time": "2021-08-11T17:00:00",
+                "ranking": 73,
+                "previous": 73,
+                "count1": null,
+                "count2": 114737
+            },
+            {
+                "time": "2021-08-11T18:00:00",
+                "ranking": 73,
+                "previous": 73,
+                "count1": 10104,
+                "count2": 114608
+            },
+            {
+                "time": "2021-08-11T19:00:00",
+                "ranking": 73,
+                "previous": 73,
+                "count1": 11132,
+                "count2": 114868
+            },
+            {
+                "time": "2021-08-11T20:00:00",
+                "ranking": 72,
+                "previous": 73,
+                "count1": null,
+                "count2": 114866
+            },
+            {
+                "time": "2021-08-11T21:00:00",
+                "ranking": 76,
+                "previous": 72,
+                "count1": null,
+                "count2": 114823
+            },
+            {
+                "time": "2021-08-11T22:00:00",
+                "ranking": 84,
+                "previous": 76,
+                "count1": null,
+                "count2": 115042
+            },
+            {
+                "time": "2021-08-11T23:00:00",
+                "ranking": 85,
+                "previous": 84,
+                "count1": null,
+                "count2": 115314
+            },
+            {
+                "time": "2021-08-12T00:00:00",
+                "ranking": 93,
+                "previous": 85,
+                "count1": null,
+                "count2": 115408
+            },
+            {
+                "time": "2021-08-12T01:00:00",
+                "ranking": 70,
+                "previous": 70,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-12T02:00:00",
+                "ranking": 70,
+                "previous": 70,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-12T03:00:00",
+                "ranking": 71,
+                "previous": 70,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-12T04:00:00",
+                "ranking": 70,
+                "previous": 71,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-12T05:00:00",
+                "ranking": 70,
+                "previous": 70,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-12T06:00:00",
+                "ranking": 70,
+                "previous": 70,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-12T07:00:00",
+                "ranking": 70,
+                "previous": 70,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-12T08:00:00",
+                "ranking": 93,
+                "previous": 93,
+                "count1": null,
+                "count2": 115259
+            },
+            {
+                "time": "2021-08-12T09:00:00",
+                "ranking": 91,
+                "previous": 93,
+                "count1": null,
+                "count2": 115137
+            },
+            {
+                "time": "2021-08-12T10:00:00",
+                "ranking": 90,
+                "previous": 91,
+                "count1": null,
+                "count2": 115190
+            },
+            {
+                "time": "2021-08-12T11:00:00",
+                "ranking": 86,
+                "previous": 90,
+                "count1": null,
+                "count2": 115169
+            },
+            {
+                "time": "2021-08-12T12:00:00",
+                "ranking": 83,
+                "previous": 86,
+                "count1": null,
+                "count2": 115181
+            },
+            {
+                "time": "2021-08-12T13:00:00",
+                "ranking": 78,
+                "previous": 83,
+                "count1": null,
+                "count2": 114849
+            },
+            {
+                "time": "2021-08-12T14:00:00",
+                "ranking": 75,
+                "previous": 78,
+                "count1": null,
+                "count2": 114559
+            },
+            {
+                "time": "2021-08-12T15:00:00",
+                "ranking": 72,
+                "previous": 75,
+                "count1": 11003,
+                "count2": 114498
+            },
+            {
+                "time": "2021-08-12T16:00:00",
+                "ranking": 73,
+                "previous": 72,
+                "count1": 10171,
+                "count2": 114590
+            },
+            {
+                "time": "2021-08-12T17:00:00",
+                "ranking": 71,
+                "previous": 73,
+                "count1": null,
+                "count2": 114789
+            },
+            {
+                "time": "2021-08-12T18:00:00",
+                "ranking": 72,
+                "previous": 71,
+                "count1": 10101,
+                "count2": 114811
+            },
+            {
+                "time": "2021-08-12T19:00:00",
+                "ranking": 72,
+                "previous": 72,
+                "count1": 10871,
+                "count2": 114503
+            },
+            {
+                "time": "2021-08-12T20:00:00",
+                "ranking": 73,
+                "previous": 72,
+                "count1": null,
+                "count2": 114512
+            },
+            {
+                "time": "2021-08-12T21:00:00",
+                "ranking": 77,
+                "previous": 73,
+                "count1": null,
+                "count2": 114619
+            },
+            {
+                "time": "2021-08-12T22:00:00",
+                "ranking": 81,
+                "previous": 77,
+                "count1": null,
+                "count2": 114762
+            },
+            {
+                "time": "2021-08-12T23:00:00",
+                "ranking": 87,
+                "previous": 81,
+                "count1": null,
+                "count2": 114591
+            },
+            {
+                "time": "2021-08-13T00:00:00",
+                "ranking": 90,
+                "previous": 87,
+                "count1": null,
+                "count2": 114625
+            },
+            {
+                "time": "2021-08-13T01:00:00",
+                "ranking": 72,
+                "previous": 72,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-13T02:00:00",
+                "ranking": 72,
+                "previous": 72,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-13T03:00:00",
+                "ranking": 72,
+                "previous": 72,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-13T04:00:00",
+                "ranking": 72,
+                "previous": 72,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-13T05:00:00",
+                "ranking": 72,
+                "previous": 72,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-13T06:00:00",
+                "ranking": 72,
+                "previous": 72,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-13T07:00:00",
+                "ranking": 72,
+                "previous": 72,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-13T08:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 114576
+            },
+            {
+                "time": "2021-08-13T09:00:00",
+                "ranking": 94,
+                "previous": 95,
+                "count1": null,
+                "count2": 114332
+            },
+            {
+                "time": "2021-08-13T10:00:00",
+                "ranking": 91,
+                "previous": 94,
+                "count1": null,
+                "count2": 114252
+            },
+            {
+                "time": "2021-08-13T11:00:00",
+                "ranking": 89,
+                "previous": 91,
+                "count1": null,
+                "count2": 114113
+            },
+            {
+                "time": "2021-08-13T12:00:00",
+                "ranking": 81,
+                "previous": 89,
+                "count1": null,
+                "count2": 114052
+            },
+            {
+                "time": "2021-08-13T13:00:00",
+                "ranking": 80,
+                "previous": 81,
+                "count1": null,
+                "count2": 113878
+            },
+            {
+                "time": "2021-08-13T14:00:00",
+                "ranking": 78,
+                "previous": 80,
+                "count1": null,
+                "count2": 113646
+            },
+            {
+                "time": "2021-08-13T15:00:00",
+                "ranking": 75,
+                "previous": 78,
+                "count1": 10933,
+                "count2": 113494
+            },
+            {
+                "time": "2021-08-13T16:00:00",
+                "ranking": 76,
+                "previous": 75,
+                "count1": 10431,
+                "count2": 113762
+            },
+            {
+                "time": "2021-08-13T17:00:00",
+                "ranking": 75,
+                "previous": 76,
+                "count1": 10032,
+                "count2": 114085
+            },
+            {
+                "time": "2021-08-13T18:00:00",
+                "ranking": 71,
+                "previous": 75,
+                "count1": 10763,
+                "count2": 114701
+            },
+            {
+                "time": "2021-08-13T19:00:00",
+                "ranking": 72,
+                "previous": 71,
+                "count1": 11248,
+                "count2": 115099
+            },
+            {
+                "time": "2021-08-13T20:00:00",
+                "ranking": 72,
+                "previous": 72,
+                "count1": 10305,
+                "count2": 115686
+            },
+            {
+                "time": "2021-08-13T21:00:00",
+                "ranking": 79,
+                "previous": 72,
+                "count1": null,
+                "count2": 115750
+            },
+            {
+                "time": "2021-08-13T22:00:00",
+                "ranking": 83,
+                "previous": 79,
+                "count1": null,
+                "count2": 116389
+            },
+            {
+                "time": "2021-08-13T23:00:00",
+                "ranking": 91,
+                "previous": 83,
+                "count1": null,
+                "count2": 116653
+            },
+            {
+                "time": "2021-08-14T00:00:00",
+                "ranking": 89,
+                "previous": 91,
+                "count1": null,
+                "count2": 116826
+            },
+            {
+                "time": "2021-08-14T01:00:00",
+                "ranking": 73,
+                "previous": 73,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-14T02:00:00",
+                "ranking": 73,
+                "previous": 73,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-14T03:00:00",
+                "ranking": 73,
+                "previous": 73,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-14T04:00:00",
+                "ranking": 73,
+                "previous": 73,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-14T05:00:00",
+                "ranking": 73,
+                "previous": 73,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-14T06:00:00",
+                "ranking": 73,
+                "previous": 73,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-14T07:00:00",
+                "ranking": 73,
+                "previous": 73,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-14T08:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": 115983
+            },
+            {
+                "time": "2021-08-14T09:00:00",
+                "ranking": 91,
+                "previous": 99,
+                "count1": null,
+                "count2": 114681
+            },
+            {
+                "time": "2021-08-14T10:00:00",
+                "ranking": 93,
+                "previous": 91,
+                "count1": null,
+                "count2": 114201
+            },
+            {
+                "time": "2021-08-14T11:00:00",
+                "ranking": 89,
+                "previous": 93,
+                "count1": null,
+                "count2": 114059
+            },
+            {
+                "time": "2021-08-14T12:00:00",
+                "ranking": 84,
+                "previous": 89,
+                "count1": null,
+                "count2": 114094
+            },
+            {
+                "time": "2021-08-14T13:00:00",
+                "ranking": 78,
+                "previous": 84,
+                "count1": null,
+                "count2": 114314
+            },
+            {
+                "time": "2021-08-14T14:00:00",
+                "ranking": 78,
+                "previous": 78,
+                "count1": null,
+                "count2": 114039
+            },
+            {
+                "time": "2021-08-14T15:00:00",
+                "ranking": 76,
+                "previous": 78,
+                "count1": 10760,
+                "count2": 113593
+            },
+            {
+                "time": "2021-08-14T16:00:00",
+                "ranking": 78,
+                "previous": 76,
+                "count1": 10265,
+                "count2": 113214
+            },
+            {
+                "time": "2021-08-14T17:00:00",
+                "ranking": 79,
+                "previous": 78,
+                "count1": null,
+                "count2": 112776
+            },
+            {
+                "time": "2021-08-14T18:00:00",
+                "ranking": 77,
+                "previous": 79,
+                "count1": null,
+                "count2": 111676
+            },
+            {
+                "time": "2021-08-14T19:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": 110073
+            },
+            {
+                "time": "2021-08-14T20:00:00",
+                "ranking": 80,
+                "previous": 77,
+                "count1": null,
+                "count2": 108779
+            },
+            {
+                "time": "2021-08-14T21:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": 108438
+            },
+            {
+                "time": "2021-08-14T22:00:00",
+                "ranking": 87,
+                "previous": 80,
+                "count1": null,
+                "count2": 108236
+            },
+            {
+                "time": "2021-08-14T23:00:00",
+                "ranking": 88,
+                "previous": 87,
+                "count1": null,
+                "count2": 108298
+            },
+            {
+                "time": "2021-08-15T00:00:00",
+                "ranking": 90,
+                "previous": 88,
+                "count1": null,
+                "count2": 108395
+            },
+            {
+                "time": "2021-08-15T01:00:00",
+                "ranking": 74,
+                "previous": 74,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-15T02:00:00",
+                "ranking": 74,
+                "previous": 74,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-15T03:00:00",
+                "ranking": 74,
+                "previous": 74,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-15T04:00:00",
+                "ranking": 74,
+                "previous": 74,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-15T05:00:00",
+                "ranking": 74,
+                "previous": 74,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-15T06:00:00",
+                "ranking": 74,
+                "previous": 74,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-15T07:00:00",
+                "ranking": 74,
+                "previous": 74,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-15T09:00:00",
+                "ranking": 95,
+                "previous": 0,
+                "count1": null,
+                "count2": 106753
+            },
+            {
+                "time": "2021-08-15T10:00:00",
+                "ranking": 91,
+                "previous": 95,
+                "count1": null,
+                "count2": 106022
+            },
+            {
+                "time": "2021-08-15T11:00:00",
+                "ranking": 89,
+                "previous": 91,
+                "count1": null,
+                "count2": 105222
+            },
+            {
+                "time": "2021-08-15T12:00:00",
+                "ranking": 86,
+                "previous": 89,
+                "count1": null,
+                "count2": 104280
+            },
+            {
+                "time": "2021-08-15T13:00:00",
+                "ranking": 81,
+                "previous": 86,
+                "count1": null,
+                "count2": 103122
+            },
+            {
+                "time": "2021-08-15T14:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": 101821
+            },
+            {
+                "time": "2021-08-15T15:00:00",
+                "ranking": 78,
+                "previous": 81,
+                "count1": null,
+                "count2": 100554
+            },
+            {
+                "time": "2021-08-15T16:00:00",
+                "ranking": 80,
+                "previous": 78,
+                "count1": null,
+                "count2": 99496
+            },
+            {
+                "time": "2021-08-15T17:00:00",
+                "ranking": 78,
+                "previous": 80,
+                "count1": null,
+                "count2": 98711
+            },
+            {
+                "time": "2021-08-15T18:00:00",
+                "ranking": 79,
+                "previous": 78,
+                "count1": null,
+                "count2": 97792
+            },
+            {
+                "time": "2021-08-15T19:00:00",
+                "ranking": 83,
+                "previous": 79,
+                "count1": null,
+                "count2": 96702
+            },
+            {
+                "time": "2021-08-15T20:00:00",
+                "ranking": 81,
+                "previous": 83,
+                "count1": null,
+                "count2": 96189
+            },
+            {
+                "time": "2021-08-15T21:00:00",
+                "ranking": 85,
+                "previous": 81,
+                "count1": null,
+                "count2": 95627
+            },
+            {
+                "time": "2021-08-15T22:00:00",
+                "ranking": 86,
+                "previous": 85,
+                "count1": null,
+                "count2": 95361
+            },
+            {
+                "time": "2021-08-15T23:00:00",
+                "ranking": 89,
+                "previous": 86,
+                "count1": null,
+                "count2": 95263
+            },
+            {
+                "time": "2021-08-16T00:00:00",
+                "ranking": 91,
+                "previous": 89,
+                "count1": null,
+                "count2": 95225
+            },
+            {
+                "time": "2021-08-16T01:00:00",
+                "ranking": 74,
+                "previous": 74,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-16T02:00:00",
+                "ranking": 74,
+                "previous": 74,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-16T03:00:00",
+                "ranking": 74,
+                "previous": 74,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-16T04:00:00",
+                "ranking": 74,
+                "previous": 74,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-16T05:00:00",
+                "ranking": 74,
+                "previous": 74,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-16T06:00:00",
+                "ranking": 74,
+                "previous": 74,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-16T07:00:00",
+                "ranking": 74,
+                "previous": 74,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-16T09:00:00",
+                "ranking": 95,
+                "previous": 0,
+                "count1": null,
+                "count2": 95463
+            },
+            {
+                "time": "2021-08-16T10:00:00",
+                "ranking": 93,
+                "previous": 95,
+                "count1": null,
+                "count2": 95784
+            },
+            {
+                "time": "2021-08-16T11:00:00",
+                "ranking": 90,
+                "previous": 93,
+                "count1": null,
+                "count2": 96112
+            },
+            {
+                "time": "2021-08-16T12:00:00",
+                "ranking": 87,
+                "previous": 90,
+                "count1": null,
+                "count2": 96463
+            },
+            {
+                "time": "2021-08-16T13:00:00",
+                "ranking": 84,
+                "previous": 87,
+                "count1": null,
+                "count2": 96875
+            },
+            {
+                "time": "2021-08-16T14:00:00",
+                "ranking": 82,
+                "previous": 84,
+                "count1": null,
+                "count2": 97497
+            },
+            {
+                "time": "2021-08-16T15:00:00",
+                "ranking": 83,
+                "previous": 82,
+                "count1": null,
+                "count2": 97829
+            },
+            {
+                "time": "2021-08-16T16:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": 98488
+            },
+            {
+                "time": "2021-08-16T17:00:00",
+                "ranking": 81,
+                "previous": 83,
+                "count1": null,
+                "count2": 98949
+            },
+            {
+                "time": "2021-08-16T18:00:00",
+                "ranking": 82,
+                "previous": 81,
+                "count1": null,
+                "count2": 99423
+            },
+            {
+                "time": "2021-08-16T19:00:00",
+                "ranking": 83,
+                "previous": 82,
+                "count1": null,
+                "count2": 100020
+            },
+            {
+                "time": "2021-08-16T20:00:00",
+                "ranking": 84,
+                "previous": 83,
+                "count1": null,
+                "count2": 99961
+            },
+            {
+                "time": "2021-08-16T21:00:00",
+                "ranking": 86,
+                "previous": 84,
+                "count1": null,
+                "count2": 100038
+            },
+            {
+                "time": "2021-08-16T22:00:00",
+                "ranking": 91,
+                "previous": 86,
+                "count1": null,
+                "count2": 100120
+            },
+            {
+                "time": "2021-08-16T23:00:00",
+                "ranking": 96,
+                "previous": 91,
+                "count1": null,
+                "count2": 99959
+            },
+            {
+                "time": "2021-08-17T00:00:00",
+                "ranking": 98,
+                "previous": 96,
+                "count1": null,
+                "count2": 99813
+            },
+            {
+                "time": "2021-08-17T01:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-17T02:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-17T03:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-17T04:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-17T05:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-17T06:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-17T07:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-17T08:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": 101730
+            },
+            {
+                "time": "2021-08-17T09:00:00",
+                "ranking": 98,
+                "previous": 99,
+                "count1": null,
+                "count2": 103776
+            },
+            {
+                "time": "2021-08-17T10:00:00",
+                "ranking": 97,
+                "previous": 98,
+                "count1": null,
+                "count2": 104509
+            },
+            {
+                "time": "2021-08-17T11:00:00",
+                "ranking": 91,
+                "previous": 97,
+                "count1": null,
+                "count2": 104730
+            },
+            {
+                "time": "2021-08-17T12:00:00",
+                "ranking": 86,
+                "previous": 91,
+                "count1": null,
+                "count2": 104707
+            },
+            {
+                "time": "2021-08-17T13:00:00",
+                "ranking": 85,
+                "previous": 86,
+                "count1": null,
+                "count2": 104798
+            },
+            {
+                "time": "2021-08-17T14:00:00",
+                "ranking": 86,
+                "previous": 85,
+                "count1": null,
+                "count2": 104822
+            },
+            {
+                "time": "2021-08-17T15:00:00",
+                "ranking": 82,
+                "previous": 86,
+                "count1": null,
+                "count2": 104955
+            },
+            {
+                "time": "2021-08-17T16:00:00",
+                "ranking": 84,
+                "previous": 82,
+                "count1": null,
+                "count2": 104973
+            },
+            {
+                "time": "2021-08-17T17:00:00",
+                "ranking": 81,
+                "previous": 84,
+                "count1": null,
+                "count2": 104829
+            },
+            {
+                "time": "2021-08-17T18:00:00",
+                "ranking": 79,
+                "previous": 81,
+                "count1": null,
+                "count2": 105165
+            },
+            {
+                "time": "2021-08-17T19:00:00",
+                "ranking": 80,
+                "previous": 79,
+                "count1": 10335,
+                "count2": 106219
+            },
+            {
+                "time": "2021-08-17T20:00:00",
+                "ranking": 83,
+                "previous": 80,
+                "count1": null,
+                "count2": 106686
+            },
+            {
+                "time": "2021-08-17T21:00:00",
+                "ranking": 85,
+                "previous": 83,
+                "count1": null,
+                "count2": 106878
+            },
+            {
+                "time": "2021-08-17T22:00:00",
+                "ranking": 89,
+                "previous": 85,
+                "count1": null,
+                "count2": 107104
+            },
+            {
+                "time": "2021-08-17T23:00:00",
+                "ranking": 93,
+                "previous": 89,
+                "count1": null,
+                "count2": 107170
+            },
+            {
+                "time": "2021-08-18T00:00:00",
+                "ranking": 93,
+                "previous": 93,
+                "count1": null,
+                "count2": 107155
+            },
+            {
+                "time": "2021-08-18T01:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-18T02:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-18T03:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-18T04:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-18T05:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-18T06:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-18T07:00:00",
+                "ranking": 76,
+                "previous": 76,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-18T08:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 106703
+            },
+            {
+                "time": "2021-08-18T09:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 106706
+            },
+            {
+                "time": "2021-08-18T10:00:00",
+                "ranking": 92,
+                "previous": 96,
+                "count1": null,
+                "count2": 106733
+            },
+            {
+                "time": "2021-08-18T11:00:00",
+                "ranking": 90,
+                "previous": 92,
+                "count1": null,
+                "count2": 106715
+            },
+            {
+                "time": "2021-08-18T12:00:00",
+                "ranking": 88,
+                "previous": 90,
+                "count1": null,
+                "count2": 106611
+            },
+            {
+                "time": "2021-08-18T13:00:00",
+                "ranking": 87,
+                "previous": 88,
+                "count1": null,
+                "count2": 106391
+            },
+            {
+                "time": "2021-08-18T14:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": 106284
+            },
+            {
+                "time": "2021-08-18T15:00:00",
+                "ranking": 83,
+                "previous": 87,
+                "count1": null,
+                "count2": 106099
+            },
+            {
+                "time": "2021-08-18T16:00:00",
+                "ranking": 86,
+                "previous": 83,
+                "count1": null,
+                "count2": 106156
+            },
+            {
+                "time": "2021-08-18T17:00:00",
+                "ranking": 83,
+                "previous": 86,
+                "count1": null,
+                "count2": 106470
+            },
+            {
+                "time": "2021-08-18T18:00:00",
+                "ranking": 84,
+                "previous": 83,
+                "count1": null,
+                "count2": 106554
+            },
+            {
+                "time": "2021-08-18T19:00:00",
+                "ranking": 81,
+                "previous": 84,
+                "count1": 10281,
+                "count2": 106429
+            },
+            {
+                "time": "2021-08-18T20:00:00",
+                "ranking": 85,
+                "previous": 81,
+                "count1": null,
+                "count2": 106550
+            },
+            {
+                "time": "2021-08-18T21:00:00",
+                "ranking": 87,
+                "previous": 85,
+                "count1": null,
+                "count2": 106722
+            },
+            {
+                "time": "2021-08-18T22:00:00",
+                "ranking": 90,
+                "previous": 87,
+                "count1": null,
+                "count2": 107011
+            },
+            {
+                "time": "2021-08-18T23:00:00",
+                "ranking": 93,
+                "previous": 90,
+                "count1": null,
+                "count2": 107249
+            },
+            {
+                "time": "2021-08-19T00:00:00",
+                "ranking": 94,
+                "previous": 93,
+                "count1": null,
+                "count2": 107382
+            },
+            {
+                "time": "2021-08-19T01:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-19T02:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-19T03:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-19T04:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-19T05:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-19T06:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-19T07:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-19T08:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 107638
+            },
+            {
+                "time": "2021-08-19T09:00:00",
+                "ranking": 97,
+                "previous": 96,
+                "count1": null,
+                "count2": 107802
+            },
+            {
+                "time": "2021-08-19T10:00:00",
+                "ranking": 95,
+                "previous": 97,
+                "count1": null,
+                "count2": 107710
+            },
+            {
+                "time": "2021-08-19T11:00:00",
+                "ranking": 90,
+                "previous": 95,
+                "count1": null,
+                "count2": 107815
+            },
+            {
+                "time": "2021-08-19T12:00:00",
+                "ranking": 88,
+                "previous": 90,
+                "count1": null,
+                "count2": 107813
+            },
+            {
+                "time": "2021-08-19T13:00:00",
+                "ranking": 86,
+                "previous": 88,
+                "count1": null,
+                "count2": 107591
+            },
+            {
+                "time": "2021-08-19T14:00:00",
+                "ranking": 87,
+                "previous": 86,
+                "count1": null,
+                "count2": 107394
+            },
+            {
+                "time": "2021-08-19T15:00:00",
+                "ranking": 84,
+                "previous": 87,
+                "count1": null,
+                "count2": 107406
+            },
+            {
+                "time": "2021-08-19T16:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": 10001,
+                "count2": 107707
+            },
+            {
+                "time": "2021-08-19T17:00:00",
+                "ranking": 81,
+                "previous": 84,
+                "count1": null,
+                "count2": 107874
+            },
+            {
+                "time": "2021-08-19T18:00:00",
+                "ranking": 82,
+                "previous": 81,
+                "count1": null,
+                "count2": 108037
+            },
+            {
+                "time": "2021-08-19T19:00:00",
+                "ranking": 83,
+                "previous": 82,
+                "count1": 10266,
+                "count2": 107955
+            },
+            {
+                "time": "2021-08-19T20:00:00",
+                "ranking": 81,
+                "previous": 83,
+                "count1": null,
+                "count2": 108368
+            },
+            {
+                "time": "2021-08-19T21:00:00",
+                "ranking": 86,
+                "previous": 81,
+                "count1": null,
+                "count2": 108578
+            },
+            {
+                "time": "2021-08-19T22:00:00",
+                "ranking": 88,
+                "previous": 86,
+                "count1": null,
+                "count2": 109005
+            },
+            {
+                "time": "2021-08-19T23:00:00",
+                "ranking": 92,
+                "previous": 88,
+                "count1": null,
+                "count2": 109077
+            },
+            {
+                "time": "2021-08-20T00:00:00",
+                "ranking": 92,
+                "previous": 92,
+                "count1": null,
+                "count2": 109082
+            },
+            {
+                "time": "2021-08-20T01:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-20T02:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-20T03:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-20T04:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-20T05:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-20T06:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-20T07:00:00",
+                "ranking": 77,
+                "previous": 77,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-20T08:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": 108981
+            },
+            {
+                "time": "2021-08-20T09:00:00",
+                "ranking": 96,
+                "previous": 94,
+                "count1": null,
+                "count2": 108837
+            },
+            {
+                "time": "2021-08-20T10:00:00",
+                "ranking": 93,
+                "previous": 96,
+                "count1": null,
+                "count2": 108878
+            },
+            {
+                "time": "2021-08-20T11:00:00",
+                "ranking": 90,
+                "previous": 93,
+                "count1": null,
+                "count2": 108851
+            },
+            {
+                "time": "2021-08-20T12:00:00",
+                "ranking": 87,
+                "previous": 90,
+                "count1": null,
+                "count2": 108791
+            },
+            {
+                "time": "2021-08-20T13:00:00",
+                "ranking": 85,
+                "previous": 87,
+                "count1": null,
+                "count2": 108808
+            },
+            {
+                "time": "2021-08-20T14:00:00",
+                "ranking": 85,
+                "previous": 85,
+                "count1": null,
+                "count2": 108714
+            },
+            {
+                "time": "2021-08-20T15:00:00",
+                "ranking": 85,
+                "previous": 85,
+                "count1": null,
+                "count2": 108699
+            },
+            {
+                "time": "2021-08-20T16:00:00",
+                "ranking": 84,
+                "previous": 85,
+                "count1": 10324,
+                "count2": 108879
+            },
+            {
+                "time": "2021-08-20T17:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": 109110
+            },
+            {
+                "time": "2021-08-20T18:00:00",
+                "ranking": 80,
+                "previous": 84,
+                "count1": 10254,
+                "count2": 109758
+            },
+            {
+                "time": "2021-08-20T19:00:00",
+                "ranking": 81,
+                "previous": 80,
+                "count1": 10793,
+                "count2": 110343
+            },
+            {
+                "time": "2021-08-20T20:00:00",
+                "ranking": 82,
+                "previous": 81,
+                "count1": null,
+                "count2": 110665
+            },
+            {
+                "time": "2021-08-20T21:00:00",
+                "ranking": 85,
+                "previous": 82,
+                "count1": null,
+                "count2": 110679
+            },
+            {
+                "time": "2021-08-20T22:00:00",
+                "ranking": 88,
+                "previous": 85,
+                "count1": null,
+                "count2": 111073
+            },
+            {
+                "time": "2021-08-20T23:00:00",
+                "ranking": 94,
+                "previous": 88,
+                "count1": null,
+                "count2": 111328
+            },
+            {
+                "time": "2021-08-21T00:00:00",
+                "ranking": 93,
+                "previous": 94,
+                "count1": null,
+                "count2": 111438
+            },
+            {
+                "time": "2021-08-21T01:00:00",
+                "ranking": 78,
+                "previous": 78,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-21T02:00:00",
+                "ranking": 78,
+                "previous": 78,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-21T03:00:00",
+                "ranking": 78,
+                "previous": 78,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-21T04:00:00",
+                "ranking": 78,
+                "previous": 78,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-21T05:00:00",
+                "ranking": 78,
+                "previous": 78,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-21T06:00:00",
+                "ranking": 78,
+                "previous": 78,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-21T07:00:00",
+                "ranking": 78,
+                "previous": 78,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-21T09:00:00",
+                "ranking": 97,
+                "previous": 0,
+                "count1": null,
+                "count2": 108434
+            },
+            {
+                "time": "2021-08-21T10:00:00",
+                "ranking": 96,
+                "previous": 97,
+                "count1": null,
+                "count2": 107796
+            },
+            {
+                "time": "2021-08-21T11:00:00",
+                "ranking": 95,
+                "previous": 96,
+                "count1": null,
+                "count2": 107357
+            },
+            {
+                "time": "2021-08-21T12:00:00",
+                "ranking": 90,
+                "previous": 95,
+                "count1": null,
+                "count2": 107075
+            },
+            {
+                "time": "2021-08-21T13:00:00",
+                "ranking": 88,
+                "previous": 90,
+                "count1": null,
+                "count2": 106754
+            },
+            {
+                "time": "2021-08-21T14:00:00",
+                "ranking": 89,
+                "previous": 88,
+                "count1": null,
+                "count2": 106163
+            },
+            {
+                "time": "2021-08-21T15:00:00",
+                "ranking": 88,
+                "previous": 89,
+                "count1": null,
+                "count2": 105015
+            },
+            {
+                "time": "2021-08-21T16:00:00",
+                "ranking": 88,
+                "previous": 88,
+                "count1": null,
+                "count2": 104043
+            },
+            {
+                "time": "2021-08-21T17:00:00",
+                "ranking": 89,
+                "previous": 88,
+                "count1": null,
+                "count2": 103024
+            },
+            {
+                "time": "2021-08-21T18:00:00",
+                "ranking": 88,
+                "previous": 89,
+                "count1": null,
+                "count2": 101394
+            },
+            {
+                "time": "2021-08-21T19:00:00",
+                "ranking": 89,
+                "previous": 88,
+                "count1": null,
+                "count2": 99282
+            },
+            {
+                "time": "2021-08-21T20:00:00",
+                "ranking": 89,
+                "previous": 89,
+                "count1": null,
+                "count2": 97609
+            },
+            {
+                "time": "2021-08-21T21:00:00",
+                "ranking": 91,
+                "previous": 89,
+                "count1": null,
+                "count2": 96811
+            },
+            {
+                "time": "2021-08-21T22:00:00",
+                "ranking": 93,
+                "previous": 91,
+                "count1": null,
+                "count2": 96046
+            },
+            {
+                "time": "2021-08-21T23:00:00",
+                "ranking": 95,
+                "previous": 93,
+                "count1": null,
+                "count2": 95939
+            },
+            {
+                "time": "2021-08-22T00:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 95820
+            },
+            {
+                "time": "2021-08-22T01:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-22T02:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-22T03:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-22T04:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-22T05:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-22T06:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-22T07:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-22T10:00:00",
+                "ranking": 97,
+                "previous": 0,
+                "count1": null,
+                "count2": 93766
+            },
+            {
+                "time": "2021-08-22T11:00:00",
+                "ranking": 96,
+                "previous": 97,
+                "count1": null,
+                "count2": 92928
+            },
+            {
+                "time": "2021-08-22T12:00:00",
+                "ranking": 94,
+                "previous": 96,
+                "count1": null,
+                "count2": 92096
+            },
+            {
+                "time": "2021-08-22T13:00:00",
+                "ranking": 92,
+                "previous": 94,
+                "count1": null,
+                "count2": 91248
+            },
+            {
+                "time": "2021-08-22T14:00:00",
+                "ranking": 90,
+                "previous": 92,
+                "count1": null,
+                "count2": 90517
+            },
+            {
+                "time": "2021-08-22T15:00:00",
+                "ranking": 89,
+                "previous": 90,
+                "count1": null,
+                "count2": 89712
+            },
+            {
+                "time": "2021-08-22T16:00:00",
+                "ranking": 91,
+                "previous": 89,
+                "count1": null,
+                "count2": 88482
+            },
+            {
+                "time": "2021-08-22T17:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": 87913
+            },
+            {
+                "time": "2021-08-22T18:00:00",
+                "ranking": 88,
+                "previous": 91,
+                "count1": null,
+                "count2": 87363
+            },
+            {
+                "time": "2021-08-22T19:00:00",
+                "ranking": 91,
+                "previous": 88,
+                "count1": null,
+                "count2": 86718
+            },
+            {
+                "time": "2021-08-22T20:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": 86554
+            },
+            {
+                "time": "2021-08-22T21:00:00",
+                "ranking": 92,
+                "previous": 91,
+                "count1": null,
+                "count2": 86366
+            },
+            {
+                "time": "2021-08-22T22:00:00",
+                "ranking": 93,
+                "previous": 92,
+                "count1": null,
+                "count2": 86409
+            },
+            {
+                "time": "2021-08-22T23:00:00",
+                "ranking": 94,
+                "previous": 93,
+                "count1": null,
+                "count2": 86215
+            },
+            {
+                "time": "2021-08-23T00:00:00",
+                "ranking": 96,
+                "previous": 94,
+                "count1": null,
+                "count2": 86211
+            },
+            {
+                "time": "2021-08-23T01:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-23T02:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-23T03:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-23T04:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-23T05:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-23T06:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-23T07:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-23T08:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": 88048
+            },
+            {
+                "time": "2021-08-23T09:00:00",
+                "ranking": 98,
+                "previous": 99,
+                "count1": null,
+                "count2": 90680
+            },
+            {
+                "time": "2021-08-23T10:00:00",
+                "ranking": 99,
+                "previous": 98,
+                "count1": null,
+                "count2": 91907
+            },
+            {
+                "time": "2021-08-23T11:00:00",
+                "ranking": 97,
+                "previous": 99,
+                "count1": null,
+                "count2": 92762
+            },
+            {
+                "time": "2021-08-23T12:00:00",
+                "ranking": 90,
+                "previous": 97,
+                "count1": null,
+                "count2": 93284
+            },
+            {
+                "time": "2021-08-23T13:00:00",
+                "ranking": 89,
+                "previous": 90,
+                "count1": null,
+                "count2": 93784
+            },
+            {
+                "time": "2021-08-23T14:00:00",
+                "ranking": 90,
+                "previous": 89,
+                "count1": null,
+                "count2": 94255
+            },
+            {
+                "time": "2021-08-23T15:00:00",
+                "ranking": 90,
+                "previous": 90,
+                "count1": null,
+                "count2": 95014
+            },
+            {
+                "time": "2021-08-23T16:00:00",
+                "ranking": 91,
+                "previous": 90,
+                "count1": null,
+                "count2": 95695
+            },
+            {
+                "time": "2021-08-23T17:00:00",
+                "ranking": 90,
+                "previous": 91,
+                "count1": null,
+                "count2": 96027
+            },
+            {
+                "time": "2021-08-23T18:00:00",
+                "ranking": 88,
+                "previous": 90,
+                "count1": null,
+                "count2": 96591
+            },
+            {
+                "time": "2021-08-23T19:00:00",
+                "ranking": 90,
+                "previous": 88,
+                "count1": null,
+                "count2": 97792
+            },
+            {
+                "time": "2021-08-23T20:00:00",
+                "ranking": 86,
+                "previous": 90,
+                "count1": null,
+                "count2": 98562
+            },
+            {
+                "time": "2021-08-23T21:00:00",
+                "ranking": 91,
+                "previous": 86,
+                "count1": null,
+                "count2": 98684
+            },
+            {
+                "time": "2021-08-23T22:00:00",
+                "ranking": 97,
+                "previous": 91,
+                "count1": null,
+                "count2": 98398
+            },
+            {
+                "time": "2021-08-23T23:00:00",
+                "ranking": 98,
+                "previous": 97,
+                "count1": null,
+                "count2": 98222
+            },
+            {
+                "time": "2021-08-24T00:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": 98142
+            },
+            {
+                "time": "2021-08-24T01:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-24T02:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-24T03:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-24T04:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-24T05:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-24T06:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-24T07:00:00",
+                "ranking": 80,
+                "previous": 80,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-24T08:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": 97907
+            },
+            {
+                "time": "2021-08-24T09:00:00",
+                "ranking": 99,
+                "previous": 100,
+                "count1": null,
+                "count2": 97947
+            },
+            {
+                "time": "2021-08-24T10:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": 98027
+            },
+            {
+                "time": "2021-08-24T11:00:00",
+                "ranking": 97,
+                "previous": 99,
+                "count1": null,
+                "count2": 98014
+            },
+            {
+                "time": "2021-08-24T12:00:00",
+                "ranking": 91,
+                "previous": 97,
+                "count1": null,
+                "count2": 97978
+            },
+            {
+                "time": "2021-08-24T13:00:00",
+                "ranking": 90,
+                "previous": 91,
+                "count1": null,
+                "count2": 97796
+            },
+            {
+                "time": "2021-08-24T14:00:00",
+                "ranking": 89,
+                "previous": 90,
+                "count1": null,
+                "count2": 97770
+            },
+            {
+                "time": "2021-08-24T15:00:00",
+                "ranking": 91,
+                "previous": 89,
+                "count1": null,
+                "count2": 97369
+            },
+            {
+                "time": "2021-08-24T16:00:00",
+                "ranking": 92,
+                "previous": 91,
+                "count1": null,
+                "count2": 97478
+            },
+            {
+                "time": "2021-08-24T17:00:00",
+                "ranking": 88,
+                "previous": 92,
+                "count1": null,
+                "count2": 97696
+            },
+            {
+                "time": "2021-08-24T18:00:00",
+                "ranking": 88,
+                "previous": 88,
+                "count1": null,
+                "count2": 98037
+            },
+            {
+                "time": "2021-08-24T19:00:00",
+                "ranking": 86,
+                "previous": 88,
+                "count1": null,
+                "count2": 98454
+            },
+            {
+                "time": "2021-08-24T20:00:00",
+                "ranking": 89,
+                "previous": 86,
+                "count1": null,
+                "count2": 98578
+            },
+            {
+                "time": "2021-08-24T21:00:00",
+                "ranking": 91,
+                "previous": 89,
+                "count1": null,
+                "count2": 98866
+            },
+            {
+                "time": "2021-08-24T22:00:00",
+                "ranking": 94,
+                "previous": 91,
+                "count1": null,
+                "count2": 99416
+            },
+            {
+                "time": "2021-08-24T23:00:00",
+                "ranking": 97,
+                "previous": 94,
+                "count1": null,
+                "count2": 99696
+            },
+            {
+                "time": "2021-08-25T00:00:00",
+                "ranking": 100,
+                "previous": 97,
+                "count1": null,
+                "count2": 99916
+            },
+            {
+                "time": "2021-08-25T01:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-25T02:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-25T03:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-25T04:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-25T05:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-25T06:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-25T07:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-25T08:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": 100167
+            },
+            {
+                "time": "2021-08-25T09:00:00",
+                "ranking": 97,
+                "previous": 98,
+                "count1": null,
+                "count2": 100243
+            },
+            {
+                "time": "2021-08-25T10:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 100419
+            },
+            {
+                "time": "2021-08-25T11:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 100491
+            },
+            {
+                "time": "2021-08-25T12:00:00",
+                "ranking": 90,
+                "previous": 97,
+                "count1": null,
+                "count2": 100570
+            },
+            {
+                "time": "2021-08-25T13:00:00",
+                "ranking": 90,
+                "previous": 90,
+                "count1": null,
+                "count2": 100595
+            },
+            {
+                "time": "2021-08-25T14:00:00",
+                "ranking": 91,
+                "previous": 90,
+                "count1": null,
+                "count2": 100447
+            },
+            {
+                "time": "2021-08-25T15:00:00",
+                "ranking": 90,
+                "previous": 91,
+                "count1": null,
+                "count2": 100700
+            },
+            {
+                "time": "2021-08-25T16:00:00",
+                "ranking": 88,
+                "previous": 90,
+                "count1": null,
+                "count2": 100917
+            },
+            {
+                "time": "2021-08-25T17:00:00",
+                "ranking": 90,
+                "previous": 88,
+                "count1": null,
+                "count2": 101113
+            },
+            {
+                "time": "2021-08-25T18:00:00",
+                "ranking": 87,
+                "previous": 90,
+                "count1": null,
+                "count2": 101589
+            },
+            {
+                "time": "2021-08-25T19:00:00",
+                "ranking": 88,
+                "previous": 87,
+                "count1": null,
+                "count2": 101745
+            },
+            {
+                "time": "2021-08-25T20:00:00",
+                "ranking": 89,
+                "previous": 88,
+                "count1": null,
+                "count2": 102110
+            },
+            {
+                "time": "2021-08-25T21:00:00",
+                "ranking": 90,
+                "previous": 89,
+                "count1": null,
+                "count2": 102325
+            },
+            {
+                "time": "2021-08-25T22:00:00",
+                "ranking": 92,
+                "previous": 90,
+                "count1": null,
+                "count2": 102520
+            },
+            {
+                "time": "2021-08-25T23:00:00",
+                "ranking": 94,
+                "previous": 92,
+                "count1": null,
+                "count2": 102714
+            },
+            {
+                "time": "2021-08-26T00:00:00",
+                "ranking": 95,
+                "previous": 94,
+                "count1": null,
+                "count2": 102766
+            },
+            {
+                "time": "2021-08-26T01:00:00",
+                "ranking": 82,
+                "previous": 82,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-26T02:00:00",
+                "ranking": 82,
+                "previous": 82,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-26T03:00:00",
+                "ranking": 82,
+                "previous": 82,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-26T04:00:00",
+                "ranking": 82,
+                "previous": 82,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-26T05:00:00",
+                "ranking": 82,
+                "previous": 82,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-26T06:00:00",
+                "ranking": 81,
+                "previous": 82,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-26T07:00:00",
+                "ranking": 82,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-26T08:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 103089
+            },
+            {
+                "time": "2021-08-26T09:00:00",
+                "ranking": 96,
+                "previous": 97,
+                "count1": null,
+                "count2": 103267
+            },
+            {
+                "time": "2021-08-26T10:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 103265
+            },
+            {
+                "time": "2021-08-26T11:00:00",
+                "ranking": 93,
+                "previous": 96,
+                "count1": null,
+                "count2": 103392
+            },
+            {
+                "time": "2021-08-26T12:00:00",
+                "ranking": 91,
+                "previous": 93,
+                "count1": null,
+                "count2": 103400
+            },
+            {
+                "time": "2021-08-26T13:00:00",
+                "ranking": 90,
+                "previous": 91,
+                "count1": null,
+                "count2": 103369
+            },
+            {
+                "time": "2021-08-26T14:00:00",
+                "ranking": 88,
+                "previous": 90,
+                "count1": null,
+                "count2": 103406
+            },
+            {
+                "time": "2021-08-26T15:00:00",
+                "ranking": 91,
+                "previous": 88,
+                "count1": null,
+                "count2": 103442
+            },
+            {
+                "time": "2021-08-26T16:00:00",
+                "ranking": 86,
+                "previous": 91,
+                "count1": null,
+                "count2": 103555
+            },
+            {
+                "time": "2021-08-26T17:00:00",
+                "ranking": 84,
+                "previous": 86,
+                "count1": null,
+                "count2": 103931
+            },
+            {
+                "time": "2021-08-26T18:00:00",
+                "ranking": 85,
+                "previous": 84,
+                "count1": null,
+                "count2": 104177
+            },
+            {
+                "time": "2021-08-26T19:00:00",
+                "ranking": 86,
+                "previous": 85,
+                "count1": 10054,
+                "count2": 104382
+            },
+            {
+                "time": "2021-08-26T20:00:00",
+                "ranking": 87,
+                "previous": 86,
+                "count1": null,
+                "count2": 104605
+            },
+            {
+                "time": "2021-08-26T21:00:00",
+                "ranking": 90,
+                "previous": 87,
+                "count1": null,
+                "count2": 104985
+            },
+            {
+                "time": "2021-08-26T22:00:00",
+                "ranking": 92,
+                "previous": 90,
+                "count1": null,
+                "count2": 105273
+            },
+            {
+                "time": "2021-08-26T23:00:00",
+                "ranking": 96,
+                "previous": 92,
+                "count1": null,
+                "count2": 105306
+            },
+            {
+                "time": "2021-08-27T00:00:00",
+                "ranking": 97,
+                "previous": 96,
+                "count1": null,
+                "count2": 105418
+            },
+            {
+                "time": "2021-08-27T01:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-27T02:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-27T03:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-27T04:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-27T05:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-27T06:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-27T07:00:00",
+                "ranking": 81,
+                "previous": 81,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-27T09:00:00",
+                "ranking": 99,
+                "previous": 0,
+                "count1": null,
+                "count2": 104690
+            },
+            {
+                "time": "2021-08-27T10:00:00",
+                "ranking": 100,
+                "previous": 99,
+                "count1": null,
+                "count2": 104403
+            },
+            {
+                "time": "2021-08-27T11:00:00",
+                "ranking": 97,
+                "previous": 100,
+                "count1": null,
+                "count2": 104180
+            },
+            {
+                "time": "2021-08-27T12:00:00",
+                "ranking": 93,
+                "previous": 97,
+                "count1": null,
+                "count2": 104006
+            },
+            {
+                "time": "2021-08-27T13:00:00",
+                "ranking": 90,
+                "previous": 93,
+                "count1": null,
+                "count2": 103902
+            },
+            {
+                "time": "2021-08-27T14:00:00",
+                "ranking": 91,
+                "previous": 90,
+                "count1": null,
+                "count2": 103545
+            },
+            {
+                "time": "2021-08-27T15:00:00",
+                "ranking": 93,
+                "previous": 91,
+                "count1": null,
+                "count2": 103211
+            },
+            {
+                "time": "2021-08-27T16:00:00",
+                "ranking": 88,
+                "previous": 93,
+                "count1": null,
+                "count2": 103176
+            },
+            {
+                "time": "2021-08-27T17:00:00",
+                "ranking": 88,
+                "previous": 88,
+                "count1": null,
+                "count2": 103359
+            },
+            {
+                "time": "2021-08-27T18:00:00",
+                "ranking": 91,
+                "previous": 88,
+                "count1": null,
+                "count2": 103544
+            },
+            {
+                "time": "2021-08-27T19:00:00",
+                "ranking": 90,
+                "previous": 91,
+                "count1": null,
+                "count2": 103587
+            },
+            {
+                "time": "2021-08-27T20:00:00",
+                "ranking": 90,
+                "previous": 90,
+                "count1": null,
+                "count2": 103787
+            },
+            {
+                "time": "2021-08-27T21:00:00",
+                "ranking": 91,
+                "previous": 90,
+                "count1": null,
+                "count2": 104093
+            },
+            {
+                "time": "2021-08-27T22:00:00",
+                "ranking": 95,
+                "previous": 91,
+                "count1": null,
+                "count2": 104256
+            },
+            {
+                "time": "2021-08-27T23:00:00",
+                "ranking": 96,
+                "previous": 95,
+                "count1": null,
+                "count2": 104335
+            },
+            {
+                "time": "2021-08-28T00:00:00",
+                "ranking": 100,
+                "previous": 96,
+                "count1": null,
+                "count2": 104376
+            },
+            {
+                "time": "2021-08-28T01:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-28T02:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-28T03:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-28T04:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-28T05:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-28T06:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-28T07:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-28T10:00:00",
+                "ranking": 100,
+                "previous": 0,
+                "count1": null,
+                "count2": 100950
+            },
+            {
+                "time": "2021-08-28T11:00:00",
+                "ranking": 99,
+                "previous": 100,
+                "count1": null,
+                "count2": 101178
+            },
+            {
+                "time": "2021-08-28T12:00:00",
+                "ranking": 95,
+                "previous": 99,
+                "count1": null,
+                "count2": 101660
+            },
+            {
+                "time": "2021-08-28T13:00:00",
+                "ranking": 94,
+                "previous": 95,
+                "count1": null,
+                "count2": 102099
+            },
+            {
+                "time": "2021-08-28T14:00:00",
+                "ranking": 92,
+                "previous": 94,
+                "count1": null,
+                "count2": 102705
+            },
+            {
+                "time": "2021-08-28T15:00:00",
+                "ranking": 91,
+                "previous": 92,
+                "count1": null,
+                "count2": 102886
+            },
+            {
+                "time": "2021-08-28T16:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": 102465
+            },
+            {
+                "time": "2021-08-28T17:00:00",
+                "ranking": 88,
+                "previous": 91,
+                "count1": null,
+                "count2": 102294
+            },
+            {
+                "time": "2021-08-28T18:00:00",
+                "ranking": 90,
+                "previous": 88,
+                "count1": null,
+                "count2": 101615
+            },
+            {
+                "time": "2021-08-28T19:00:00",
+                "ranking": 91,
+                "previous": 90,
+                "count1": null,
+                "count2": 100373
+            },
+            {
+                "time": "2021-08-28T20:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": 99626
+            },
+            {
+                "time": "2021-08-28T21:00:00",
+                "ranking": 93,
+                "previous": 91,
+                "count1": null,
+                "count2": 99066
+            },
+            {
+                "time": "2021-08-28T22:00:00",
+                "ranking": 95,
+                "previous": 93,
+                "count1": null,
+                "count2": 98981
+            },
+            {
+                "time": "2021-08-28T23:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 99061
+            },
+            {
+                "time": "2021-08-29T00:00:00",
+                "ranking": 97,
+                "previous": 95,
+                "count1": null,
+                "count2": 99235
+            },
+            {
+                "time": "2021-08-29T01:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-29T02:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-29T03:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-29T04:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-29T05:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-29T06:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-29T07:00:00",
+                "ranking": 83,
+                "previous": 83,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-29T10:00:00",
+                "ranking": 97,
+                "previous": 0,
+                "count1": null,
+                "count2": 96920
+            },
+            {
+                "time": "2021-08-29T11:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 95783
+            },
+            {
+                "time": "2021-08-29T12:00:00",
+                "ranking": 96,
+                "previous": 97,
+                "count1": null,
+                "count2": 94424
+            },
+            {
+                "time": "2021-08-29T13:00:00",
+                "ranking": 95,
+                "previous": 96,
+                "count1": null,
+                "count2": 93156
+            },
+            {
+                "time": "2021-08-29T14:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 91506
+            },
+            {
+                "time": "2021-08-29T15:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 89838
+            },
+            {
+                "time": "2021-08-29T16:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 88232
+            },
+            {
+                "time": "2021-08-29T17:00:00",
+                "ranking": 93,
+                "previous": 95,
+                "count1": null,
+                "count2": 86858
+            },
+            {
+                "time": "2021-08-29T18:00:00",
+                "ranking": 93,
+                "previous": 93,
+                "count1": null,
+                "count2": 85680
+            },
+            {
+                "time": "2021-08-29T19:00:00",
+                "ranking": 94,
+                "previous": 93,
+                "count1": null,
+                "count2": 84708
+            },
+            {
+                "time": "2021-08-29T20:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": 84086
+            },
+            {
+                "time": "2021-08-29T21:00:00",
+                "ranking": 95,
+                "previous": 94,
+                "count1": null,
+                "count2": 83827
+            },
+            {
+                "time": "2021-08-29T22:00:00",
+                "ranking": 97,
+                "previous": 95,
+                "count1": null,
+                "count2": 83500
+            },
+            {
+                "time": "2021-08-29T23:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 83314
+            },
+            {
+                "time": "2021-08-30T00:00:00",
+                "ranking": 99,
+                "previous": 97,
+                "count1": null,
+                "count2": 82975
+            },
+            {
+                "time": "2021-08-30T01:00:00",
+                "ranking": 85,
+                "previous": 85,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-30T02:00:00",
+                "ranking": 84,
+                "previous": 85,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-30T03:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-30T04:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-30T05:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-30T06:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-30T07:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-30T11:00:00",
+                "ranking": 99,
+                "previous": 0,
+                "count1": null,
+                "count2": 89746
+            },
+            {
+                "time": "2021-08-30T12:00:00",
+                "ranking": 98,
+                "previous": 99,
+                "count1": null,
+                "count2": 90341
+            },
+            {
+                "time": "2021-08-30T13:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": 90762
+            },
+            {
+                "time": "2021-08-30T14:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": 91355
+            },
+            {
+                "time": "2021-08-30T15:00:00",
+                "ranking": 97,
+                "previous": 98,
+                "count1": null,
+                "count2": 91911
+            },
+            {
+                "time": "2021-08-30T16:00:00",
+                "ranking": 95,
+                "previous": 97,
+                "count1": null,
+                "count2": 92384
+            },
+            {
+                "time": "2021-08-30T17:00:00",
+                "ranking": 96,
+                "previous": 95,
+                "count1": null,
+                "count2": 92384
+            },
+            {
+                "time": "2021-08-30T18:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 93028
+            },
+            {
+                "time": "2021-08-30T19:00:00",
+                "ranking": 95,
+                "previous": 96,
+                "count1": null,
+                "count2": 94136
+            },
+            {
+                "time": "2021-08-30T20:00:00",
+                "ranking": 96,
+                "previous": 95,
+                "count1": null,
+                "count2": 94845
+            },
+            {
+                "time": "2021-08-30T21:00:00",
+                "ranking": 97,
+                "previous": 96,
+                "count1": null,
+                "count2": 95193
+            },
+            {
+                "time": "2021-08-30T22:00:00",
+                "ranking": 99,
+                "previous": 97,
+                "count1": null,
+                "count2": 95532
+            },
+            {
+                "time": "2021-08-30T23:00:00",
+                "ranking": 100,
+                "previous": 99,
+                "count1": null,
+                "count2": 95592
+            },
+            {
+                "time": "2021-08-31T01:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-31T02:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-31T03:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-31T04:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-31T05:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-31T06:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-31T07:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-08-31T12:00:00",
+                "ranking": 99,
+                "previous": 0,
+                "count1": null,
+                "count2": 94750
+            },
+            {
+                "time": "2021-08-31T13:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": 94416
+            },
+            {
+                "time": "2021-08-31T14:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": 94001
+            },
+            {
+                "time": "2021-08-31T15:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": 93679
+            },
+            {
+                "time": "2021-08-31T16:00:00",
+                "ranking": 97,
+                "previous": 99,
+                "count1": null,
+                "count2": 93264
+            },
+            {
+                "time": "2021-08-31T17:00:00",
+                "ranking": 99,
+                "previous": 97,
+                "count1": null,
+                "count2": 93098
+            },
+            {
+                "time": "2021-08-31T18:00:00",
+                "ranking": 98,
+                "previous": 99,
+                "count1": null,
+                "count2": 93043
+            },
+            {
+                "time": "2021-08-31T19:00:00",
+                "ranking": 99,
+                "previous": 98,
+                "count1": null,
+                "count2": 92814
+            },
+            {
+                "time": "2021-08-31T20:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": 92503
+            },
+            {
+                "time": "2021-08-31T21:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": 92245
+            },
+            {
+                "time": "2021-08-31T22:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": 92118
+            },
+            {
+                "time": "2021-08-31T23:00:00",
+                "ranking": 100,
+                "previous": 99,
+                "count1": null,
+                "count2": 91989
+            },
+            {
+                "time": "2021-09-01T01:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-01T02:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-01T03:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-01T04:00:00",
+                "ranking": 87,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-01T05:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-01T06:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-01T07:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-01T12:00:00",
+                "ranking": 99,
+                "previous": 0,
+                "count1": null,
+                "count2": 91104
+            },
+            {
+                "time": "2021-09-01T13:00:00",
+                "ranking": 98,
+                "previous": 99,
+                "count1": null,
+                "count2": 90979
+            },
+            {
+                "time": "2021-09-01T14:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": 90923
+            },
+            {
+                "time": "2021-09-01T15:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": 90807
+            },
+            {
+                "time": "2021-09-01T16:00:00",
+                "ranking": 97,
+                "previous": 98,
+                "count1": null,
+                "count2": 90882
+            },
+            {
+                "time": "2021-09-01T17:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 90982
+            },
+            {
+                "time": "2021-09-01T18:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 91273
+            },
+            {
+                "time": "2021-09-01T19:00:00",
+                "ranking": 96,
+                "previous": 97,
+                "count1": null,
+                "count2": 91433
+            },
+            {
+                "time": "2021-09-01T20:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 91705
+            },
+            {
+                "time": "2021-09-01T21:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 92065
+            },
+            {
+                "time": "2021-09-01T22:00:00",
+                "ranking": 98,
+                "previous": 96,
+                "count1": null,
+                "count2": 92372
+            },
+            {
+                "time": "2021-09-02T01:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-02T02:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-02T03:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-02T04:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-02T05:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-02T06:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-02T07:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-02T11:00:00",
+                "ranking": 100,
+                "previous": 0,
+                "count1": null,
+                "count2": 93171
+            },
+            {
+                "time": "2021-09-02T12:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": 93368
+            },
+            {
+                "time": "2021-09-02T13:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": 93378
+            },
+            {
+                "time": "2021-09-02T14:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": 93297
+            },
+            {
+                "time": "2021-09-02T15:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": 93423
+            },
+            {
+                "time": "2021-09-02T16:00:00",
+                "ranking": 99,
+                "previous": 100,
+                "count1": null,
+                "count2": 93320
+            },
+            {
+                "time": "2021-09-02T17:00:00",
+                "ranking": 98,
+                "previous": 99,
+                "count1": null,
+                "count2": 93421
+            },
+            {
+                "time": "2021-09-02T18:00:00",
+                "ranking": 97,
+                "previous": 98,
+                "count1": null,
+                "count2": 93681
+            },
+            {
+                "time": "2021-09-02T19:00:00",
+                "ranking": 98,
+                "previous": 97,
+                "count1": null,
+                "count2": 93766
+            },
+            {
+                "time": "2021-09-02T20:00:00",
+                "ranking": 96,
+                "previous": 98,
+                "count1": null,
+                "count2": 94112
+            },
+            {
+                "time": "2021-09-02T21:00:00",
+                "ranking": 98,
+                "previous": 96,
+                "count1": null,
+                "count2": 94259
+            },
+            {
+                "time": "2021-09-02T22:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": 94203
+            },
+            {
+                "time": "2021-09-02T23:00:00",
+                "ranking": 100,
+                "previous": 98,
+                "count1": null,
+                "count2": 94350
+            },
+            {
+                "time": "2021-09-03T01:00:00",
+                "ranking": 88,
+                "previous": 88,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-03T02:00:00",
+                "ranking": 88,
+                "previous": 88,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-03T03:00:00",
+                "ranking": 88,
+                "previous": 88,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-03T04:00:00",
+                "ranking": 88,
+                "previous": 88,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-03T05:00:00",
+                "ranking": 88,
+                "previous": 88,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-03T06:00:00",
+                "ranking": 88,
+                "previous": 88,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-03T07:00:00",
+                "ranking": 88,
+                "previous": 88,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-03T08:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": 94654
+            },
+            {
+                "time": "2021-09-03T09:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": 94765
+            },
+            {
+                "time": "2021-09-03T10:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": 94880
+            },
+            {
+                "time": "2021-09-03T11:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": 95088
+            },
+            {
+                "time": "2021-09-03T12:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": 95433
+            },
+            {
+                "time": "2021-09-03T13:00:00",
+                "ranking": 99,
+                "previous": 100,
+                "count1": null,
+                "count2": 95833
+            },
+            {
+                "time": "2021-09-03T14:00:00",
+                "ranking": 98,
+                "previous": 99,
+                "count1": null,
+                "count2": 96146
+            },
+            {
+                "time": "2021-09-03T15:00:00",
+                "ranking": 97,
+                "previous": 98,
+                "count1": null,
+                "count2": 96603
+            },
+            {
+                "time": "2021-09-03T16:00:00",
+                "ranking": 95,
+                "previous": 97,
+                "count1": null,
+                "count2": 97375
+            },
+            {
+                "time": "2021-09-03T17:00:00",
+                "ranking": 92,
+                "previous": 95,
+                "count1": null,
+                "count2": 98306
+            },
+            {
+                "time": "2021-09-03T18:00:00",
+                "ranking": 91,
+                "previous": 92,
+                "count1": null,
+                "count2": 98984
+            },
+            {
+                "time": "2021-09-03T19:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": 10169,
+                "count2": 99924
+            },
+            {
+                "time": "2021-09-03T20:00:00",
+                "ranking": 94,
+                "previous": 91,
+                "count1": null,
+                "count2": 100368
+            },
+            {
+                "time": "2021-09-03T21:00:00",
+                "ranking": 95,
+                "previous": 94,
+                "count1": null,
+                "count2": 100958
+            },
+            {
+                "time": "2021-09-03T22:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 101609
+            },
+            {
+                "time": "2021-09-03T23:00:00",
+                "ranking": 98,
+                "previous": 95,
+                "count1": null,
+                "count2": 101947
+            },
+            {
+                "time": "2021-09-04T00:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": 102122
+            },
+            {
+                "time": "2021-09-04T01:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-04T02:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-04T03:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-04T04:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-04T05:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-04T06:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-04T07:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-04T09:00:00",
+                "ranking": 100,
+                "previous": 0,
+                "count1": null,
+                "count2": 99462
+            },
+            {
+                "time": "2021-09-04T10:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": 99185
+            },
+            {
+                "time": "2021-09-04T11:00:00",
+                "ranking": 97,
+                "previous": 100,
+                "count1": null,
+                "count2": 99614
+            },
+            {
+                "time": "2021-09-04T12:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 100004
+            },
+            {
+                "time": "2021-09-04T13:00:00",
+                "ranking": 96,
+                "previous": 97,
+                "count1": null,
+                "count2": 100663
+            },
+            {
+                "time": "2021-09-04T14:00:00",
+                "ranking": 94,
+                "previous": 96,
+                "count1": null,
+                "count2": 100982
+            },
+            {
+                "time": "2021-09-04T15:00:00",
+                "ranking": 95,
+                "previous": 94,
+                "count1": null,
+                "count2": 100934
+            },
+            {
+                "time": "2021-09-04T16:00:00",
+                "ranking": 94,
+                "previous": 95,
+                "count1": null,
+                "count2": 100833
+            },
+            {
+                "time": "2021-09-04T17:00:00",
+                "ranking": 92,
+                "previous": 94,
+                "count1": null,
+                "count2": 100773
+            },
+            {
+                "time": "2021-09-04T18:00:00",
+                "ranking": 94,
+                "previous": 92,
+                "count1": null,
+                "count2": 100325
+            },
+            {
+                "time": "2021-09-04T19:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": 98796
+            },
+            {
+                "time": "2021-09-04T20:00:00",
+                "ranking": 95,
+                "previous": 94,
+                "count1": null,
+                "count2": 97926
+            },
+            {
+                "time": "2021-09-04T21:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 97766
+            },
+            {
+                "time": "2021-09-04T22:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 97789
+            },
+            {
+                "time": "2021-09-04T23:00:00",
+                "ranking": 96,
+                "previous": 95,
+                "count1": null,
+                "count2": 97926
+            },
+            {
+                "time": "2021-09-05T00:00:00",
+                "ranking": 100,
+                "previous": 96,
+                "count1": null,
+                "count2": 97960
+            },
+            {
+                "time": "2021-09-05T01:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-05T02:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-05T03:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-05T04:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-05T05:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-05T06:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-05T07:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-05T11:00:00",
+                "ranking": 97,
+                "previous": 0,
+                "count1": null,
+                "count2": 94595
+            },
+            {
+                "time": "2021-09-05T12:00:00",
+                "ranking": 96,
+                "previous": 97,
+                "count1": null,
+                "count2": 93503
+            },
+            {
+                "time": "2021-09-05T13:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 92080
+            },
+            {
+                "time": "2021-09-05T14:00:00",
+                "ranking": 95,
+                "previous": 96,
+                "count1": null,
+                "count2": 90760
+            },
+            {
+                "time": "2021-09-05T15:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 89435
+            },
+            {
+                "time": "2021-09-05T16:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 88007
+            },
+            {
+                "time": "2021-09-05T17:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 86425
+            },
+            {
+                "time": "2021-09-05T18:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 85047
+            },
+            {
+                "time": "2021-09-05T19:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 84028
+            },
+            {
+                "time": "2021-09-05T20:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 83286
+            },
+            {
+                "time": "2021-09-05T21:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 82663
+            },
+            {
+                "time": "2021-09-05T22:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 82238
+            },
+            {
+                "time": "2021-09-05T23:00:00",
+                "ranking": 96,
+                "previous": 95,
+                "count1": null,
+                "count2": 81913
+            },
+            {
+                "time": "2021-09-06T00:00:00",
+                "ranking": 100,
+                "previous": 96,
+                "count1": null,
+                "count2": 81766
+            },
+            {
+                "time": "2021-09-06T01:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-06T02:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-06T03:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-06T04:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-06T05:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-06T06:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-06T07:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-06T11:00:00",
+                "ranking": 100,
+                "previous": 0,
+                "count1": null,
+                "count2": 87980
+            },
+            {
+                "time": "2021-09-06T12:00:00",
+                "ranking": 98,
+                "previous": 100,
+                "count1": null,
+                "count2": 88231
+            },
+            {
+                "time": "2021-09-06T13:00:00",
+                "ranking": 97,
+                "previous": 98,
+                "count1": null,
+                "count2": 88300
+            },
+            {
+                "time": "2021-09-06T14:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 88408
+            },
+            {
+                "time": "2021-09-06T15:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 88408
+            },
+            {
+                "time": "2021-09-06T16:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 87977
+            },
+            {
+                "time": "2021-09-06T17:00:00",
+                "ranking": 96,
+                "previous": 97,
+                "count1": null,
+                "count2": 87703
+            },
+            {
+                "time": "2021-09-06T18:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 88005
+            },
+            {
+                "time": "2021-09-06T19:00:00",
+                "ranking": 97,
+                "previous": 96,
+                "count1": null,
+                "count2": 89046
+            },
+            {
+                "time": "2021-09-06T20:00:00",
+                "ranking": 96,
+                "previous": 97,
+                "count1": null,
+                "count2": 89611
+            },
+            {
+                "time": "2021-09-06T21:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 90082
+            },
+            {
+                "time": "2021-09-06T22:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 90208
+            },
+            {
+                "time": "2021-09-06T23:00:00",
+                "ranking": 98,
+                "previous": 96,
+                "count1": null,
+                "count2": 90319
+            },
+            {
+                "time": "2021-09-07T00:00:00",
+                "ranking": 100,
+                "previous": 98,
+                "count1": null,
+                "count2": 90341
+            },
+            {
+                "time": "2021-09-07T01:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-07T02:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-07T03:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-07T04:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-07T05:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-07T06:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-07T07:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-07T10:00:00",
+                "ranking": 100,
+                "previous": 0,
+                "count1": null,
+                "count2": 89461
+            },
+            {
+                "time": "2021-09-07T11:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": 89389
+            },
+            {
+                "time": "2021-09-07T12:00:00",
+                "ranking": 99,
+                "previous": 100,
+                "count1": null,
+                "count2": 89221
+            },
+            {
+                "time": "2021-09-07T13:00:00",
+                "ranking": 98,
+                "previous": 99,
+                "count1": null,
+                "count2": 89126
+            },
+            {
+                "time": "2021-09-07T14:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": 89083
+            },
+            {
+                "time": "2021-09-07T15:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": 88944
+            },
+            {
+                "time": "2021-09-07T16:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": 89014
+            },
+            {
+                "time": "2021-09-07T17:00:00",
+                "ranking": 97,
+                "previous": 98,
+                "count1": null,
+                "count2": 89264
+            },
+            {
+                "time": "2021-09-07T18:00:00",
+                "ranking": 95,
+                "previous": 97,
+                "count1": null,
+                "count2": 89553
+            },
+            {
+                "time": "2021-09-07T19:00:00",
+                "ranking": 96,
+                "previous": 95,
+                "count1": null,
+                "count2": 89734
+            },
+            {
+                "time": "2021-09-07T20:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 89847
+            },
+            {
+                "time": "2021-09-07T21:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 89866
+            },
+            {
+                "time": "2021-09-07T22:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 90065
+            },
+            {
+                "time": "2021-09-07T23:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 90232
+            },
+            {
+                "time": "2021-09-08T00:00:00",
+                "ranking": 99,
+                "previous": 96,
+                "count1": null,
+                "count2": 90222
+            },
+            {
+                "time": "2021-09-08T01:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-08T02:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-08T03:00:00",
+                "ranking": 85,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-08T04:00:00",
+                "ranking": 85,
+                "previous": 85,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-08T05:00:00",
+                "ranking": 85,
+                "previous": 85,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-08T06:00:00",
+                "ranking": 85,
+                "previous": 85,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-08T07:00:00",
+                "ranking": 85,
+                "previous": 85,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-08T11:00:00",
+                "ranking": 100,
+                "previous": 0,
+                "count1": null,
+                "count2": 90906
+            },
+            {
+                "time": "2021-09-08T12:00:00",
+                "ranking": 99,
+                "previous": 100,
+                "count1": null,
+                "count2": 91032
+            },
+            {
+                "time": "2021-09-08T13:00:00",
+                "ranking": 98,
+                "previous": 99,
+                "count1": null,
+                "count2": 91074
+            },
+            {
+                "time": "2021-09-08T14:00:00",
+                "ranking": 97,
+                "previous": 98,
+                "count1": null,
+                "count2": 91173
+            },
+            {
+                "time": "2021-09-08T15:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 91425
+            },
+            {
+                "time": "2021-09-08T16:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 91839
+            },
+            {
+                "time": "2021-09-08T17:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 91968
+            },
+            {
+                "time": "2021-09-08T18:00:00",
+                "ranking": 95,
+                "previous": 97,
+                "count1": null,
+                "count2": 92381
+            },
+            {
+                "time": "2021-09-08T19:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 92745
+            },
+            {
+                "time": "2021-09-08T20:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": 93237
+            },
+            {
+                "time": "2021-09-08T21:00:00",
+                "ranking": 96,
+                "previous": 95,
+                "count1": null,
+                "count2": 93689
+            },
+            {
+                "time": "2021-09-08T22:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 94307
+            },
+            {
+                "time": "2021-09-08T23:00:00",
+                "ranking": 97,
+                "previous": 96,
+                "count1": null,
+                "count2": 94594
+            },
+            {
+                "time": "2021-09-09T00:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 94992
+            },
+            {
+                "time": "2021-09-09T01:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-09T02:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-09T03:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-09T04:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-09T05:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-09T06:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-09T07:00:00",
+                "ranking": 86,
+                "previous": 86,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-09T08:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": 95186
+            },
+            {
+                "time": "2021-09-09T09:00:00",
+                "ranking": 100,
+                "previous": 99,
+                "count1": null,
+                "count2": 95318
+            },
+            {
+                "time": "2021-09-09T10:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": 95401
+            },
+            {
+                "time": "2021-09-09T11:00:00",
+                "ranking": 98,
+                "previous": 100,
+                "count1": null,
+                "count2": 95475
+            },
+            {
+                "time": "2021-09-09T12:00:00",
+                "ranking": 97,
+                "previous": 98,
+                "count1": null,
+                "count2": 95580
+            },
+            {
+                "time": "2021-09-09T13:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 95715
+            },
+            {
+                "time": "2021-09-09T14:00:00",
+                "ranking": 96,
+                "previous": 97,
+                "count1": null,
+                "count2": 95720
+            },
+            {
+                "time": "2021-09-09T15:00:00",
+                "ranking": 97,
+                "previous": 96,
+                "count1": null,
+                "count2": 95832
+            },
+            {
+                "time": "2021-09-09T16:00:00",
+                "ranking": 94,
+                "previous": 97,
+                "count1": null,
+                "count2": 96221
+            },
+            {
+                "time": "2021-09-09T17:00:00",
+                "ranking": 93,
+                "previous": 94,
+                "count1": null,
+                "count2": 96723
+            },
+            {
+                "time": "2021-09-09T18:00:00",
+                "ranking": 94,
+                "previous": 93,
+                "count1": null,
+                "count2": 96943
+            },
+            {
+                "time": "2021-09-09T19:00:00",
+                "ranking": 93,
+                "previous": 94,
+                "count1": null,
+                "count2": 97269
+            },
+            {
+                "time": "2021-09-09T20:00:00",
+                "ranking": 95,
+                "previous": 93,
+                "count1": null,
+                "count2": 97406
+            },
+            {
+                "time": "2021-09-09T21:00:00",
+                "ranking": 96,
+                "previous": 95,
+                "count1": null,
+                "count2": 97571
+            },
+            {
+                "time": "2021-09-09T22:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": 97705
+            },
+            {
+                "time": "2021-09-09T23:00:00",
+                "ranking": 97,
+                "previous": 96,
+                "count1": null,
+                "count2": 97691
+            },
+            {
+                "time": "2021-09-10T00:00:00",
+                "ranking": 99,
+                "previous": 97,
+                "count1": null,
+                "count2": 97697
+            },
+            {
+                "time": "2021-09-10T01:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-10T02:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-10T03:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-10T04:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-10T05:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-10T06:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-10T07:00:00",
+                "ranking": 84,
+                "previous": 84,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-10T12:00:00",
+                "ranking": 99,
+                "previous": 0,
+                "count1": null,
+                "count2": 96558
+            },
+            {
+                "time": "2021-09-10T13:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": 96484
+            },
+            {
+                "time": "2021-09-10T14:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": 96777
+            },
+            {
+                "time": "2021-09-10T15:00:00",
+                "ranking": 98,
+                "previous": 99,
+                "count1": null,
+                "count2": 96833
+            },
+            {
+                "time": "2021-09-10T16:00:00",
+                "ranking": 97,
+                "previous": 98,
+                "count1": null,
+                "count2": 96604
+            },
+            {
+                "time": "2021-09-10T17:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": 96557
+            },
+            {
+                "time": "2021-09-10T18:00:00",
+                "ranking": 96,
+                "previous": 97,
+                "count1": null,
+                "count2": 96864
+            },
+            {
+                "time": "2021-09-10T19:00:00",
+                "ranking": 95,
+                "previous": 96,
+                "count1": null,
+                "count2": 97017
+            },
+            {
+                "time": "2021-09-10T20:00:00",
+                "ranking": 97,
+                "previous": 95,
+                "count1": null,
+                "count2": 97403
+            },
+            {
+                "time": "2021-09-10T21:00:00",
+                "ranking": 99,
+                "previous": 97,
+                "count1": null,
+                "count2": 97751
+            },
+            {
+                "time": "2021-09-11T01:00:00",
+                "ranking": 88,
+                "previous": 88,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-11T02:00:00",
+                "ranking": 87,
+                "previous": 88,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-11T03:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-11T04:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-11T05:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-11T06:00:00",
+                "ranking": 87,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-11T07:00:00",
+                "ranking": 88,
+                "previous": 87,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-12T01:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-12T02:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-12T03:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-12T04:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-12T05:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-12T06:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-12T07:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-13T01:00:00",
+                "ranking": 92,
+                "previous": 92,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-13T02:00:00",
+                "ranking": 92,
+                "previous": 92,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-13T03:00:00",
+                "ranking": 92,
+                "previous": 92,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-13T04:00:00",
+                "ranking": 92,
+                "previous": 92,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-13T05:00:00",
+                "ranking": 92,
+                "previous": 92,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-13T06:00:00",
+                "ranking": 92,
+                "previous": 92,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-13T07:00:00",
+                "ranking": 91,
+                "previous": 92,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-14T01:00:00",
+                "ranking": 93,
+                "previous": 93,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-14T02:00:00",
+                "ranking": 93,
+                "previous": 93,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-14T03:00:00",
+                "ranking": 93,
+                "previous": 93,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-14T04:00:00",
+                "ranking": 93,
+                "previous": 93,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-14T05:00:00",
+                "ranking": 93,
+                "previous": 93,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-14T06:00:00",
+                "ranking": 93,
+                "previous": 93,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-14T07:00:00",
+                "ranking": 93,
+                "previous": 93,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-15T01:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-15T02:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-15T03:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-15T04:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-15T05:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-15T06:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-15T07:00:00",
+                "ranking": 91,
+                "previous": 91,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-16T01:00:00",
+                "ranking": 92,
+                "previous": 92,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-16T02:00:00",
+                "ranking": 92,
+                "previous": 92,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-16T03:00:00",
+                "ranking": 92,
+                "previous": 92,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-16T04:00:00",
+                "ranking": 92,
+                "previous": 92,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-16T05:00:00",
+                "ranking": 92,
+                "previous": 92,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-16T06:00:00",
+                "ranking": 92,
+                "previous": 92,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-16T07:00:00",
+                "ranking": 92,
+                "previous": 92,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-17T01:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-17T02:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-17T03:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-17T04:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-17T05:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-17T06:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-17T07:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-18T01:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-18T02:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-18T03:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-18T04:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-18T05:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-18T06:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-18T07:00:00",
+                "ranking": 95,
+                "previous": 95,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-19T01:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-19T02:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-19T03:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-19T04:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-19T05:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-19T06:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-19T07:00:00",
+                "ranking": 94,
+                "previous": 94,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-20T01:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-20T02:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-20T03:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-20T04:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-20T05:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-20T06:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-20T07:00:00",
+                "ranking": 96,
+                "previous": 96,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-21T01:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-21T02:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-21T03:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-21T04:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-21T05:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-21T06:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-21T07:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-22T01:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-22T02:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-22T03:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-22T04:00:00",
+                "ranking": 99,
+                "previous": 100,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-22T05:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-22T06:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-22T07:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-23T01:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-23T02:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-23T03:00:00",
+                "ranking": 99,
+                "previous": 98,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-23T04:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-23T05:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-23T06:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-23T07:00:00",
+                "ranking": 98,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-24T01:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-24T02:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-24T03:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-24T04:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-24T05:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-24T06:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-24T07:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-25T01:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-25T02:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-25T03:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-25T04:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-25T05:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-25T06:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-25T07:00:00",
+                "ranking": 99,
+                "previous": 99,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-26T01:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-26T02:00:00",
+                "ranking": 97,
+                "previous": 98,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-26T03:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-26T04:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-26T05:00:00",
+                "ranking": 97,
+                "previous": 97,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-26T06:00:00",
+                "ranking": 98,
+                "previous": 97,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-26T07:00:00",
+                "ranking": 98,
+                "previous": 98,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-27T01:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-27T02:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-27T03:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-27T04:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-27T05:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-27T06:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": null
+            },
+            {
+                "time": "2021-09-27T07:00:00",
+                "ranking": 100,
+                "previous": 100,
+                "count1": null,
+                "count2": null
+            }
+        ]
+    }
+}

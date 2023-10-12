@@ -1,5 +1,5 @@
 {
-    "latest_update": "2023-10-10",
+    "last_update": "2023-10-10",
     "data": [
         {
             "album": "SQUARE ONE",
@@ -27,7 +27,8 @@
                     },
                     "json_id": "boombayah"
                 }
-            ]
+            ],
+            "id": "square_one"
         },
         {
             "album": "SQUARE TWO",
@@ -65,7 +66,8 @@
                     },
                     "json_id": "whislte_acoustic"
                 }
-            ]
+            ],
+            "id": "square_two"
         },
         {
             "album": "마지막처럼",
@@ -83,7 +85,8 @@
                     },
                     "json_id": "aiiyl"
                 }
-            ]
+            ],
+            "id": "as_if_its_your_last"
         },
         {
             "album": "SQUARE UP",
@@ -131,7 +134,8 @@
                     },
                     "json_id": "sul"
                 }
-            ]
+            ],
+            "id": "square_up"
         },
         {
             "album": "SOLO",
@@ -149,7 +153,8 @@
                     },
                     "json_id": "solo"
                 }
-            ]
+            ],
+            "id": "solo"
         },
         {
             "album": "KILL THIS LOVE",
@@ -207,7 +212,8 @@
                     },
                     "json_id": "dddd_remix"
                 }
-            ]
+            ],
+            "id": "kill_this_love"
         },
         {
             "album": "THE ALBUM",
@@ -295,7 +301,8 @@
                     },
                     "json_id": "ynk"
                 }
-            ]
+            ],
+            "id": "the_album"
         },
         {
             "album": "R",
@@ -323,7 +330,8 @@
                     },
                     "json_id": "gone"
                 }
-            ]
+            ],
+            "id": "r"
         },
         {
             "album": "LALISA",
@@ -351,7 +359,8 @@
                     },
                     "json_id": "money"
                 }
-            ]
+            ],
+            "id": "lalisa"
         },
         {
             "album": "BORN PINK",
@@ -439,7 +448,8 @@
                     },
                     "json_id": "rfl"
                 }
-            ]
+            ],
+            "id": "born_pink"
         },
         {
             "album": "ME",
@@ -467,7 +477,8 @@
                     },
                     "json_id": "aeom"
                 }
-            ]
+            ],
+            "id": "me"
         },
         {
             "album": "THE GIRLS (BLACKPINK THE GAME OST)",
@@ -485,7 +496,8 @@
                     },
                     "json_id": "thegirls"
                 }
-            ]
+            ],
+            "id": "the_girls"
         },
         {
             "album": "You & Me",
@@ -513,7 +525,8 @@
                     },
                     "json_id": "youme_coachella"
                 }
-            ]
+            ],
+            "id": "you_me"
         }
     ]
 }

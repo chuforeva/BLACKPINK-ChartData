@@ -1,28 +1,44 @@
 <!DOCTYPE html>
+<html style="color-scheme: dark;">
+
+</html>
 
 <head>
-    <title>JISOO FAN UNION</title>
+    <title>BLACKPINK 차트 데이터 백업</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="scripts/functions.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic&display=swap"
+        rel="stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 
 <body>
-    <header></header>
+
+    <nav>
+        <h1>ALBUMS</h1>
+    </nav>
 
     <main>
+        <header>
+            <div id="songs"></div>
+        </header>
+        
+        <div id="chart_select"></select>
+        </div>
+        <div id="trend-table" class="table"></div>
+        <div id="trend-chart" class="chart"></div>
     </main>
 
     <footer></footer>
 
     <script>
-        loadData();
+        const default_album = "you_me";
 
-        function loadData() {
-            fetch(window.location.origin + "/data.json")
-                .then((res) => res.json())
-                .then((json) => {
-                    console.log(json)
-                });
-        }
+        google.charts.load('current', { packages: ['corechart', 'charteditor'] });
+        google.charts.setOnLoadCallback(loadPage);
     </script>
 </body>
+
+</html>

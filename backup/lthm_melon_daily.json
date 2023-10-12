@@ -6,12 +6,12 @@
         "chart": "MELON_DAILY_CHART",
         "songId": "32961720",
         "timeUnit": "DAYS",
-        "size": 1102,
-        "totalSize": 1102,
+        "size": 1103,
+        "totalSize": 1103,
         "pagination": {
-            "currentSize": 1102,
-            "pageSize": 2000,
-            "totalItems": 1102,
+            "currentSize": 1103,
+            "pageSize": 10000,
+            "totalItems": 1103,
             "currentPage": 1,
             "totalPages": 1,
             "isFirstPage": true,
@@ -17649,6 +17649,22 @@
                     "age30": 16.0,
                     "age40": 19.0,
                     "age50": 10.0,
+                    "age60": 4.0
+                }
+            },
+            {
+                "time": "2023-10-11T00:00:00",
+                "ranking": null,
+                "previous": null,
+                "count": 2628,
+                "ratio": {
+                    "male": 28.4,
+                    "female": 71.6,
+                    "age10": 15.0,
+                    "age20": 38.0,
+                    "age30": 16.0,
+                    "age40": 18.0,
+                    "age50": 9.0,
                     "age60": 4.0
                 }
             }

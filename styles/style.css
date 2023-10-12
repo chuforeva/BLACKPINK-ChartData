@@ -1,0 +1,282 @@
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+    margin     : 0;
+    padding    : 0;
+}
+
+/* nav */
+
+nav {
+    float           : left;
+    background-color: #222222;
+    width           : 300px;
+    height          : 100vh;
+    user-select     : none;
+    overflow-y      : scroll;
+    overflow-x      : hidden;
+}
+
+nav h1 {
+    text-align: center;
+    padding   : 20px 0;
+}
+
+nav::-webkit-scrollbar {
+    width: 5px;
+}
+
+nav::-webkit-scrollbar-track {
+    background: transparent
+}
+
+nav::-webkit-scrollbar-thumb {
+    background   : #555;
+    border-radius: 5px;
+}
+
+nav::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+nav div {
+    line-height: 25px;
+}
+
+.album {
+    display              : grid;
+    grid-template-columns: 100px 200px;
+    grid-template-rows   : 25px 25px 25px;
+    width                : 100%;
+    padding              : 10px 0;
+    cursor               : pointer;
+}
+
+.album:hover {
+    background-color: #333333;
+}
+
+.album.selected {
+    background-color: #333333;
+}
+
+.album:first-child {
+    margin-top: 20px;
+}
+
+.album:last-child {
+    margin-bottom: 20px;
+}
+
+.album img {
+    display          : inline-block;
+    grid-column-start: 1;
+    grid-row-start   : 1;
+    grid-row-end     : 3;
+    width            : 75px;
+    padding          : 0 15px 0 10px;
+}
+
+.album_title {
+    overflow         : hidden;
+    white-space      : nowrap;
+    text-overflow    : ellipsis;
+    font-weight      : bold;
+    display          : block;
+    grid-column-start: 2;
+    grid-row-start   : 1;
+}
+
+.album_artist {
+    display          : block;
+    grid-column-start: 2;
+    grid-row-start   : 2;
+}
+
+.album_release {
+    display          : block;
+    grid-column-start: 2;
+    grid-row-start   : 3;
+    font-size        : 12px;
+}
+
+/* main */
+
+main {
+    width     : calc(100% - 300px);
+    float     : right;
+    height    : 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* header */
+
+header {
+    text-align         : center;
+    background-position: 50%;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+}
+
+#header_cover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#header_album {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size  : 50px;
+    font-weight: bolder;
+    padding    : 40px 0;
+}
+
+#header_artist {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size  : 30px;
+}
+
+#header_release {
+    font-size     : 15px;
+    padding-bottom: 40px;
+}
+
+/* songs */
+
+#songs {
+    width           : 100%;
+    text-align      : center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#songs div {
+    display         : inline-block;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding         : 10px 20px;
+    margin          : 10px;
+    border-radius   : 10px;
+    cursor          : pointer;
+}
+
+#songs div.selected,
+#songs div:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transition      : 0.3s ease;
+}
+
+/* select */
+
+#chart_select {
+    width     : 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#chart_select select {
+    padding  : 5px 10px;
+    font-size: 16px;
+}
+
+.title {
+    text-align: center;
+    margin    : 40px 0;
+}
+
+.title h1 {
+    margin-bottom: 0;
+}
+
+.title h2 {
+    margin-top : 0;
+    font-weight: lighter;
+}
+
+.chart {
+    margin-top: -80px;
+}
+
+.table {
+    width     : 100%;
+    text-align: center;
+}
+
+.table table {
+    border-collapse : collapse;
+    text-align      : center;
+    display         : inline-block;
+    background-color: rgb(255, 246, 235);
+    color           : black;
+}
+
+.table table th,
+.table table td {
+    border: 1px solid #525252;
+    height: 30px;
+}
+
+table#melon_top100 th:first-child,
+table#melon_realtime th:first-child,
+table#melon_daily th:first-child {
+    width: 120px;
+}
+
+table#melon_daily th:nth-child(2) {
+    width: 50px;
+}
+
+table#melon_daily th:nth-child(3),
+table#melon_daily th:nth-child(4) {
+    width: 150px;
+}
+
+table#melon_top100 td,
+table#melon_realtime td {
+    width: 30px;
+}
+
+table#melon_top100 td:empty,
+table#melon_realtime td:empty {
+    background-color: black;
+}
+
+.table_1 {
+    background-color: rgb(255, 217, 0);
+}
+
+.table_2 {
+    background-color: rgb(255, 196, 0);
+}
+
+.table_3 {
+    background-color: rgb(255, 145, 0);
+}
+
+.table_0 {
+    background-color: #FFDDDD;
+}
+
+.table_10 {
+    background-color: #F1C3B8;
+}
+
+.table_20 {
+    background-color: #E8C196;
+}
+
+.table_30 {
+    background-color: #A9CC6C;
+}
+
+.table_40 {
+    background-color: #B8C6EB;
+}
+
+.table_50,
+.table_60,
+.table_70,
+.table_80,
+.table_90 {
+    background-color: #538BD5;
+}
+
+.table_100 {
+    background-color: #3d4aa3;
+}
