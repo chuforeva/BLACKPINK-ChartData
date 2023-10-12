@@ -29,7 +29,7 @@ var select_data = {
 
 var chart_options = {
     backgroundColor: 'transparent',
-    width: window.innerWidth > 400 ? window.innerWidth - 300 : "100%",
+    width: window.innerWidth > 500 ? window.innerWidth - 300 : "100%",
     height: '800',
     series: {
         0: { color: '#FCA7BC' }
