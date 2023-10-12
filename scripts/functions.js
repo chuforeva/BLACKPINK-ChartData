@@ -299,15 +299,13 @@ function displayMelonTop100(artist, song) {
             var table_div = document.getElementById("trend-table");
             table_div.appendChild(table);
 
-            var title = document.createElement("div");
-            title.classList.add("title");
+            var title = document.getElementById("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon TOP 100 차트 추이"
             title.appendChild(h1);
             var h2 = document.createElement("span");
             h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
             title.appendChild(h2);
-            table_div.prepend(title);
 
             var chart_div = document.getElementById('trend-chart');
             var chart = new google.visualization.LineChart(chart_div);
@@ -315,12 +313,10 @@ function displayMelonTop100(artist, song) {
         })
         .catch(function () {
             var table_div = document.getElementById("trend-table");
-            var title = document.createElement("div");
-            title.classList.add("title");
+            var title = document.getElementById("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon TOP 100 차트 추이"
             title.appendChild(h1);
-            table_div.prepend(title);
 
             table_div.innerHTML += "<span>데이터 없음</span>";
         });
@@ -407,15 +403,13 @@ function displayMelonRealtime(artist, song) {
             var table_div = document.getElementById("trend-table");
             table_div.appendChild(table);
 
-            var title = document.createElement("div");
-            title.classList.add("title");
+            var title = document.getElementById("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon 실시간 차트 추이"
             title.appendChild(h1);
             var h2 = document.createElement("span");
             h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
             title.appendChild(h2);
-            table_div.prepend(title);
 
             var chart_div = document.getElementById('trend-chart');
             var chart = new google.visualization.LineChart(chart_div);
@@ -423,12 +417,10 @@ function displayMelonRealtime(artist, song) {
         })
         .catch(function () {
             var table_div = document.getElementById("trend-table");
-            var title = document.createElement("div");
-            title.classList.add("title");
+            var title = document.getElementById("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon 실시간 차트 추이"
             title.appendChild(h1);
-            table_div.prepend(title);
 
             table_div.innerHTML += "<span>데이터 없음</span>";
         });
@@ -505,15 +497,13 @@ function displayMelonDaily(artist, song) {
             var table_div = document.getElementById("trend-table");
             table_div.appendChild(table);
 
-            var title = document.createElement("div");
-            title.classList.add("title");
+            var title = document.getElementById("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon 일간 차트 추이"
             title.appendChild(h1);
             var h2 = document.createElement("span");
             h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
             title.appendChild(h2);
-            table_div.prepend(title);
 
             var chart_div = document.getElementById('trend-chart');
             var chart = new google.visualization.LineChart(chart_div);
@@ -521,12 +511,10 @@ function displayMelonDaily(artist, song) {
         })
         .catch(function () {
             var table_div = document.getElementById("trend-table");
-            var title = document.createElement("div");
-            title.classList.add("title");
+            var title = document.getElementById("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon 일간 차트 추이"
             title.appendChild(h1);
-            table_div.prepend(title);
 
             table_div.innerHTML += "<span>데이터 없음</span>";
         });
@@ -597,15 +585,13 @@ function displayMelonWeekly(artist, song) {
             var table_div = document.getElementById("trend-table");
             table_div.appendChild(table);
 
-            var title = document.createElement("div");
-            title.classList.add("title");
+            var title = document.getElementById("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon 주간 차트 추이"
             title.appendChild(h1);
             var h2 = document.createElement("span");
             h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
             title.appendChild(h2);
-            table_div.prepend(title);
 
             var chart_div = document.getElementById('trend-chart');
             var chart = new google.visualization.LineChart(chart_div);
@@ -613,12 +599,10 @@ function displayMelonWeekly(artist, song) {
         })
         .catch(function () {
             var table_div = document.getElementById("trend-table");
-            var title = document.createElement("div");
-            title.classList.add("title");
+            var title = document.getElementById("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon 주간 차트 추이"
             title.appendChild(h1);
-            table_div.prepend(title);
 
             table_div.innerHTML += "<span>데이터 없음</span>";
         });
@@ -688,15 +672,13 @@ function displayMelonMonthly(artist, song) {
             var table_div = document.getElementById("trend-table");
             table_div.appendChild(table);
 
-            var title = document.createElement("div");
-            title.classList.add("title");
+            var title = document.getElementById("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon 월간 차트 추이"
             title.appendChild(h1);
             var h2 = document.createElement("span");
             h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
             title.appendChild(h2);
-            table_div.prepend(title);
 
             var chart_div = document.getElementById('trend-chart');
             var chart = new google.visualization.LineChart(chart_div);
@@ -704,12 +686,10 @@ function displayMelonMonthly(artist, song) {
         })
         .catch(function () {
             var table_div = document.getElementById("trend-table");
-            var title = document.createElement("div");
-            title.classList.add("title");
+            var title = document.getElementById("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon 월간 차트 추이"
             title.appendChild(h1);
-            table_div.prepend(title);
 
             table_div.innerHTML += "<span>데이터 없음</span>";
         });
@@ -760,24 +740,20 @@ function displayMelonYearly(artist, song) {
             var table_div = document.getElementById("trend-table");
             table_div.appendChild(table);
 
-            var title = document.createElement("div");
-            title.classList.add("title");
+            var title = document.getElementById("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon 연간 차트 추이"
             title.appendChild(h1);
             var h2 = document.createElement("span");
             h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
             title.appendChild(h2);
-            table_div.prepend(title);
         })
         .catch(function () {
             var table_div = document.getElementById("trend-table");
-            var title = document.createElement("div");
-            title.classList.add("title");
+            var title = document.getElementById("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon 연간 차트 추이"
             title.appendChild(h1);
-            table_div.prepend(title);
 
             table_div.innerHTML += "<span>데이터 없음</span>";
         });

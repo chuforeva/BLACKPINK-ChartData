@@ -157,7 +157,7 @@ header {
 
 #header_cover {
     background-color: rgba(0, 0, 0, 0.4);
-    padding: 40px 0;
+    padding         : 40px 0;
 }
 
 #header_album {
@@ -213,31 +213,52 @@ header {
     font-size: 16px;
 }
 
-.title {
+#title {
     text-align: center;
     margin    : 40px 0;
 }
 
-.title h1 {
+#title h1 {
     margin-bottom: 0;
 }
 
-.title h2 {
+#title h2 {
     margin-top : 0;
     font-weight: lighter;
 }
 
-.chart {
+#trend-chart {
     margin-top: -80px;
     text-align: -webkit-center;
+    position  : relative;
+    z-index   : 1;
 }
 
-.table {
-    width     : 100%;
+#trend-table {
     text-align: center;
+    overflow-x: scroll;
+    position  : relative;
+    z-index   : 2;
 }
 
-.table table {
+#trend-table::-webkit-scrollbar {
+    height: 5px;
+}
+
+#trend-table::-webkit-scrollbar-track {
+    background: transparent
+}
+
+#trend-table::-webkit-scrollbar-thumb {
+    background   : #555;
+    border-radius: 5px;
+}
+
+#trend-table::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+#trend-table table {
     border-collapse : collapse;
     text-align      : center;
     display         : inline-block;
@@ -245,8 +266,8 @@ header {
     color           : black;
 }
 
-.table table th,
-.table table td {
+#trend-table table th,
+#trend-table table td {
     border: 1px solid #525252;
     height: 30px;
 }
@@ -257,7 +278,7 @@ table#melon_daily th:first-child,
 table#melon_weekly th:first-child,
 table#melon_monthly th:first-child,
 table#melon_yearly th:first-child {
-    width: 120px;
+    min-width: 120px;
 }
 
 table#melon_daily th:nth-child(2),
@@ -267,17 +288,17 @@ table#melon_monthly th:nth-child(2),
 table#melon_monthly th:nth-child(3),
 table#melon_yearly th:nth-child(2),
 table#melon_yearly th:nth-child(3) {
-    width: 50px;
+    min-width: 50px;
 }
 
 table#melon_daily th:nth-child(3),
 table#melon_daily th:nth-child(4) {
-    width: 150px;
+    min-width: 150px;
 }
 
 table#melon_top100 td,
 table#melon_realtime td {
-    width: 30px;
+    min-width: 30px;
 }
 
 table#melon_top100 td:empty,
