@@ -780,7 +780,7 @@ function displayMelonYearly(artist, song) {
 }
 
 function openPage(param) {
-    var url = location.origin;
+    var url = location.origin + location.pathname ;
     if (param) {
         url += "?" + param;
     }
