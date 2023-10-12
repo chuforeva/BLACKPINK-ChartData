@@ -125,7 +125,7 @@ function loadPage() {
 }
 
 function loadData(urlParams) {
-    fetch(window.location.origin + "/data.json")
+    fetch(location.origin + location.pathname + "data.json")
         .then((res) => res.json())
         .then((json) => {
 
@@ -210,7 +210,7 @@ function selectChart(index) {
 }
 
 function displayMelonTop100(artist, song) {
-    fetch(window.location.origin + `/backup/${song.json_id}_melon_top100.json`)
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_melon_top100.json`)
         .then((res) => res.json())
         .then((json) => {
             var table = document.createElement("table");
@@ -316,7 +316,7 @@ function displayMelonTop100(artist, song) {
 }
 
 function displayMelonRealtime(artist, song) {
-    fetch(window.location.origin + `/backup/${song.json_id}_melon_realtime.json`)
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_melon_realtime.json`)
         .then((res) => res.json())
         .then((json) => {
             var table = document.createElement("table");
@@ -424,7 +424,7 @@ function displayMelonRealtime(artist, song) {
 }
 
 function displayMelonDaily(artist, song) {
-    fetch(window.location.origin + `/backup/${song.json_id}_melon_daily.json`)
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_melon_daily.json`)
         .then((res) => res.json())
         .then((json) => {
             var table = document.createElement("table");
