@@ -126,6 +126,7 @@ nav div {
 /* main */
 
 main {
+    width     : calc(100% - 300px);
     min-width : calc(100% - 300px);
     float     : right;
     height    : 100vh;
