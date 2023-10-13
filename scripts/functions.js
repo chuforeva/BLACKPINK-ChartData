@@ -1,3 +1,5 @@
+const default_album = "you_me";
+
 var select_data = {
     "Melon": {
         "melon_top100": "Melon Top 100 차트",
@@ -29,7 +31,7 @@ var select_data = {
 
 var chart_options = {
     backgroundColor: 'transparent',
-    width: window.innerWidth > 500 ? window.innerWidth - 300 : "100%",
+    width: window.innerWidth > 800 ? window.innerWidth - 300 : window.innerWidth,
     height: '800',
     series: {
         0: { color: '#FCA7BC' }
@@ -122,9 +124,9 @@ function loadPage() {
 
     chart_select.append(select);
 
-    // if (window.innerWidth > 400) {
-    //     openNav();
-    // }
+    if (window.innerWidth <= 800) {
+        closeNav();
+    }
 
     loadData(urlParams);
 }
@@ -763,14 +765,14 @@ function closeNav() {
     document.getElementsByTagName("nav")[0].classList.add("close");
     document.getElementsByTagName("main")[0].classList.add("wide");
     document.getElementById("nav_h1").classList.add("close");
-    document.getElementById("nav_open").style.visibility = "visible";
+    document.getElementById("nav_open").classList.add("close");
 }
 
 function openNav() {
     document.getElementsByTagName("nav")[0].classList.remove("close");
     document.getElementsByTagName("main")[0].classList.remove("wide");
     document.getElementById("nav_h1").classList.remove("close");
-    document.getElementById("nav_open").style.visibility = "hidden";
+    document.getElementById("nav_open").classList.remove("close");
 }
 
 function openPage(param) {

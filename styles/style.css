@@ -144,6 +144,11 @@ main.wide {
     font-weight: bold;
     padding    : 20px;
     cursor     : pointer;
+    visibility : hidden;
+}
+
+#nav_open.close {
+    visibility: visible;
 }
 
 /* header */
