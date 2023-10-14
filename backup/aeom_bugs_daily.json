@@ -1,0 +1,75 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "bugs",
+        "chart": "BUGS_DAILY_CHART",
+        "songId": "6195058",
+        "timeUnit": "DAYS",
+        "size": 10,
+        "totalSize": 10,
+        "pagination": {
+            "currentSize": 10,
+            "pageSize": 20000,
+            "totalItems": 10,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "time": "2023-03-31T00:00:00",
+                "ranking": 27,
+                "previous": 0
+            },
+            {
+                "time": "2023-04-01T00:00:00",
+                "ranking": 60,
+                "previous": 27
+            },
+            {
+                "time": "2023-04-02T00:00:00",
+                "ranking": 55,
+                "previous": 60
+            },
+            {
+                "time": "2023-04-03T00:00:00",
+                "ranking": 62,
+                "previous": 55
+            },
+            {
+                "time": "2023-04-04T00:00:00",
+                "ranking": 84,
+                "previous": 62
+            },
+            {
+                "time": "2023-04-05T00:00:00",
+                "ranking": 90,
+                "previous": 84
+            },
+            {
+                "time": "2023-04-06T00:00:00",
+                "ranking": 92,
+                "previous": 90
+            },
+            {
+                "time": "2023-04-07T00:00:00",
+                "ranking": 100,
+                "previous": 92
+            },
+            {
+                "time": "2023-04-08T00:00:00",
+                "ranking": 102,
+                "previous": 100
+            },
+            {
+                "time": "2023-04-09T00:00:00",
+                "ranking": 100,
+                "previous": 102
+            }
+        ]
+    }
+}

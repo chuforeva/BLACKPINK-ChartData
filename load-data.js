@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const access_token = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0MSIsInJvbGUiOiJST0xFX1VTRVIiLCJpc3MiOiJjaGFydGluLm1lIiwiaWF0IjoxNjk3MTI1NjAzLCJleHAiOjE2OTcxNDAwMDN9.KSnm5hLy-zex1xQzcplDCrPVsNOVB4t9vJ3KKDKi_Yw";
+const access_token = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0MSIsInJvbGUiOiJST0xFX1VTRVIiLCJpc3MiOiJjaGFydGluLm1lIiwiaWF0IjoxNjk3MjA3MDY0LCJleHAiOjE2OTcyMjE0NjR9.0IVEXiY674xmxVbiJ1X2Z9iqtBCOjnUvpChLSBrpHLA";
 const api = "https://chartin.me";
 
 fs.readFile(path.resolve(__dirname, './data.json'), (err, data) => {

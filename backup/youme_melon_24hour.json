@@ -1,0 +1,281 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "melon",
+        "chart": "MELON_24HOUR_COUNT",
+        "songId": "36852553",
+        "timeUnit": "HOURS",
+        "size": 16,
+        "totalSize": 16,
+        "pagination": {
+            "currentSize": 16,
+            "pageSize": 10000,
+            "totalItems": 16,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "time": "2023-10-06T23:00:00",
+                "ranking": 3,
+                "previous": 4,
+                "count": 119822,
+                "ratio": {
+                    "male": 30.0,
+                    "female": 70.0,
+                    "age10": 11.0,
+                    "age20": 42.0,
+                    "age30": 22.0,
+                    "age40": 15.0,
+                    "age50": 9.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-11T09:00:00",
+                "ranking": 2,
+                "previous": 4,
+                "count": 213878,
+                "ratio": {
+                    "male": 30.9,
+                    "female": 69.1,
+                    "age10": 8.0,
+                    "age20": 37.0,
+                    "age30": 28.0,
+                    "age40": 18.0,
+                    "age50": 8.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-11T10:00:00",
+                "ranking": 2,
+                "previous": 2,
+                "count": 215648,
+                "ratio": {
+                    "male": 31.0,
+                    "female": 69.0,
+                    "age10": 8.0,
+                    "age20": 37.0,
+                    "age30": 28.0,
+                    "age40": 18.0,
+                    "age50": 8.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-11T18:00:00",
+                "ranking": 2,
+                "previous": 5,
+                "count": 225665,
+                "ratio": {
+                    "male": 31.1,
+                    "female": 68.9,
+                    "age10": 8.0,
+                    "age20": 36.0,
+                    "age30": 28.0,
+                    "age40": 19.0,
+                    "age50": 8.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-11T19:00:00",
+                "ranking": 2,
+                "previous": 2,
+                "count": 227889,
+                "ratio": {
+                    "male": 31.3,
+                    "female": 68.7,
+                    "age10": 8.0,
+                    "age20": 36.0,
+                    "age30": 28.0,
+                    "age40": 19.0,
+                    "age50": 8.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-11T20:00:00",
+                "ranking": 3,
+                "previous": 2,
+                "count": 229005,
+                "ratio": {
+                    "male": 31.4,
+                    "female": 68.6,
+                    "age10": 8.0,
+                    "age20": 36.0,
+                    "age30": 28.0,
+                    "age40": 19.0,
+                    "age50": 8.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-12T08:00:00",
+                "ranking": 2,
+                "previous": 16,
+                "count": 234516,
+                "ratio": {
+                    "male": 31.4,
+                    "female": 68.6,
+                    "age10": 8.0,
+                    "age20": 36.0,
+                    "age30": 28.0,
+                    "age40": 19.0,
+                    "age50": 8.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-12T09:00:00",
+                "ranking": 1,
+                "previous": 2,
+                "count": 236463,
+                "ratio": {
+                    "male": 31.4,
+                    "female": 68.6,
+                    "age10": 8.0,
+                    "age20": 36.0,
+                    "age30": 28.0,
+                    "age40": 19.0,
+                    "age50": 8.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-12T10:00:00",
+                "ranking": 1,
+                "previous": 1,
+                "count": 238535,
+                "ratio": {
+                    "male": 31.5,
+                    "female": 68.5,
+                    "age10": 8.0,
+                    "age20": 36.0,
+                    "age30": 28.0,
+                    "age40": 19.0,
+                    "age50": 8.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-12T19:00:00",
+                "ranking": 3,
+                "previous": 4,
+                "count": 236750,
+                "ratio": {
+                    "male": 31.6,
+                    "female": 68.4,
+                    "age10": 8.0,
+                    "age20": 35.0,
+                    "age30": 29.0,
+                    "age40": 19.0,
+                    "age50": 8.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-12T20:00:00",
+                "ranking": 3,
+                "previous": 3,
+                "count": 236389,
+                "ratio": {
+                    "male": 31.7,
+                    "female": 68.3,
+                    "age10": 8.0,
+                    "age20": 35.0,
+                    "age30": 29.0,
+                    "age40": 19.0,
+                    "age50": 8.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-13T08:00:00",
+                "ranking": 2,
+                "previous": 16,
+                "count": 237342,
+                "ratio": {
+                    "male": 31.8,
+                    "female": 68.2,
+                    "age10": 8.0,
+                    "age20": 35.0,
+                    "age30": 29.0,
+                    "age40": 19.0,
+                    "age50": 8.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-13T09:00:00",
+                "ranking": 1,
+                "previous": 2,
+                "count": 237521,
+                "ratio": {
+                    "male": 31.8,
+                    "female": 68.2,
+                    "age10": 8.0,
+                    "age20": 35.0,
+                    "age30": 29.0,
+                    "age40": 19.0,
+                    "age50": 8.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-13T10:00:00",
+                "ranking": 1,
+                "previous": 1,
+                "count": 238062,
+                "ratio": {
+                    "male": 31.8,
+                    "female": 68.2,
+                    "age10": 8.0,
+                    "age20": 35.0,
+                    "age30": 29.0,
+                    "age40": 19.0,
+                    "age50": 8.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-13T19:00:00",
+                "ranking": 3,
+                "previous": 5,
+                "count": 246348,
+                "ratio": {
+                    "male": 32.4,
+                    "female": 67.6,
+                    "age10": 8.0,
+                    "age20": 35.0,
+                    "age30": 29.0,
+                    "age40": 19.0,
+                    "age50": 8.0,
+                    "age60": 1.0
+                }
+            },
+            {
+                "time": "2023-10-13T20:00:00",
+                "ranking": 3,
+                "previous": 3,
+                "count": 246947,
+                "ratio": {
+                    "male": 32.4,
+                    "female": 67.6,
+                    "age10": 8.0,
+                    "age20": 34.0,
+                    "age30": 29.0,
+                    "age40": 19.0,
+                    "age50": 8.0,
+                    "age60": 2.0
+                }
+            }
+        ]
+    }
+}

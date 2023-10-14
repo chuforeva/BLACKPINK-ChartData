@@ -1,0 +1,80 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "bugs",
+        "chart": "BUGS_REALTIME_CHART",
+        "songId": "30349372",
+        "timeUnit": "HOURS",
+        "size": 11,
+        "totalSize": 11,
+        "pagination": {
+            "currentSize": 11,
+            "pageSize": 20000,
+            "totalItems": 11,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "time": "2021-05-17T14:00:00",
+                "ranking": 95,
+                "previous": 0
+            },
+            {
+                "time": "2021-05-18T12:00:00",
+                "ranking": 93,
+                "previous": 0
+            },
+            {
+                "time": "2022-01-25T11:00:00",
+                "ranking": 87,
+                "previous": 0
+            },
+            {
+                "time": "2022-03-14T17:00:00",
+                "ranking": 90,
+                "previous": 0
+            },
+            {
+                "time": "2022-05-22T12:00:00",
+                "ranking": 97,
+                "previous": 0
+            },
+            {
+                "time": "2022-06-08T10:00:00",
+                "ranking": 76,
+                "previous": 0
+            },
+            {
+                "time": "2022-06-19T13:00:00",
+                "ranking": 99,
+                "previous": 0
+            },
+            {
+                "time": "2022-07-04T16:00:00",
+                "ranking": 76,
+                "previous": 0
+            },
+            {
+                "time": "2022-07-05T11:00:00",
+                "ranking": 91,
+                "previous": 0
+            },
+            {
+                "time": "2022-09-23T11:00:00",
+                "ranking": 91,
+                "previous": 0
+            },
+            {
+                "time": "2022-09-25T12:00:00",
+                "ranking": 97,
+                "previous": 0
+            }
+        ]
+    }
+}

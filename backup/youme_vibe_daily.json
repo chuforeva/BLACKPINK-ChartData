@@ -1,0 +1,65 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "vibe",
+        "chart": "VIBE_DAILY_CHART",
+        "songId": "67725695",
+        "timeUnit": "DAYS",
+        "size": 8,
+        "totalSize": 8,
+        "pagination": {
+            "currentSize": 8,
+            "pageSize": 20000,
+            "totalItems": 8,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "time": "2023-10-07T00:00:00",
+                "ranking": 47,
+                "previous": 0
+            },
+            {
+                "time": "2023-10-08T00:00:00",
+                "ranking": 22,
+                "previous": 47
+            },
+            {
+                "time": "2023-10-09T00:00:00",
+                "ranking": 15,
+                "previous": 22
+            },
+            {
+                "time": "2023-10-10T00:00:00",
+                "ranking": 13,
+                "previous": 15
+            },
+            {
+                "time": "2023-10-11T00:00:00",
+                "ranking": 10,
+                "previous": 13
+            },
+            {
+                "time": "2023-10-12T00:00:00",
+                "ranking": 5,
+                "previous": 10
+            },
+            {
+                "time": "2023-10-13T00:00:00",
+                "ranking": 3,
+                "previous": 5
+            },
+            {
+                "time": "2023-10-14T00:00:00",
+                "ranking": 2,
+                "previous": 3
+            }
+        ]
+    }
+}

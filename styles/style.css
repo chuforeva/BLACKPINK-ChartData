@@ -277,12 +277,7 @@ header {
     height: 30px;
 }
 
-table#melon_top100 th:first-child,
-table#melon_realtime th:first-child,
-table#melon_daily th:first-child,
-table#melon_weekly th:first-child,
-table#melon_monthly th:first-child,
-table#melon_yearly th:first-child {
+#trend-table table th:first-child {
     min-width: 120px;
 }
 
@@ -292,22 +287,37 @@ table#melon_weekly th:nth-child(3),
 table#melon_monthly th:nth-child(2),
 table#melon_monthly th:nth-child(3),
 table#melon_yearly th:nth-child(2),
-table#melon_yearly th:nth-child(3) {
+table#melon_yearly th:nth-child(3),
+table#genie_daily th:nth-child(2),
+table#genie_daily th:nth-child(3),
+table#bugs_daily th:nth-child(2),
+table#bugs_daily th:nth-child(3),
+table#vibe_daily th:nth-child(2),
+table#vibe_daily th:nth-child(3), 
+table#circle_weekly th:nth-child(2) {
     min-width: 50px;
 }
 
 table#melon_daily th:nth-child(3),
-table#melon_daily th:nth-child(4) {
+table#melon_daily th:nth-child(4),
+table#circle_weekly th:nth-child(3),
+table#circle_weekly th:nth-child(4) {
     min-width: 150px;
 }
 
 table#melon_top100 td,
-table#melon_realtime td {
+table#melon_realtime td,
+table#genie_realtime td,
+table#flo_24hour td,
+table#bugs_realtime td {
     min-width: 30px;
 }
 
 table#melon_top100 td:empty,
-table#melon_realtime td:empty {
+table#melon_realtime td:empty,
+table#genie_realtime td:empty,
+table#flo_24hour td:empty,
+table#bugs_realtime td:empty {
     background-color: black;
 }
 
@@ -352,5 +362,5 @@ table#melon_realtime td:empty {
 }
 
 .table_100 {
-    background-color: #3d4aa3;
+    background-color: #808080;
 }

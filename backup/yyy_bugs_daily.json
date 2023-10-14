@@ -1,0 +1,255 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "bugs",
+        "chart": "BUGS_DAILY_CHART",
+        "songId": "6176181",
+        "timeUnit": "DAYS",
+        "size": 46,
+        "totalSize": 46,
+        "pagination": {
+            "currentSize": 46,
+            "pageSize": 10000,
+            "totalItems": 46,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "time": "2022-09-16T00:00:00",
+                "ranking": 4,
+                "previous": 0
+            },
+            {
+                "time": "2022-09-17T00:00:00",
+                "ranking": 8,
+                "previous": 4
+            },
+            {
+                "time": "2022-09-18T00:00:00",
+                "ranking": 9,
+                "previous": 8
+            },
+            {
+                "time": "2022-09-19T00:00:00",
+                "ranking": 12,
+                "previous": 9
+            },
+            {
+                "time": "2022-09-20T00:00:00",
+                "ranking": 12,
+                "previous": 12
+            },
+            {
+                "time": "2022-09-21T00:00:00",
+                "ranking": 17,
+                "previous": 12
+            },
+            {
+                "time": "2022-09-22T00:00:00",
+                "ranking": 17,
+                "previous": 17
+            },
+            {
+                "time": "2022-09-23T00:00:00",
+                "ranking": 17,
+                "previous": 17
+            },
+            {
+                "time": "2022-09-24T00:00:00",
+                "ranking": 26,
+                "previous": 17
+            },
+            {
+                "time": "2022-09-25T00:00:00",
+                "ranking": 24,
+                "previous": 26
+            },
+            {
+                "time": "2022-09-26T00:00:00",
+                "ranking": 25,
+                "previous": 24
+            },
+            {
+                "time": "2022-09-27T00:00:00",
+                "ranking": 32,
+                "previous": 25
+            },
+            {
+                "time": "2022-09-28T00:00:00",
+                "ranking": 31,
+                "previous": 32
+            },
+            {
+                "time": "2022-09-29T00:00:00",
+                "ranking": 23,
+                "previous": 31
+            },
+            {
+                "time": "2022-09-30T00:00:00",
+                "ranking": 29,
+                "previous": 23
+            },
+            {
+                "time": "2022-10-01T00:00:00",
+                "ranking": 33,
+                "previous": 29
+            },
+            {
+                "time": "2022-10-02T00:00:00",
+                "ranking": 40,
+                "previous": 33
+            },
+            {
+                "time": "2022-10-03T00:00:00",
+                "ranking": 33,
+                "previous": 40
+            },
+            {
+                "time": "2022-10-04T00:00:00",
+                "ranking": 57,
+                "previous": 33
+            },
+            {
+                "time": "2022-10-05T00:00:00",
+                "ranking": 55,
+                "previous": 57
+            },
+            {
+                "time": "2022-10-06T00:00:00",
+                "ranking": 53,
+                "previous": 55
+            },
+            {
+                "time": "2022-10-07T00:00:00",
+                "ranking": 62,
+                "previous": 53
+            },
+            {
+                "time": "2022-10-08T00:00:00",
+                "ranking": 55,
+                "previous": 62
+            },
+            {
+                "time": "2022-10-09T00:00:00",
+                "ranking": 45,
+                "previous": 55
+            },
+            {
+                "time": "2022-10-10T00:00:00",
+                "ranking": 44,
+                "previous": 45
+            },
+            {
+                "time": "2022-10-11T00:00:00",
+                "ranking": 69,
+                "previous": 44
+            },
+            {
+                "time": "2022-10-12T00:00:00",
+                "ranking": 55,
+                "previous": 69
+            },
+            {
+                "time": "2022-10-13T00:00:00",
+                "ranking": 65,
+                "previous": 55
+            },
+            {
+                "time": "2022-10-14T00:00:00",
+                "ranking": 55,
+                "previous": 65
+            },
+            {
+                "time": "2022-10-15T00:00:00",
+                "ranking": 56,
+                "previous": 55
+            },
+            {
+                "time": "2022-10-16T00:00:00",
+                "ranking": 48,
+                "previous": 56
+            },
+            {
+                "time": "2022-10-17T00:00:00",
+                "ranking": 64,
+                "previous": 48
+            },
+            {
+                "time": "2022-10-18T00:00:00",
+                "ranking": 81,
+                "previous": 64
+            },
+            {
+                "time": "2022-10-19T00:00:00",
+                "ranking": 83,
+                "previous": 81
+            },
+            {
+                "time": "2022-10-20T00:00:00",
+                "ranking": 77,
+                "previous": 83
+            },
+            {
+                "time": "2022-10-21T00:00:00",
+                "ranking": 87,
+                "previous": 77
+            },
+            {
+                "time": "2022-10-22T00:00:00",
+                "ranking": 92,
+                "previous": 87
+            },
+            {
+                "time": "2022-10-23T00:00:00",
+                "ranking": 91,
+                "previous": 92
+            },
+            {
+                "time": "2022-10-24T00:00:00",
+                "ranking": 89,
+                "previous": 91
+            },
+            {
+                "time": "2022-10-25T00:00:00",
+                "ranking": 90,
+                "previous": 89
+            },
+            {
+                "time": "2022-10-26T00:00:00",
+                "ranking": 92,
+                "previous": 90
+            },
+            {
+                "time": "2022-10-27T00:00:00",
+                "ranking": 90,
+                "previous": 92
+            },
+            {
+                "time": "2022-10-29T00:00:00",
+                "ranking": 92,
+                "previous": 101
+            },
+            {
+                "time": "2022-10-30T00:00:00",
+                "ranking": 97,
+                "previous": 92
+            },
+            {
+                "time": "2022-11-03T00:00:00",
+                "ranking": 92,
+                "previous": 104
+            },
+            {
+                "time": "2022-11-04T00:00:00",
+                "ranking": 95,
+                "previous": 92
+            }
+        ]
+    }
+}

@@ -1,0 +1,249 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "circle",
+        "chart": "CIRCLE_DIGITAL_WEEKLY_CHART",
+        "songId": "2484982",
+        "timeUnit": "WEEKS",
+        "size": 28,
+        "totalSize": 28,
+        "pagination": {
+            "currentSize": 28,
+            "pageSize": 20000,
+            "totalItems": 28,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "time": "2023-03-26T00:00:00",
+                "ranking": 33,
+                "previous": 0,
+                "count": 7377997,
+                "year": 2023,
+                "week": 13
+            },
+            {
+                "time": "2023-04-02T00:00:00",
+                "ranking": 2,
+                "previous": 33,
+                "count": 20081797,
+                "year": 2023,
+                "week": 14
+            },
+            {
+                "time": "2023-04-09T00:00:00",
+                "ranking": 3,
+                "previous": 2,
+                "count": 25344907,
+                "year": 2023,
+                "week": 15
+            },
+            {
+                "time": "2023-04-16T00:00:00",
+                "ranking": 3,
+                "previous": 3,
+                "count": 26573265,
+                "year": 2023,
+                "week": 16
+            },
+            {
+                "time": "2023-04-23T00:00:00",
+                "ranking": 3,
+                "previous": 3,
+                "count": 24759288,
+                "year": 2023,
+                "week": 17
+            },
+            {
+                "time": "2023-04-30T00:00:00",
+                "ranking": 5,
+                "previous": 3,
+                "count": 22917046,
+                "year": 2023,
+                "week": 18
+            },
+            {
+                "time": "2023-05-07T00:00:00",
+                "ranking": 4,
+                "previous": 5,
+                "count": 21525065,
+                "year": 2023,
+                "week": 19
+            },
+            {
+                "time": "2023-05-14T00:00:00",
+                "ranking": 6,
+                "previous": 4,
+                "count": 19689683,
+                "year": 2023,
+                "week": 20
+            },
+            {
+                "time": "2023-05-21T00:00:00",
+                "ranking": 6,
+                "previous": 6,
+                "count": 18326806,
+                "year": 2023,
+                "week": 21
+            },
+            {
+                "time": "2023-05-28T00:00:00",
+                "ranking": 6,
+                "previous": 6,
+                "count": 16970110,
+                "year": 2023,
+                "week": 22
+            },
+            {
+                "time": "2023-06-04T00:00:00",
+                "ranking": 8,
+                "previous": 6,
+                "count": 15217980,
+                "year": 2023,
+                "week": 23
+            },
+            {
+                "time": "2023-06-11T00:00:00",
+                "ranking": 10,
+                "previous": 8,
+                "count": 13731230,
+                "year": 2023,
+                "week": 24
+            },
+            {
+                "time": "2023-06-18T00:00:00",
+                "ranking": 10,
+                "previous": 10,
+                "count": 12854360,
+                "year": 2023,
+                "week": 25
+            },
+            {
+                "time": "2023-06-25T00:00:00",
+                "ranking": 13,
+                "previous": 10,
+                "count": 11537494,
+                "year": 2023,
+                "week": 26
+            },
+            {
+                "time": "2023-07-02T00:00:00",
+                "ranking": 12,
+                "previous": 13,
+                "count": 10836379,
+                "year": 2023,
+                "week": 27
+            },
+            {
+                "time": "2023-07-09T00:00:00",
+                "ranking": 19,
+                "previous": 12,
+                "count": 9719254,
+                "year": 2023,
+                "week": 28
+            },
+            {
+                "time": "2023-07-16T00:00:00",
+                "ranking": 19,
+                "previous": 19,
+                "count": 9361712,
+                "year": 2023,
+                "week": 29
+            },
+            {
+                "time": "2023-07-23T00:00:00",
+                "ranking": 23,
+                "previous": 19,
+                "count": 9060984,
+                "year": 2023,
+                "week": 30
+            },
+            {
+                "time": "2023-07-30T00:00:00",
+                "ranking": 21,
+                "previous": 23,
+                "count": 8831259,
+                "year": 2023,
+                "week": 31
+            },
+            {
+                "time": "2023-08-06T00:00:00",
+                "ranking": 27,
+                "previous": 21,
+                "count": 7756572,
+                "year": 2023,
+                "week": 32
+            },
+            {
+                "time": "2023-08-13T00:00:00",
+                "ranking": 26,
+                "previous": 27,
+                "count": 7589697,
+                "year": 2023,
+                "week": 33
+            },
+            {
+                "time": "2023-08-20T00:00:00",
+                "ranking": 34,
+                "previous": 26,
+                "count": 6859539,
+                "year": 2023,
+                "week": 34
+            },
+            {
+                "time": "2023-08-27T00:00:00",
+                "ranking": 33,
+                "previous": 34,
+                "count": 6492867,
+                "year": 2023,
+                "week": 35
+            },
+            {
+                "time": "2023-09-03T00:00:00",
+                "ranking": 40,
+                "previous": 33,
+                "count": 6379634,
+                "year": 2023,
+                "week": 36
+            },
+            {
+                "time": "2023-09-10T00:00:00",
+                "ranking": 48,
+                "previous": 40,
+                "count": 5965788,
+                "year": 2023,
+                "week": 37
+            },
+            {
+                "time": "2023-09-17T00:00:00",
+                "ranking": 48,
+                "previous": 48,
+                "count": 5825648,
+                "year": 2023,
+                "week": 38
+            },
+            {
+                "time": "2023-09-24T00:00:00",
+                "ranking": 50,
+                "previous": 48,
+                "count": 5508744,
+                "year": 2023,
+                "week": 39
+            },
+            {
+                "time": "2023-10-01T00:00:00",
+                "ranking": 50,
+                "previous": 50,
+                "count": 5143568,
+                "year": 2023,
+                "week": 40
+            }
+        ]
+    }
+}

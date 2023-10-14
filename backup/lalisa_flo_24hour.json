@@ -1,0 +1,55 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "flo",
+        "chart": "FLO_24HOUR_CHART",
+        "songId": "447521623",
+        "timeUnit": "HOURS",
+        "size": 6,
+        "totalSize": 6,
+        "pagination": {
+            "currentSize": 6,
+            "pageSize": 20000,
+            "totalItems": 6,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "time": "2021-09-10T22:00:00",
+                "ranking": 100,
+                "previous": 100
+            },
+            {
+                "time": "2021-09-10T23:00:00",
+                "ranking": 100,
+                "previous": 100
+            },
+            {
+                "time": "2021-09-11T00:00:00",
+                "ranking": 100,
+                "previous": 100
+            },
+            {
+                "time": "2021-09-11T01:00:00",
+                "ranking": 99,
+                "previous": 100
+            },
+            {
+                "time": "2021-09-11T02:00:00",
+                "ranking": 100,
+                "previous": 99
+            },
+            {
+                "time": "2021-09-11T03:00:00",
+                "ranking": 100,
+                "previous": 100
+            }
+        ]
+    }
+}

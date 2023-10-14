@@ -1,0 +1,1327 @@
+{
+  "code": 200,
+  "message": "OK",
+  "body": {
+    "platform": "genie",
+    "chart": "GENIE_REALTIME_CHART",
+    "songId": "103797393",
+    "timeUnit": "HOURS",
+    "size": 186,
+    "totalSize": 186,
+    "pagination": {
+      "currentSize": 186,
+      "pageSize": 10000,
+      "totalItems": 186,
+      "currentPage": 1,
+      "totalPages": 1,
+      "isFirstPage": true,
+      "isLastPage": true,
+      "hasPreviousPage": false,
+      "hasNextPage": false
+    },
+    "data": [
+      {
+        "time": "2023-10-06T14:00:00",
+        "ranking": 18,
+        "previous": 0,
+        "count1": 4519,
+        "count2": 7358
+      },
+      {
+        "time": "2023-10-06T15:00:00",
+        "ranking": 12,
+        "previous": 18,
+        "count1": 8740,
+        "count2": 15933
+      },
+      {
+        "time": "2023-10-06T16:00:00",
+        "ranking": 11,
+        "previous": 12,
+        "count1": 13016,
+        "count2": 25076
+      },
+      {
+        "time": "2023-10-06T17:00:00",
+        "ranking": 11,
+        "previous": 11,
+        "count1": 17881,
+        "count2": 35748
+      },
+      {
+        "time": "2023-10-06T18:00:00",
+        "ranking": 7,
+        "previous": 11,
+        "count1": 23998,
+        "count2": 48916
+      },
+      {
+        "time": "2023-10-06T19:00:00",
+        "ranking": 8,
+        "previous": 7,
+        "count1": 30496,
+        "count2": 63799
+      },
+      {
+        "time": "2023-10-06T20:00:00",
+        "ranking": 9,
+        "previous": 8,
+        "count1": 34576,
+        "count2": 74870
+      },
+      {
+        "time": "2023-10-06T21:00:00",
+        "ranking": 8,
+        "previous": 9,
+        "count1": 37790,
+        "count2": 84280
+      },
+      {
+        "time": "2023-10-06T22:00:00",
+        "ranking": 4,
+        "previous": 8,
+        "count1": 40603,
+        "count2": 93068
+      },
+      {
+        "time": "2023-10-06T23:00:00",
+        "ranking": 3,
+        "previous": 4,
+        "count1": 43358,
+        "count2": 101800
+      },
+      {
+        "time": "2023-10-07T00:00:00",
+        "ranking": 2,
+        "previous": 3,
+        "count1": 45331,
+        "count2": 108612
+      },
+      {
+        "time": "2023-10-07T01:00:00",
+        "ranking": 16,
+        "previous": 2,
+        "count1": 46713,
+        "count2": 113995
+      },
+      {
+        "time": "2023-10-07T02:00:00",
+        "ranking": 16,
+        "previous": 2,
+        "count1": 47482,
+        "count2": 117507
+      },
+      {
+        "time": "2023-10-07T03:00:00",
+        "ranking": 16,
+        "previous": 2,
+        "count1": 47939,
+        "count2": 119812
+      },
+      {
+        "time": "2023-10-07T04:00:00",
+        "ranking": 16,
+        "previous": 2,
+        "count1": 48227,
+        "count2": 121470
+      },
+      {
+        "time": "2023-10-07T05:00:00",
+        "ranking": 16,
+        "previous": 2,
+        "count1": 48458,
+        "count2": 122757
+      },
+      {
+        "time": "2023-10-07T06:00:00",
+        "ranking": 16,
+        "previous": 2,
+        "count1": 48830,
+        "count2": 124268
+      },
+      {
+        "time": "2023-10-07T07:00:00",
+        "ranking": 30,
+        "previous": 16,
+        "count1": 49498,
+        "count2": 126598
+      },
+      {
+        "time": "2023-10-07T08:00:00",
+        "ranking": 22,
+        "previous": 30,
+        "count1": 50799,
+        "count2": 131067
+      },
+      {
+        "time": "2023-10-07T09:00:00",
+        "ranking": 8,
+        "previous": 22,
+        "count1": 53065,
+        "count2": 138511
+      },
+      {
+        "time": "2023-10-07T10:00:00",
+        "ranking": 9,
+        "previous": 8,
+        "count1": 56028,
+        "count2": 147361
+      },
+      {
+        "time": "2023-10-07T11:00:00",
+        "ranking": 12,
+        "previous": 9,
+        "count1": 59137,
+        "count2": 157203
+      },
+      {
+        "time": "2023-10-07T12:00:00",
+        "ranking": 13,
+        "previous": 12,
+        "count1": 62132,
+        "count2": 167654
+      },
+      {
+        "time": "2023-10-07T13:00:00",
+        "ranking": 13,
+        "previous": 13,
+        "count1": 64878,
+        "count2": 177855
+      },
+      {
+        "time": "2023-10-07T14:00:00",
+        "ranking": 13,
+        "previous": 13,
+        "count1": 67939,
+        "count2": 188663
+      },
+      {
+        "time": "2023-10-07T15:00:00",
+        "ranking": 13,
+        "previous": 13,
+        "count1": 70933,
+        "count2": 199387
+      },
+      {
+        "time": "2023-10-07T16:00:00",
+        "ranking": 12,
+        "previous": 13,
+        "count1": 73695,
+        "count2": 209562
+      },
+      {
+        "time": "2023-10-07T17:00:00",
+        "ranking": 13,
+        "previous": 12,
+        "count1": 76440,
+        "count2": 220067
+      },
+      {
+        "time": "2023-10-07T18:00:00",
+        "ranking": 12,
+        "previous": 13,
+        "count1": 79109,
+        "count2": 229901
+      },
+      {
+        "time": "2023-10-07T19:00:00",
+        "ranking": 12,
+        "previous": 12,
+        "count1": 81370,
+        "count2": 239037
+      },
+      {
+        "time": "2023-10-07T20:00:00",
+        "ranking": 12,
+        "previous": 12,
+        "count1": 83093,
+        "count2": 246486
+      },
+      {
+        "time": "2023-10-07T21:00:00",
+        "ranking": 10,
+        "previous": 12,
+        "count1": 84578,
+        "count2": 253129
+      },
+      {
+        "time": "2023-10-07T22:00:00",
+        "ranking": 15,
+        "previous": 10,
+        "count1": 85601,
+        "count2": 258501
+      },
+      {
+        "time": "2023-10-07T23:00:00",
+        "ranking": 19,
+        "previous": 15,
+        "count1": 86401,
+        "count2": 263003
+      },
+      {
+        "time": "2023-10-08T00:00:00",
+        "ranking": 19,
+        "previous": 19,
+        "count1": 87344,
+        "count2": 268222
+      },
+      {
+        "time": "2023-10-08T01:00:00",
+        "ranking": 18,
+        "previous": 19,
+        "count1": 88048,
+        "count2": 272294
+      },
+      {
+        "time": "2023-10-08T02:00:00",
+        "ranking": 18,
+        "previous": 19,
+        "count1": 88524,
+        "count2": 275196
+      },
+      {
+        "time": "2023-10-08T03:00:00",
+        "ranking": 18,
+        "previous": 19,
+        "count1": 88831,
+        "count2": 277292
+      },
+      {
+        "time": "2023-10-08T04:00:00",
+        "ranking": 18,
+        "previous": 19,
+        "count1": 89015,
+        "count2": 278850
+      },
+      {
+        "time": "2023-10-08T05:00:00",
+        "ranking": 18,
+        "previous": 19,
+        "count1": 89172,
+        "count2": 280110
+      },
+      {
+        "time": "2023-10-08T06:00:00",
+        "ranking": 18,
+        "previous": 19,
+        "count1": 89353,
+        "count2": 281397
+      },
+      {
+        "time": "2023-10-08T07:00:00",
+        "ranking": 44,
+        "previous": 18,
+        "count1": 89648,
+        "count2": 282985
+      },
+      {
+        "time": "2023-10-08T08:00:00",
+        "ranking": 41,
+        "previous": 44,
+        "count1": 90067,
+        "count2": 285221
+      },
+      {
+        "time": "2023-10-08T09:00:00",
+        "ranking": 25,
+        "previous": 41,
+        "count1": 90922,
+        "count2": 288980
+      },
+      {
+        "time": "2023-10-08T10:00:00",
+        "ranking": 23,
+        "previous": 25,
+        "count1": 92336,
+        "count2": 294459
+      },
+      {
+        "time": "2023-10-08T11:00:00",
+        "ranking": 13,
+        "previous": 23,
+        "count1": 94230,
+        "count2": 301682
+      },
+      {
+        "time": "2023-10-08T12:00:00",
+        "ranking": 12,
+        "previous": 13,
+        "count1": 96453,
+        "count2": 310108
+      },
+      {
+        "time": "2023-10-08T13:00:00",
+        "ranking": 12,
+        "previous": 12,
+        "count1": 98847,
+        "count2": 319249
+      },
+      {
+        "time": "2023-10-08T14:00:00",
+        "ranking": 12,
+        "previous": 12,
+        "count1": 101308,
+        "count2": 328800
+      },
+      {
+        "time": "2023-10-08T15:00:00",
+        "ranking": 12,
+        "previous": 12,
+        "count1": 103680,
+        "count2": 338442
+      },
+      {
+        "time": "2023-10-08T16:00:00",
+        "ranking": 11,
+        "previous": 12,
+        "count1": 106061,
+        "count2": 347932
+      },
+      {
+        "time": "2023-10-08T17:00:00",
+        "ranking": 11,
+        "previous": 11,
+        "count1": 108277,
+        "count2": 357075
+      },
+      {
+        "time": "2023-10-08T18:00:00",
+        "ranking": 12,
+        "previous": 11,
+        "count1": 110363,
+        "count2": 365953
+      },
+      {
+        "time": "2023-10-08T19:00:00",
+        "ranking": 11,
+        "previous": 12,
+        "count1": 112147,
+        "count2": 374246
+      },
+      {
+        "time": "2023-10-08T20:00:00",
+        "ranking": 10,
+        "previous": 11,
+        "count1": 113605,
+        "count2": 381616
+      },
+      {
+        "time": "2023-10-08T21:00:00",
+        "ranking": 8,
+        "previous": 10,
+        "count1": 114992,
+        "count2": 388658
+      },
+      {
+        "time": "2023-10-08T22:00:00",
+        "ranking": 5,
+        "previous": 8,
+        "count1": 116196,
+        "count2": 395543
+      },
+      {
+        "time": "2023-10-08T23:00:00",
+        "ranking": 5,
+        "previous": 5,
+        "count1": 117217,
+        "count2": 401864
+      },
+      {
+        "time": "2023-10-09T00:00:00",
+        "ranking": 18,
+        "previous": 5,
+        "count1": 118013,
+        "count2": 407236
+      },
+      {
+        "time": "2023-10-09T01:00:00",
+        "ranking": 18,
+        "previous": 18,
+        "count1": 118480,
+        "count2": 410925
+      },
+      {
+        "time": "2023-10-09T02:00:00",
+        "ranking": 18,
+        "previous": 18,
+        "count1": 118846,
+        "count2": 413653
+      },
+      {
+        "time": "2023-10-09T03:00:00",
+        "ranking": 18,
+        "previous": 18,
+        "count1": 119057,
+        "count2": 415686
+      },
+      {
+        "time": "2023-10-09T04:00:00",
+        "ranking": 18,
+        "previous": 18,
+        "count1": 119223,
+        "count2": 417282
+      },
+      {
+        "time": "2023-10-09T05:00:00",
+        "ranking": 18,
+        "previous": 18,
+        "count1": 119361,
+        "count2": 418589
+      },
+      {
+        "time": "2023-10-09T06:00:00",
+        "ranking": 18,
+        "previous": 18,
+        "count1": 119547,
+        "count2": 419929
+      },
+      {
+        "time": "2023-10-09T07:00:00",
+        "ranking": 41,
+        "previous": 18,
+        "count1": 119849,
+        "count2": 421573
+      },
+      {
+        "time": "2023-10-09T08:00:00",
+        "ranking": 26,
+        "previous": 41,
+        "count1": 120302,
+        "count2": 424152
+      },
+      {
+        "time": "2023-10-09T09:00:00",
+        "ranking": 24,
+        "previous": 26,
+        "count1": 121091,
+        "count2": 428189
+      },
+      {
+        "time": "2023-10-09T10:00:00",
+        "ranking": 24,
+        "previous": 24,
+        "count1": 122244,
+        "count2": 433913
+      },
+      {
+        "time": "2023-10-09T11:00:00",
+        "ranking": 13,
+        "previous": 24,
+        "count1": 123795,
+        "count2": 440908
+      },
+      {
+        "time": "2023-10-09T12:00:00",
+        "ranking": 12,
+        "previous": 13,
+        "count1": 125690,
+        "count2": 449656
+      },
+      {
+        "time": "2023-10-09T13:00:00",
+        "ranking": 11,
+        "previous": 12,
+        "count1": 127755,
+        "count2": 459294
+      },
+      {
+        "time": "2023-10-09T14:00:00",
+        "ranking": 10,
+        "previous": 11,
+        "count1": 129894,
+        "count2": 469219
+      },
+      {
+        "time": "2023-10-09T15:00:00",
+        "ranking": 10,
+        "previous": 10,
+        "count1": 132033,
+        "count2": 479096
+      },
+      {
+        "time": "2023-10-09T16:00:00",
+        "ranking": 11,
+        "previous": 10,
+        "count1": 134109,
+        "count2": 488777
+      },
+      {
+        "time": "2023-10-09T17:00:00",
+        "ranking": 12,
+        "previous": 11,
+        "count1": 136108,
+        "count2": 498582
+      },
+      {
+        "time": "2023-10-09T18:00:00",
+        "ranking": 10,
+        "previous": 12,
+        "count1": 137852,
+        "count2": 508112
+      },
+      {
+        "time": "2023-10-09T19:00:00",
+        "ranking": 9,
+        "previous": 10,
+        "count1": 139523,
+        "count2": 517257
+      },
+      {
+        "time": "2023-10-09T20:00:00",
+        "ranking": 6,
+        "previous": 9,
+        "count1": 140945,
+        "count2": 525712
+      },
+      {
+        "time": "2023-10-09T21:00:00",
+        "ranking": 6,
+        "previous": 6,
+        "count1": 142351,
+        "count2": 534074
+      },
+      {
+        "time": "2023-10-09T22:00:00",
+        "ranking": 10,
+        "previous": 6,
+        "count1": 143502,
+        "count2": 541667
+      },
+      {
+        "time": "2023-10-09T23:00:00",
+        "ranking": 16,
+        "previous": 10,
+        "count1": 144336,
+        "count2": 548063
+      },
+      {
+        "time": "2023-10-10T00:00:00",
+        "ranking": 16,
+        "previous": 16,
+        "count1": 144901,
+        "count2": 552966
+      },
+      {
+        "time": "2023-10-10T01:00:00",
+        "ranking": 15,
+        "previous": 16,
+        "count1": 145309,
+        "count2": 556254
+      },
+      {
+        "time": "2023-10-10T02:00:00",
+        "ranking": 15,
+        "previous": 16,
+        "count1": 145547,
+        "count2": 558506
+      },
+      {
+        "time": "2023-10-10T03:00:00",
+        "ranking": 15,
+        "previous": 16,
+        "count1": 145697,
+        "count2": 560143
+      },
+      {
+        "time": "2023-10-10T04:00:00",
+        "ranking": 15,
+        "previous": 16,
+        "count1": 145800,
+        "count2": 561375
+      },
+      {
+        "time": "2023-10-10T05:00:00",
+        "ranking": 15,
+        "previous": 16,
+        "count1": 145917,
+        "count2": 562383
+      },
+      {
+        "time": "2023-10-10T06:00:00",
+        "ranking": 15,
+        "previous": 16,
+        "count1": 146139,
+        "count2": 563837
+      },
+      {
+        "time": "2023-10-10T07:00:00",
+        "ranking": 20,
+        "previous": 15,
+        "count1": 146860,
+        "count2": 567543
+      },
+      {
+        "time": "2023-10-10T08:00:00",
+        "ranking": 4,
+        "previous": 20,
+        "count1": 149039,
+        "count2": 579422
+      },
+      {
+        "time": "2023-10-10T09:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 153046,
+        "count2": 598456
+      },
+      {
+        "time": "2023-10-10T10:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 155585,
+        "count2": 609694
+      },
+      {
+        "time": "2023-10-10T11:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 157591,
+        "count2": 619141
+      },
+      {
+        "time": "2023-10-10T12:00:00",
+        "ranking": 10,
+        "previous": 4,
+        "count1": 159296,
+        "count2": 627769
+      },
+      {
+        "time": "2023-10-10T13:00:00",
+        "ranking": 5,
+        "previous": 10,
+        "count1": 160899,
+        "count2": 636749
+      },
+      {
+        "time": "2023-10-10T14:00:00",
+        "ranking": 6,
+        "previous": 5,
+        "count1": 162752,
+        "count2": 646236
+      },
+      {
+        "time": "2023-10-10T15:00:00",
+        "ranking": 6,
+        "previous": 6,
+        "count1": 164409,
+        "count2": 655370
+      },
+      {
+        "time": "2023-10-10T16:00:00",
+        "ranking": 4,
+        "previous": 6,
+        "count1": 166090,
+        "count2": 664715
+      },
+      {
+        "time": "2023-10-10T17:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 167931,
+        "count2": 675070
+      },
+      {
+        "time": "2023-10-10T18:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 170015,
+        "count2": 687453
+      },
+      {
+        "time": "2023-10-10T19:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 172500,
+        "count2": 702820
+      },
+      {
+        "time": "2023-10-10T20:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 174308,
+        "count2": 714304
+      },
+      {
+        "time": "2023-10-10T21:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 175871,
+        "count2": 724288
+      },
+      {
+        "time": "2023-10-10T22:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 177104,
+        "count2": 733222
+      },
+      {
+        "time": "2023-10-10T23:00:00",
+        "ranking": 3,
+        "previous": 4,
+        "count1": 178032,
+        "count2": 740501
+      },
+      {
+        "time": "2023-10-11T00:00:00",
+        "ranking": 16,
+        "previous": 3,
+        "count1": 178663,
+        "count2": 745543
+      },
+      {
+        "time": "2023-10-11T01:00:00",
+        "ranking": 16,
+        "previous": 16,
+        "count1": 179029,
+        "count2": 749015
+      },
+      {
+        "time": "2023-10-11T02:00:00",
+        "ranking": 16,
+        "previous": 16,
+        "count1": 179237,
+        "count2": 751197
+      },
+      {
+        "time": "2023-10-11T03:00:00",
+        "ranking": 16,
+        "previous": 16,
+        "count1": 179383,
+        "count2": 752559
+      },
+      {
+        "time": "2023-10-11T04:00:00",
+        "ranking": 16,
+        "previous": 16,
+        "count1": 179471,
+        "count2": 753565
+      },
+      {
+        "time": "2023-10-11T05:00:00",
+        "ranking": 16,
+        "previous": 16,
+        "count1": 179562,
+        "count2": 754528
+      },
+      {
+        "time": "2023-10-11T06:00:00",
+        "ranking": 16,
+        "previous": 16,
+        "count1": 179735,
+        "count2": 755930
+      },
+      {
+        "time": "2023-10-11T07:00:00",
+        "ranking": 20,
+        "previous": 16,
+        "count1": 180323,
+        "count2": 759388
+      },
+      {
+        "time": "2023-10-11T08:00:00",
+        "ranking": 4,
+        "previous": 20,
+        "count1": 182077,
+        "count2": 770687
+      },
+      {
+        "time": "2023-10-11T09:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 185297,
+        "count2": 789244
+      },
+      {
+        "time": "2023-10-11T10:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 187366,
+        "count2": 800797
+      },
+      {
+        "time": "2023-10-11T11:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 189145,
+        "count2": 809634
+      },
+      {
+        "time": "2023-10-11T12:00:00",
+        "ranking": 5,
+        "previous": 4,
+        "count1": 190604,
+        "count2": 817998
+      },
+      {
+        "time": "2023-10-11T13:00:00",
+        "ranking": 4,
+        "previous": 5,
+        "count1": 192224,
+        "count2": 827255
+      },
+      {
+        "time": "2023-10-11T14:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 193898,
+        "count2": 836969
+      },
+      {
+        "time": "2023-10-11T15:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 195526,
+        "count2": 846400
+      },
+      {
+        "time": "2023-10-11T16:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 197165,
+        "count2": 856204
+      },
+      {
+        "time": "2023-10-11T17:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 198831,
+        "count2": 866607
+      },
+      {
+        "time": "2023-10-11T18:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 200855,
+        "count2": 879499
+      },
+      {
+        "time": "2023-10-11T19:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 203255,
+        "count2": 895729
+      },
+      {
+        "time": "2023-10-11T20:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 204905,
+        "count2": 907275
+      },
+      {
+        "time": "2023-10-11T21:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 206294,
+        "count2": 917105
+      },
+      {
+        "time": "2023-10-11T22:00:00",
+        "ranking": 3,
+        "previous": 4,
+        "count1": 207474,
+        "count2": 925730
+      },
+      {
+        "time": "2023-10-11T23:00:00",
+        "ranking": 3,
+        "previous": 3,
+        "count1": 208479,
+        "count2": 933317
+      },
+      {
+        "time": "2023-10-12T00:00:00",
+        "ranking": 16,
+        "previous": 3,
+        "count1": 209128,
+        "count2": 938352
+      },
+      {
+        "time": "2023-10-12T01:00:00",
+        "ranking": 15,
+        "previous": 16,
+        "count1": 209498,
+        "count2": 941679
+      },
+      {
+        "time": "2023-10-12T02:00:00",
+        "ranking": 15,
+        "previous": 16,
+        "count1": 209706,
+        "count2": 943747
+      },
+      {
+        "time": "2023-10-12T03:00:00",
+        "ranking": 15,
+        "previous": 16,
+        "count1": 209840,
+        "count2": 945109
+      },
+      {
+        "time": "2023-10-12T04:00:00",
+        "ranking": 15,
+        "previous": 16,
+        "count1": 209940,
+        "count2": 946103
+      },
+      {
+        "time": "2023-10-12T05:00:00",
+        "ranking": 15,
+        "previous": 16,
+        "count1": 210041,
+        "count2": 947029
+      },
+      {
+        "time": "2023-10-12T06:00:00",
+        "ranking": 15,
+        "previous": 16,
+        "count1": 210231,
+        "count2": 948358
+      },
+      {
+        "time": "2023-10-12T07:00:00",
+        "ranking": 19,
+        "previous": 15,
+        "count1": 210743,
+        "count2": 951790
+      },
+      {
+        "time": "2023-10-12T08:00:00",
+        "ranking": 4,
+        "previous": 19,
+        "count1": 212435,
+        "count2": 962902
+      },
+      {
+        "time": "2023-10-12T09:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 215358,
+        "count2": 981332
+      },
+      {
+        "time": "2023-10-12T10:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 217244,
+        "count2": 992667
+      },
+      {
+        "time": "2023-10-12T11:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 218733,
+        "count2": 1001854
+      },
+      {
+        "time": "2023-10-12T12:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 220102,
+        "count2": 1010533
+      },
+      {
+        "time": "2023-10-12T13:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 221616,
+        "count2": 1019886
+      },
+      {
+        "time": "2023-10-12T14:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 223229,
+        "count2": 1029949
+      },
+      {
+        "time": "2023-10-12T15:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 224826,
+        "count2": 1039607
+      },
+      {
+        "time": "2023-10-12T16:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 226297,
+        "count2": 1049466
+      },
+      {
+        "time": "2023-10-12T17:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 227853,
+        "count2": 1059859
+      },
+      {
+        "time": "2023-10-12T18:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 229866,
+        "count2": 1073266
+      },
+      {
+        "time": "2023-10-12T19:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 232179,
+        "count2": 1089460
+      },
+      {
+        "time": "2023-10-12T20:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 233817,
+        "count2": 1100673
+      },
+      {
+        "time": "2023-10-12T21:00:00",
+        "ranking": 3,
+        "previous": 4,
+        "count1": 235220,
+        "count2": 1110604
+      },
+      {
+        "time": "2023-10-12T22:00:00",
+        "ranking": 2,
+        "previous": 3,
+        "count1": 236565,
+        "count2": 1119624
+      },
+      {
+        "time": "2023-10-12T23:00:00",
+        "ranking": 2,
+        "previous": 2,
+        "count1": 237617,
+        "count2": 1127266
+      },
+      {
+        "time": "2023-10-13T00:00:00",
+        "ranking": 14,
+        "previous": 2,
+        "count1": 238306,
+        "count2": 1132702
+      },
+      {
+        "time": "2023-10-13T01:00:00",
+        "ranking": 15,
+        "previous": 14,
+        "count1": 238668,
+        "count2": 1136041
+      },
+      {
+        "time": "2023-10-13T02:00:00",
+        "ranking": 15,
+        "previous": 14,
+        "count1": 238896,
+        "count2": 1138203
+      },
+      {
+        "time": "2023-10-13T03:00:00",
+        "ranking": 15,
+        "previous": 14,
+        "count1": 239045,
+        "count2": 1139634
+      },
+      {
+        "time": "2023-10-13T04:00:00",
+        "ranking": 15,
+        "previous": 14,
+        "count1": 239152,
+        "count2": 1140739
+      },
+      {
+        "time": "2023-10-13T05:00:00",
+        "ranking": 15,
+        "previous": 14,
+        "count1": 239249,
+        "count2": 1141804
+      },
+      {
+        "time": "2023-10-13T06:00:00",
+        "ranking": 15,
+        "previous": 14,
+        "count1": 239458,
+        "count2": 1143322
+      },
+      {
+        "time": "2023-10-13T07:00:00",
+        "ranking": 18,
+        "previous": 15,
+        "count1": 240044,
+        "count2": 1147091
+      },
+      {
+        "time": "2023-10-13T08:00:00",
+        "ranking": 3,
+        "previous": 18,
+        "count1": 241762,
+        "count2": 1157991
+      },
+      {
+        "time": "2023-10-13T09:00:00",
+        "ranking": 2,
+        "previous": 3,
+        "count1": 244862,
+        "count2": 1176196
+      },
+      {
+        "time": "2023-10-13T10:00:00",
+        "ranking": 2,
+        "previous": 2,
+        "count1": 246848,
+        "count2": 1187926
+      },
+      {
+        "time": "2023-10-13T11:00:00",
+        "ranking": 4,
+        "previous": 2,
+        "count1": 248548,
+        "count2": 1197535
+      },
+      {
+        "time": "2023-10-13T12:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 249915,
+        "count2": 1206346
+      },
+      {
+        "time": "2023-10-13T13:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 251466,
+        "count2": 1216022
+      },
+      {
+        "time": "2023-10-13T14:00:00",
+        "ranking": 3,
+        "previous": 4,
+        "count1": 253149,
+        "count2": 1226476
+      },
+      {
+        "time": "2023-10-13T15:00:00",
+        "ranking": 4,
+        "previous": 3,
+        "count1": 254884,
+        "count2": 1236729
+      },
+      {
+        "time": "2023-10-13T16:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 256578,
+        "count2": 1247502
+      },
+      {
+        "time": "2023-10-13T17:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 258396,
+        "count2": 1259258
+      },
+      {
+        "time": "2023-10-13T18:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 260586,
+        "count2": 1273306
+      },
+      {
+        "time": "2023-10-13T19:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 263068,
+        "count2": 1289719
+      },
+      {
+        "time": "2023-10-13T20:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 264764,
+        "count2": 1301040
+      },
+      {
+        "time": "2023-10-13T21:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count1": 266082,
+        "count2": 1310231
+      },
+      {
+        "time": "2023-10-13T22:00:00",
+        "ranking": 3,
+        "previous": 4,
+        "count1": 267235,
+        "count2": 1318733
+      },
+      {
+        "time": "2023-10-13T23:00:00",
+        "ranking": 2,
+        "previous": 3,
+        "count1": 268267,
+        "count2": 1326393
+      },
+      {
+        "time": "2023-10-14T00:00:00",
+        "ranking": 11,
+        "previous": 2,
+        "count1": 268979,
+        "count2": 1332127
+      },
+      {
+        "time": "2023-10-14T01:00:00",
+        "ranking": 15,
+        "previous": 11,
+        "count1": 269423,
+        "count2": 1335816
+      },
+      {
+        "time": "2023-10-14T02:00:00",
+        "ranking": 15,
+        "previous": 11,
+        "count1": 269720,
+        "count2": 1338318
+      },
+      {
+        "time": "2023-10-14T03:00:00",
+        "ranking": 15,
+        "previous": 11,
+        "count1": 269892,
+        "count2": 1340024
+      },
+      {
+        "time": "2023-10-14T04:00:00",
+        "ranking": 15,
+        "previous": 11,
+        "count1": 269996,
+        "count2": 1341296
+      },
+      {
+        "time": "2023-10-14T05:00:00",
+        "ranking": 15,
+        "previous": 11,
+        "count1": 270107,
+        "count2": 1342431
+      },
+      {
+        "time": "2023-10-14T06:00:00",
+        "ranking": 15,
+        "previous": 11,
+        "count1": 270265,
+        "count2": 1343865
+      },
+      {
+        "time": "2023-10-14T07:00:00",
+        "ranking": 19,
+        "previous": 15,
+        "count1": 270627,
+        "count2": 1346207
+      }
+    ]
+  }
+}

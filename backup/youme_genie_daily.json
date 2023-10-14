@@ -1,0 +1,60 @@
+{
+    "code": 200,
+    "message": "OK",
+    "body": {
+        "platform": "genie",
+        "chart": "GENIE_DAILY_CHART",
+        "songId": "103797393",
+        "timeUnit": "DAYS",
+        "size": 7,
+        "totalSize": 7,
+        "pagination": {
+            "currentSize": 7,
+            "pageSize": 10000,
+            "totalItems": 7,
+            "currentPage": 1,
+            "totalPages": 1,
+            "isFirstPage": true,
+            "isLastPage": true,
+            "hasPreviousPage": false,
+            "hasNextPage": false
+        },
+        "data": [
+            {
+                "time": "2023-10-06T00:00:00",
+                "ranking": 15,
+                "previous": 0
+            },
+            {
+                "time": "2023-10-07T00:00:00",
+                "ranking": 15,
+                "previous": 15
+            },
+            {
+                "time": "2023-10-08T00:00:00",
+                "ranking": 14,
+                "previous": null
+            },
+            {
+                "time": "2023-10-09T00:00:00",
+                "ranking": 11,
+                "previous": 14
+            },
+            {
+                "time": "2023-10-10T00:00:00",
+                "ranking": 8,
+                "previous": 11
+            },
+            {
+                "time": "2023-10-11T00:00:00",
+                "ranking": 5,
+                "previous": 8
+            },
+            {
+                "time": "2023-10-12T00:00:00",
+                "ranking": 4,
+                "previous": 5
+            }
+        ]
+    }
+}

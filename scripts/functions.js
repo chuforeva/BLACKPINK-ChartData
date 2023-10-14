@@ -3,12 +3,12 @@ const default_album = "you_me";
 var select_data = {
     "Melon": {
         "melon_top100": "Melon Top 100 차트",
+        "melon_24hits": "Melon 24 Hits 차트",
         "melon_realtime": "Melon 실시간 차트",
         "melon_daily": "Melon 일간 차트",
         "melon_weekly": "Melon 주간 차트",
         "melon_monthly": "Melon 월간 차트",
-        "melon_yearly": "Melon 연간 차트",
-        "melon_24hour": "Melon 24시간 이용자 수"
+        "melon_yearly": "Melon 연간 차트"
     },
     "Genie": {
         "genie_realtime": "Genie 실시간 차트",
@@ -197,6 +197,8 @@ function loadData(urlParams) {
                 displayMelonTop100(selected_data.artist, selected_song);
             } else if (chart == "melon_top100") {
                 displayMelonTop100(selected_data.artist, selected_song);
+            } else if (chart == "melon_24hits") {
+                displayMelon24Hits(selected_data.artist, selected_song);
             } else if (chart == "melon_realtime") {
                 displayMelonRealtime(selected_data.artist, selected_song);
             } else if (chart == "melon_daily") {
@@ -206,7 +208,23 @@ function loadData(urlParams) {
             } else if (chart == "melon_monthly") {
                 displayMelonMonthly(selected_data.artist, selected_song);
             } else if (chart == "melon_yearly") {
-                displayMelonYearly(selected_data.artist, selected_song);
+                displayMelonYearly(selected_song);
+            } else if (chart == "melon_24hour") {
+                displayMelon24Hour(selected_song);
+            } else if (chart == "genie_realtime") {
+                displayGenieRealtime(selected_data.artist, selected_song);
+            } else if (chart == "genie_daily") {
+                displayGenieDaily(selected_data.artist, selected_song);
+            } else if (chart == "flo_24hour") {
+                displayFlo24Hour(selected_data.artist, selected_song);
+            } else if (chart == "bugs_realtime") {
+                displayBugsRealtime(selected_data.artist, selected_song);
+            } else if (chart == "bugs_daily") {
+                displayBugsDaily(selected_data.artist, selected_song);
+            } else if (chart == "vibe_daily") {
+                displayVibeDaily(selected_data.artist, selected_song);
+            } else if (chart == "circle_weekly") {
+                displayCircleWeekly(selected_data.artist, selected_song);
             }
         });
 }
@@ -272,13 +290,15 @@ function displayMelonTop100(artist, song) {
                         td.classList.add("table_2");
                     } else if (d.ranking == 3) {
                         td.classList.add("table_3");
-                    } else if (d.ranking) {
+                    } else if (d.ranking <= 100) {
                         if (d.ranking % 10 == 0) {
                             td.classList.add(`table_${d.ranking - 10}`);
                         } else {
                             var c = d.ranking - (d.ranking % 10);
                             td.classList.add(`table_${c}`);
                         }
+                    } else {
+                        td.classList.add("table_100");
                     }
                 }
 
@@ -318,6 +338,110 @@ function displayMelonTop100(artist, song) {
             var title = document.getElementById("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon TOP 100 차트 추이"
+            title.appendChild(h1);
+
+            table_div.innerHTML += "<span>데이터 없음</span>";
+        });
+}
+
+function displayMelon24Hits(artist, song) {
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_melon_24hits.json`)
+        .then((res) => res.json())
+        .then((json) => {
+            var table = document.createElement("table");
+            table.id = "melon_top100";
+            var header_tr = document.createElement("tr");
+            var header_th_1 = document.createElement("th");
+            header_th_1.innerHTML = "날짜/시";
+            header_tr.appendChild(header_th_1);
+            for (var i = 0; i < 24; i++) {
+                var header_th = document.createElement("th");
+                header_th.innerHTML = i;
+                header_tr.appendChild(header_th);
+            }
+            table.appendChild(header_tr);
+
+            var rows = [];
+
+            for (var d of json.body.data) {
+                var date = new Date(d.time);
+                var dateFormat = `${date.getFullYear()}-${pad((date.getMonth() + 1), 2)}-${pad(date.getDate(), 2)}`;
+
+                if (!table.getElementsByClassName(dateFormat)[0]) {
+                    var tr = document.createElement("tr");
+                    tr.classList.add(dateFormat);
+                    var td_1 = document.createElement("td");
+                    td_1.innerHTML = dateFormat;
+                    tr.appendChild(td_1);
+
+                    for (var i = 0; i < 24; i++) {
+                        var td = document.createElement("td")
+                        td.classList.add(`T${pad(i, 2)}:00:00`);
+                        tr.appendChild(td);
+                    }
+
+                    table.appendChild(tr);
+                }
+
+                var tr = table.getElementsByClassName(dateFormat)[0];
+                var td = tr.getElementsByClassName(`T${pad(date.getHours(), 2)}:00:00`)[0];
+
+                if (d.ranking) {
+                    td.innerHTML = d.ranking;
+                    if (d.ranking == 1) {
+                        td.classList.add("table_1");
+                    } else if (d.ranking == 2) {
+                        td.classList.add("table_2");
+                    } else if (d.ranking == 3) {
+                        td.classList.add("table_3");
+                    } else if (d.ranking <= 100) {
+                        if (d.ranking % 10 == 0) {
+                            td.classList.add(`table_${d.ranking - 10}`);
+                        } else {
+                            var c = d.ranking - (d.ranking % 10);
+                            td.classList.add(`table_${c}`);
+                        }
+                    } else {
+                        td.classList.add("table_100");
+                    }
+                }
+
+                var r = [];
+                r.push(date);
+
+                if (d.ranking) {
+                    r.push(d.ranking);
+                } else {
+                    r.push(null);
+                }
+                rows.push(r);
+            }
+
+            var chartData = new google.visualization.DataTable();
+            chartData.addColumn('date', 'Date');
+            chartData.addColumn('number', `${artist} - ${song.title}`);
+            chartData.addRows(rows);
+
+            var table_div = document.getElementById("trend-table");
+            table_div.appendChild(table);
+
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Melon 24 Hits 차트 추이"
+            title.appendChild(h1);
+            var h2 = document.createElement("span");
+            h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
+            title.appendChild(h2);
+
+            var chart_div = document.getElementById('trend-chart');
+            var chart = new google.visualization.LineChart(chart_div);
+            chart.draw(chartData, chart_options);
+        })
+        .catch(function () {
+            var table_div = document.getElementById("trend-table");
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Melon 24 Hits 차트 추이"
             title.appendChild(h1);
 
             table_div.innerHTML += "<span>데이터 없음</span>";
@@ -697,7 +821,7 @@ function displayMelonMonthly(artist, song) {
         });
 }
 
-function displayMelonYearly(artist, song) {
+function displayMelonYearly(song) {
     fetch(location.origin + location.pathname + `backup/${song.json_id}_melon_yearly.json`)
         .then((res) => res.json())
         .then((json) => {
@@ -755,6 +879,777 @@ function displayMelonYearly(artist, song) {
             var title = document.getElementById("title");
             var h1 = document.createElement("h1");
             h1.innerHTML = "Melon 연간 차트 추이"
+            title.appendChild(h1);
+
+            table_div.innerHTML += "<span>데이터 없음</span>";
+        });
+}
+
+function displayMelon24Hour(song) {
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_melon_24hour.json`)
+        .then((res) => res.json())
+        .then((json) => {
+            var table = document.createElement("table");
+            table.id = "melon_24hour"
+            var header_tr = document.createElement("tr");
+            var header_th_1 = document.createElement("th");
+            header_th_1.innerHTML = "시간";
+            var header_th_2 = document.createElement("th");
+            header_th_2.innerHTML = "순위";
+            var header_th_3 = document.createElement("th");
+            header_th_3.innerHTML = "이용자수";
+            var header_th_4 = document.createElement("th");
+            header_th_4.innerHTML = "변화량";
+            header_tr.append(header_th_1, header_th_2, header_th_3, header_th_4);
+            table.appendChild(header_tr);
+
+            var prev_count;
+            var prev_hour;
+
+            for (var d of json.body.data) {
+                var date = new Date(d.time);
+
+                var tr = document.createElement("tr");
+                var td_1 = document.createElement("td");
+                td_1.innerHTML = date.getHours() + "시";
+                var td_2 = document.createElement("td");
+                td_2.innerHTML = d.ranking;
+                var td_3 = document.createElement("td");
+                td_3.innerHTML = d.count;
+                var td_4 = document.createElement("td");
+                if (prev_count > -1 && date.getHours() - prev_hour == 1) {
+                    var diff = d.count - prev_count;
+                    if (diff > 0) {
+                        td_4.innerHTML = "+" + diff;
+                        td_4.style.color = "red";
+                    } else {
+                        td_4.innerHTML = diff;
+                        td_4.style.color = "blue";
+                    }
+                }
+
+                prev_count = d.count;
+                prev_hour = date.getHours();
+
+                tr.append(td_1, td_2, td_3, td_4);
+                table.appendChild(tr);
+            }
+
+            var table_div = document.getElementById("trend-table");
+            table_div.appendChild(table);
+
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Melon 24시간 이용자수 추이"
+            title.appendChild(h1);
+        })
+        .catch(function () {
+            var table_div = document.getElementById("trend-table");
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Melon 24시간 이용자수 추이"
+            title.appendChild(h1);
+
+            table_div.innerHTML += "<span>데이터 없음</span>";
+        });
+}
+
+function displayGenieRealtime(artist, song) {
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_genie_realtime.json`)
+        .then((res) => res.json())
+        .then((json) => {
+            var table = document.createElement("table");
+            table.id = "genie_realtime";
+            var header_tr = document.createElement("tr");
+            var header_th_1 = document.createElement("th");
+            header_th_1.innerHTML = "날짜/시";
+            header_tr.appendChild(header_th_1);
+            for (var i = 0; i < 24; i++) {
+                var header_th = document.createElement("th");
+                header_th.innerHTML = i;
+                header_tr.appendChild(header_th);
+            }
+            table.appendChild(header_tr);
+
+            var rows = [];
+
+            for (var d of json.body.data) {
+                var date = new Date(d.time);
+                var dateFormat = `${date.getFullYear()}-${pad((date.getMonth() + 1), 2)}-${pad(date.getDate(), 2)}`;
+
+                if (!table.getElementsByClassName(dateFormat)[0]) {
+                    var tr = document.createElement("tr");
+                    tr.classList.add(dateFormat);
+                    var td_1 = document.createElement("td");
+                    td_1.innerHTML = dateFormat;
+                    tr.appendChild(td_1);
+
+                    for (var i = 0; i < 24; i++) {
+                        var td = document.createElement("td")
+                        td.classList.add(`T${pad(i, 2)}:00:00`);
+                        tr.appendChild(td);
+                    }
+
+                    table.appendChild(tr);
+                }
+
+                var tr = table.getElementsByClassName(dateFormat)[0];
+                var td = tr.getElementsByClassName(`T${pad(date.getHours(), 2)}:00:00`)[0];
+
+                if (d.ranking) {
+                    td.innerHTML = d.ranking;
+                    if (d.ranking == 1) {
+                        td.classList.add("table_1");
+                    } else if (d.ranking == 2) {
+                        td.classList.add("table_2");
+                    } else if (d.ranking == 3) {
+                        td.classList.add("table_3");
+                    } else if (d.ranking <= 100) {
+                        if (d.ranking % 10 == 0) {
+                            td.classList.add(`table_${d.ranking - 10}`);
+                        } else {
+                            var c = d.ranking - (d.ranking % 10);
+                            td.classList.add(`table_${c}`);
+                        }
+                    } else {
+                        td.classList.add("table_100");
+                    }
+                }
+
+                var r = [];
+                r.push(date);
+
+                if (d.ranking) {
+                    r.push(d.ranking);
+                } else {
+                    r.push(null);
+                }
+                rows.push(r);
+            }
+
+            var chartData = new google.visualization.DataTable();
+            chartData.addColumn('date', 'Date');
+            chartData.addColumn('number', `${artist} - ${song.title}`);
+            chartData.addRows(rows);
+
+            var table_div = document.getElementById("trend-table");
+            table_div.appendChild(table);
+
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Genie 실시간 차트 추이"
+            title.appendChild(h1);
+            var h2 = document.createElement("span");
+            h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
+            title.appendChild(h2);
+
+            var chart_div = document.getElementById('trend-chart');
+            var chart = new google.visualization.LineChart(chart_div);
+            chart.draw(chartData, chart_options);
+        })
+        .catch(function () {
+            var table_div = document.getElementById("trend-table");
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Genie 실시간 차트 추이"
+            title.appendChild(h1);
+
+            table_div.innerHTML += "<span>데이터 없음</span>";
+        });
+}
+
+function displayGenieDaily(artist, song) {
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_genie_daily.json`)
+        .then((res) => res.json())
+        .then((json) => {
+            var table = document.createElement("table");
+            table.id = "genie_daily"
+            var header_tr = document.createElement("tr");
+            var header_th_1 = document.createElement("th");
+            header_th_1.innerHTML = "날짜";
+            var header_th_2 = document.createElement("th");
+            header_th_2.innerHTML = "순위";
+            var header_th_3 = document.createElement("th");
+            header_th_3.innerHTML = "변동";
+            header_tr.append(header_th_1, header_th_2, header_th_3);
+            table.appendChild(header_tr);
+
+            var rows = [];
+            var prev_date;
+
+            for (var d of json.body.data) {
+                var date = new Date(d.time);
+                var dateFormat = `${date.getFullYear()}-${pad((date.getMonth() + 1), 2)}-${pad(date.getDate(), 2)}`;
+
+                var tmp_date = new Date(date);
+                tmp_date.setDate(date.getDate() - 1);
+
+                var tr = document.createElement("tr");
+                var td_1 = document.createElement("td");
+                td_1.innerHTML = dateFormat;
+                if (date.getDay() == 6) {
+                    td_1.style.color = "blue";
+                } else if (date.getDay() == 0) {
+                    td_1.style.color = "red";
+                }
+                var td_2 = document.createElement("td");
+                td_2.innerHTML = d.ranking;
+                var td_3 = document.createElement("td");
+                if (!prev_date) {
+                    td_3.innerHTML = "NEW";
+                    td_3.style.color = "green";
+                } else if (d.previous > d.ranking) {
+                    td_3.innerHTML = "&#9650;" + (d.previous - d.ranking);
+                    td_3.style.color = "red";
+                } else if (d.previous == d.ranking || (d.previous == 0 && prev_date.getDate() != tmp_date.getDate())) {
+                    td_3.innerHTML = "-";
+                } else {
+                    td_3.innerHTML = "&#9660;" + (d.ranking - d.previous);
+                    td_3.style.color = "blue";
+                }
+                prev_count = d.count;
+                prev_date = date;
+                tr.append(td_1, td_2, td_3);
+                table.appendChild(tr);
+
+                var r = [];
+                r.push(date);
+
+                if (d.ranking) {
+                    r.push(d.ranking);
+                } else {
+                    r.push(null);
+                }
+                rows.push(r);
+            }
+
+            var chartData = new google.visualization.DataTable();
+            chartData.addColumn('date', 'Date');
+            chartData.addColumn('number', `${artist} - ${song.title}`);
+            chartData.addRows(rows);
+
+            var table_div = document.getElementById("trend-table");
+            table_div.appendChild(table);
+
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Genie 일간 차트 추이"
+            title.appendChild(h1);
+            var h2 = document.createElement("span");
+            h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
+            title.appendChild(h2);
+
+            var chart_div = document.getElementById('trend-chart');
+            var chart = new google.visualization.LineChart(chart_div);
+            chart.draw(chartData, chart_options);
+        })
+        .catch(function (err) {
+            console.error(err);
+
+            var table_div = document.getElementById("trend-table");
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Genie 일간 차트 추이"
+            title.appendChild(h1);
+
+            table_div.innerHTML += "<span>데이터 없음</span>";
+        });
+}
+
+function displayFlo24Hour(artist, song) {
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_flo_24hour.json`)
+        .then((res) => res.json())
+        .then((json) => {
+            var table = document.createElement("table");
+            table.id = "flo_24hour";
+            var header_tr = document.createElement("tr");
+            var header_th_1 = document.createElement("th");
+            header_th_1.innerHTML = "날짜/시";
+            header_tr.appendChild(header_th_1);
+            for (var i = 0; i < 24; i++) {
+                var header_th = document.createElement("th");
+                header_th.innerHTML = i;
+                header_tr.appendChild(header_th);
+            }
+            table.appendChild(header_tr);
+
+            var rows = [];
+
+            for (var d of json.body.data) {
+                var date = new Date(d.time);
+                var dateFormat = `${date.getFullYear()}-${pad((date.getMonth() + 1), 2)}-${pad(date.getDate(), 2)}`;
+
+                if (!table.getElementsByClassName(dateFormat)[0]) {
+                    var tr = document.createElement("tr");
+                    tr.classList.add(dateFormat);
+                    var td_1 = document.createElement("td");
+                    td_1.innerHTML = dateFormat;
+                    tr.appendChild(td_1);
+
+                    for (var i = 0; i < 24; i++) {
+                        var td = document.createElement("td")
+                        td.classList.add(`T${pad(i, 2)}:00:00`);
+                        tr.appendChild(td);
+                    }
+
+                    table.appendChild(tr);
+                }
+
+                var tr = table.getElementsByClassName(dateFormat)[0];
+                var td = tr.getElementsByClassName(`T${pad(date.getHours(), 2)}:00:00`)[0];
+
+                if (d.ranking) {
+                    td.innerHTML = d.ranking;
+                    if (d.ranking == 1) {
+                        td.classList.add("table_1");
+                    } else if (d.ranking == 2) {
+                        td.classList.add("table_2");
+                    } else if (d.ranking == 3) {
+                        td.classList.add("table_3");
+                    } else if (d.ranking <= 100) {
+                        if (d.ranking % 10 == 0) {
+                            td.classList.add(`table_${d.ranking - 10}`);
+                        } else {
+                            var c = d.ranking - (d.ranking % 10);
+                            td.classList.add(`table_${c}`);
+                        }
+                    } else {
+                        td.classList.add("table_100");
+                    }
+                }
+
+                var r = [];
+                r.push(date);
+
+                if (d.ranking) {
+                    r.push(d.ranking);
+                } else {
+                    r.push(null);
+                }
+                rows.push(r);
+            }
+
+            var chartData = new google.visualization.DataTable();
+            chartData.addColumn('date', 'Date');
+            chartData.addColumn('number', `${artist} - ${song.title}`);
+            chartData.addRows(rows);
+
+            var table_div = document.getElementById("trend-table");
+            table_div.appendChild(table);
+
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Flo 24시간 차트 추이"
+            title.appendChild(h1);
+            var h2 = document.createElement("span");
+            h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
+            title.appendChild(h2);
+
+            var chart_div = document.getElementById('trend-chart');
+            var chart = new google.visualization.LineChart(chart_div);
+            chart.draw(chartData, chart_options);
+        })
+        .catch(function () {
+            var table_div = document.getElementById("trend-table");
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Flo 24시간 차트 추이"
+            title.appendChild(h1);
+
+            table_div.innerHTML += "<span>데이터 없음</span>";
+        });
+}
+
+function displayBugsRealtime(artist, song) {
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_bugs_realtime.json`)
+        .then((res) => res.json())
+        .then((json) => {
+            var table = document.createElement("table");
+            table.id = "bugs_realtime";
+            var header_tr = document.createElement("tr");
+            var header_th_1 = document.createElement("th");
+            header_th_1.innerHTML = "날짜/시";
+            header_tr.appendChild(header_th_1);
+            for (var i = 0; i < 24; i++) {
+                var header_th = document.createElement("th");
+                header_th.innerHTML = i;
+                header_tr.appendChild(header_th);
+            }
+            table.appendChild(header_tr);
+
+            var rows = [];
+
+            for (var d of json.body.data) {
+                var date = new Date(d.time);
+                var dateFormat = `${date.getFullYear()}-${pad((date.getMonth() + 1), 2)}-${pad(date.getDate(), 2)}`;
+
+                if (!table.getElementsByClassName(dateFormat)[0]) {
+                    var tr = document.createElement("tr");
+                    tr.classList.add(dateFormat);
+                    var td_1 = document.createElement("td");
+                    td_1.innerHTML = dateFormat;
+                    tr.appendChild(td_1);
+
+                    for (var i = 0; i < 24; i++) {
+                        var td = document.createElement("td")
+                        td.classList.add(`T${pad(i, 2)}:00:00`);
+                        tr.appendChild(td);
+                    }
+
+                    table.appendChild(tr);
+                }
+
+                var tr = table.getElementsByClassName(dateFormat)[0];
+                var td = tr.getElementsByClassName(`T${pad(date.getHours(), 2)}:00:00`)[0];
+
+                if (d.ranking) {
+                    td.innerHTML = d.ranking;
+                    if (d.ranking == 1) {
+                        td.classList.add("table_1");
+                    } else if (d.ranking == 2) {
+                        td.classList.add("table_2");
+                    } else if (d.ranking == 3) {
+                        td.classList.add("table_3");
+                    } else if (d.ranking <= 100) {
+                        if (d.ranking % 10 == 0) {
+                            td.classList.add(`table_${d.ranking - 10}`);
+                        } else {
+                            var c = d.ranking - (d.ranking % 10);
+                            td.classList.add(`table_${c}`);
+                        }
+                    } else {
+                        td.classList.add("table_100");
+                    }
+                }
+
+                var r = [];
+                r.push(date);
+
+                if (d.ranking) {
+                    r.push(d.ranking);
+                } else {
+                    r.push(null);
+                }
+                rows.push(r);
+            }
+
+            var chartData = new google.visualization.DataTable();
+            chartData.addColumn('date', 'Date');
+            chartData.addColumn('number', `${artist} - ${song.title}`);
+            chartData.addRows(rows);
+
+            var table_div = document.getElementById("trend-table");
+            table_div.appendChild(table);
+
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Bugs 실시간 차트 추이"
+            title.appendChild(h1);
+            var h2 = document.createElement("span");
+            h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
+            title.appendChild(h2);
+
+            var chart_div = document.getElementById('trend-chart');
+            var chart = new google.visualization.LineChart(chart_div);
+            chart.draw(chartData, chart_options);
+        })
+        .catch(function () {
+            var table_div = document.getElementById("trend-table");
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Bugs 실시간 차트 추이"
+            title.appendChild(h1);
+
+            table_div.innerHTML += "<span>데이터 없음</span>";
+        });
+}
+
+function displayBugsDaily(artist, song) {
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_bugs_daily.json`)
+        .then((res) => res.json())
+        .then((json) => {
+            var table = document.createElement("table");
+            table.id = "bugs_daily"
+            var header_tr = document.createElement("tr");
+            var header_th_1 = document.createElement("th");
+            header_th_1.innerHTML = "날짜";
+            var header_th_2 = document.createElement("th");
+            header_th_2.innerHTML = "순위";
+            var header_th_3 = document.createElement("th");
+            header_th_3.innerHTML = "변동";
+            header_tr.append(header_th_1, header_th_2, header_th_3);
+            table.appendChild(header_tr);
+
+            var rows = [];
+            var prev_date;
+
+            for (var d of json.body.data) {
+                var date = new Date(d.time);
+                var dateFormat = `${date.getFullYear()}-${pad((date.getMonth() + 1), 2)}-${pad(date.getDate(), 2)}`;
+
+                var tmp_date = new Date(date);
+                tmp_date.setDate(date.getDate() - 1);
+
+                var tr = document.createElement("tr");
+                var td_1 = document.createElement("td");
+                td_1.innerHTML = dateFormat;
+                if (date.getDay() == 6) {
+                    td_1.style.color = "blue";
+                } else if (date.getDay() == 0) {
+                    td_1.style.color = "red";
+                }
+                var td_2 = document.createElement("td");
+                td_2.innerHTML = d.ranking;
+                var td_3 = document.createElement("td");
+                if (!prev_date) {
+                    td_3.innerHTML = "NEW";
+                    td_3.style.color = "green";
+                } else if (d.previous > d.ranking) {
+                    td_3.innerHTML = "&#9650;" + (d.previous - d.ranking);
+                    td_3.style.color = "red";
+                } else if (d.previous == d.ranking || (d.previous == 0 && prev_date.getDate() != tmp_date.getDate())) {
+                    td_3.innerHTML = "-";
+                } else {
+                    td_3.innerHTML = "&#9660;" + (d.ranking - d.previous);
+                    td_3.style.color = "blue";
+                }
+                prev_count = d.count;
+                prev_date = date;
+                tr.append(td_1, td_2, td_3);
+                table.appendChild(tr);
+
+                var r = [];
+                r.push(date);
+
+                if (d.ranking) {
+                    r.push(d.ranking);
+                } else {
+                    r.push(null);
+                }
+                rows.push(r);
+            }
+            prev_date = date;
+
+            var chartData = new google.visualization.DataTable();
+            chartData.addColumn('date', 'Date');
+            chartData.addColumn('number', `${artist} - ${song.title}`);
+            chartData.addRows(rows);
+
+            var table_div = document.getElementById("trend-table");
+            table_div.appendChild(table);
+
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Bugs 일간 차트 추이"
+            title.appendChild(h1);
+            var h2 = document.createElement("span");
+            h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
+            title.appendChild(h2);
+
+            var chart_div = document.getElementById('trend-chart');
+            var chart = new google.visualization.LineChart(chart_div);
+            chart.draw(chartData, chart_options);
+        })
+        .catch(function (err) {
+            console.error(err);
+
+            var table_div = document.getElementById("trend-table");
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Bugs 일간 차트 추이"
+            title.appendChild(h1);
+
+            table_div.innerHTML += "<span>데이터 없음</span>";
+        });
+}
+
+function displayVibeDaily(artist, song) {
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_vibe_daily.json`)
+        .then((res) => res.json())
+        .then((json) => {
+            var table = document.createElement("table");
+            table.id = "vibe_daily"
+            var header_tr = document.createElement("tr");
+            var header_th_1 = document.createElement("th");
+            header_th_1.innerHTML = "날짜";
+            var header_th_2 = document.createElement("th");
+            header_th_2.innerHTML = "순위";
+            var header_th_3 = document.createElement("th");
+            header_th_3.innerHTML = "변동";
+            header_tr.append(header_th_1, header_th_2, header_th_3);
+            table.appendChild(header_tr);
+
+            var rows = [];
+            var prev_ranking;
+            var prev_date;
+
+            for (var d of json.body.data) {
+                var date = new Date(d.time);
+                var dateFormat = `${date.getFullYear()}-${pad((date.getMonth() + 1), 2)}-${pad(date.getDate(), 2)}`;
+
+                var tmp_date = new Date(date);
+                tmp_date.setDate(date.getDate() - 1);
+
+                var tr = document.createElement("tr");
+                var td_1 = document.createElement("td");
+                td_1.innerHTML = dateFormat;
+                if (date.getDay() == 6) {
+                    td_1.style.color = "blue";
+                } else if (date.getDay() == 0) {
+                    td_1.style.color = "red";
+                }
+                var td_2 = document.createElement("td");
+                td_2.innerHTML = d.ranking;
+                var td_3 = document.createElement("td");
+                if (!prev_date) {
+                    td_3.innerHTML = "NEW";
+                    td_3.style.color = "green";
+                } else if (d.previous > d.ranking) {
+                    if (d.previous == 0) {
+                        td_3.innerHTML = "&#9650;" + (prev_ranking - d.ranking);
+                    } else {
+                        td_3.innerHTML = "&#9650;" + (d.previous - d.ranking);
+                    }
+                    td_3.style.color = "red";
+                } else if (d.previous == d.ranking || (d.previous == 0 && prev_date.getDate() != tmp_date.getDate())) {
+                    td_3.innerHTML = "-";
+                } else {
+                    if (d.previous == 0) {
+                        td_3.innerHTML = "&#9660;" + (d.ranking - prev_ranking);
+                    } else {
+                        td_3.innerHTML = "&#9660;" + (d.ranking - d.previous);
+                    }
+                    td_3.style.color = "blue";
+                }
+                prev_ranking = d.ranking;
+                prev_date = date;
+                tr.append(td_1, td_2, td_3);
+                table.appendChild(tr);
+
+                var r = [];
+                r.push(date);
+
+                if (d.ranking) {
+                    r.push(d.ranking);
+                } else {
+                    r.push(null);
+                }
+                rows.push(r);
+            }
+
+            var chartData = new google.visualization.DataTable();
+            chartData.addColumn('date', 'Date');
+            chartData.addColumn('number', `${artist} - ${song.title}`);
+            chartData.addRows(rows);
+
+            var table_div = document.getElementById("trend-table");
+            table_div.appendChild(table);
+
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Vibe 일간 차트 추이"
+            title.appendChild(h1);
+            var h2 = document.createElement("span");
+            h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
+            title.appendChild(h2);
+
+            var chart_div = document.getElementById('trend-chart');
+            var chart = new google.visualization.LineChart(chart_div);
+            chart.draw(chartData, chart_options);
+        })
+        .catch(function (err) {
+            console.error(err);
+
+            var table_div = document.getElementById("trend-table");
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Vibe 일간 차트 추이"
+            title.appendChild(h1);
+
+            table_div.innerHTML += "<span>데이터 없음</span>";
+        });
+}
+
+function displayCircleWeekly(artist, song) {
+    fetch(location.origin + location.pathname + `backup/${song.json_id}_circle_weekly.json`)
+        .then((res) => res.json())
+        .then((json) => {
+            var table = document.createElement("table");
+            table.id = "circle_weekly"
+            var header_tr = document.createElement("tr");
+            var header_th_1 = document.createElement("th");
+            header_th_1.innerHTML = "연도/주차";
+            var header_th_2 = document.createElement("th");
+            header_th_2.innerHTML = "순위";
+            var header_th_3 = document.createElement("th");
+            header_th_3.innerHTML = "이용자수";
+            var header_th_4 = document.createElement("th");
+            header_th_4.innerHTML = "누적";
+            header_tr.append(header_th_1, header_th_2, header_th_3, header_th_4);
+            table.appendChild(header_tr);
+
+            var rows = [];
+            var total_count = 0;
+
+            for (var d of json.body.data) {
+                var date = new Date(d.time);
+                var dateFormat = `${d.year}/${pad(d.week, 2)}`;
+
+                var tr = document.createElement("tr");
+                var td_1 = document.createElement("td");
+                td_1.innerHTML = dateFormat;
+                var td_2 = document.createElement("td");
+                td_2.innerHTML = d.ranking;
+                var td_3 = document.createElement("td");
+                if (d.count) {
+                    td_3.innerHTML = d.count.toLocaleString('en-US');
+                } else {
+                    td_3.innerHTML = "-";
+                }
+                var td_4 = document.createElement("td");
+                total_count += d.count;
+                td_4.innerHTML = total_count.toLocaleString('en-US');;
+
+                tr.append(td_1, td_2, td_3, td_4);
+                table.appendChild(tr);
+
+                var r = [];
+                r.push(date);
+
+                if (d.ranking) {
+                    r.push(d.ranking);
+                } else {
+                    r.push(null);
+                }
+                rows.push(r);
+            }
+
+            var chartData = new google.visualization.DataTable();
+            chartData.addColumn('date', 'Date');
+            chartData.addColumn('number', `${artist} - ${song.title}`);
+            chartData.addRows(rows);
+
+            var table_div = document.getElementById("trend-table");
+            table_div.appendChild(table);
+
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Circle 주간 차트 추이"
+            title.appendChild(h1);
+            var h2 = document.createElement("span");
+            h2.innerHTML = "Last Update: " + json.body.data[json.body.data.length - 1].time
+            title.appendChild(h2);
+
+            var chart_div = document.getElementById('trend-chart');
+            var chart = new google.visualization.LineChart(chart_div);
+            chart.draw(chartData, chart_options);
+        })
+        .catch(function (err) {
+            console.error(err);
+            var table_div = document.getElementById("trend-table");
+            var title = document.getElementById("title");
+            var h1 = document.createElement("h1");
+            h1.innerHTML = "Circle 주간 차트 추이"
             title.appendChild(h1);
 
             table_div.innerHTML += "<span>데이터 없음</span>";
