@@ -1,0 +1,409 @@
+{
+  "code": 200,
+  "message": "OK",
+  "body": {
+    "platform": "circle",
+    "chart": "CIRCLE_DIGITAL_WEEKLY_CHART",
+    "songId": "1689264",
+    "timeUnit": "WEEKS",
+    "size": 48,
+    "totalSize": 48,
+    "pagination": {
+      "currentSize": 48,
+      "pageSize": 100,
+      "totalItems": 48,
+      "currentPage": 1,
+      "totalPages": 1,
+      "isFirstPage": true,
+      "isLastPage": true,
+      "hasPreviousPage": false,
+      "hasNextPage": false
+    },
+    "data": [
+      {
+        "time": "2018-11-11T00:00:00",
+        "ranking": 1,
+        "previous": 0,
+        "count": 70848782,
+        "year": 2018,
+        "week": 46
+      },
+      {
+        "time": "2018-11-18T00:00:00",
+        "ranking": 1,
+        "previous": 1,
+        "count": 60760303,
+        "year": 2018,
+        "week": 47
+      },
+      {
+        "time": "2018-11-25T00:00:00",
+        "ranking": 2,
+        "previous": 1,
+        "count": 53287906,
+        "year": 2018,
+        "week": 48
+      },
+      {
+        "time": "2018-12-02T00:00:00",
+        "ranking": 2,
+        "previous": 2,
+        "count": 47036992,
+        "year": 2018,
+        "week": 49
+      },
+      {
+        "time": "2018-12-09T00:00:00",
+        "ranking": 3,
+        "previous": 2,
+        "count": 41554652,
+        "year": 2018,
+        "week": 50
+      },
+      {
+        "time": "2018-12-16T00:00:00",
+        "ranking": 4,
+        "previous": 3,
+        "count": 37825667,
+        "year": 2018,
+        "week": 51
+      },
+      {
+        "time": "2018-12-23T00:00:00",
+        "ranking": 4,
+        "previous": 4,
+        "count": 34493965,
+        "year": 2018,
+        "week": 52
+      },
+      {
+        "time": "2018-12-30T00:00:00",
+        "ranking": 3,
+        "previous": 4,
+        "count": 37208717,
+        "year": 2019,
+        "week": 1
+      },
+      {
+        "time": "2019-01-06T00:00:00",
+        "ranking": 4,
+        "previous": 3,
+        "count": 36419341,
+        "year": 2019,
+        "week": 2
+      },
+      {
+        "time": "2019-01-13T00:00:00",
+        "ranking": 5,
+        "previous": 4,
+        "count": 32110633,
+        "year": 2019,
+        "week": 3
+      },
+      {
+        "time": "2019-01-20T00:00:00",
+        "ranking": 8,
+        "previous": 5,
+        "count": 28869772,
+        "year": 2019,
+        "week": 4
+      },
+      {
+        "time": "2019-01-27T00:00:00",
+        "ranking": 9,
+        "previous": 8,
+        "count": 26954853,
+        "year": 2019,
+        "week": 5
+      },
+      {
+        "time": "2019-02-03T00:00:00",
+        "ranking": 10,
+        "previous": 9,
+        "count": 24185679,
+        "year": 2019,
+        "week": 6
+      },
+      {
+        "time": "2019-02-10T00:00:00",
+        "ranking": 15,
+        "previous": 10,
+        "count": 23257072,
+        "year": 2019,
+        "week": 7
+      },
+      {
+        "time": "2019-02-17T00:00:00",
+        "ranking": 15,
+        "previous": 15,
+        "count": 24542589,
+        "year": 2019,
+        "week": 8
+      },
+      {
+        "time": "2019-02-24T00:00:00",
+        "ranking": 16,
+        "previous": 15,
+        "count": 21670503,
+        "year": 2019,
+        "week": 9
+      },
+      {
+        "time": "2019-03-03T00:00:00",
+        "ranking": 18,
+        "previous": 16,
+        "count": 19814880,
+        "year": 2019,
+        "week": 10
+      },
+      {
+        "time": "2019-03-10T00:00:00",
+        "ranking": 23,
+        "previous": 18,
+        "count": 17650804,
+        "year": 2019,
+        "week": 11
+      },
+      {
+        "time": "2019-03-17T00:00:00",
+        "ranking": 28,
+        "previous": 23,
+        "count": 15305387,
+        "year": 2019,
+        "week": 12
+      },
+      {
+        "time": "2019-03-24T00:00:00",
+        "ranking": 32,
+        "previous": 28,
+        "count": 15692491,
+        "year": 2019,
+        "week": 13
+      },
+      {
+        "time": "2019-03-31T00:00:00",
+        "ranking": 38,
+        "previous": 32,
+        "count": 14357662,
+        "year": 2019,
+        "week": 14
+      },
+      {
+        "time": "2019-04-07T00:00:00",
+        "ranking": 42,
+        "previous": 38,
+        "count": 13488108,
+        "year": 2019,
+        "week": 15
+      },
+      {
+        "time": "2019-04-14T00:00:00",
+        "ranking": 49,
+        "previous": 42,
+        "count": 12771677,
+        "year": 2019,
+        "week": 16
+      },
+      {
+        "time": "2019-04-21T00:00:00",
+        "ranking": 48,
+        "previous": 49,
+        "count": 12295762,
+        "year": 2019,
+        "week": 17
+      },
+      {
+        "time": "2019-04-28T00:00:00",
+        "ranking": 51,
+        "previous": 48,
+        "count": 11938488,
+        "year": 2019,
+        "week": 18
+      },
+      {
+        "time": "2019-05-05T00:00:00",
+        "ranking": 53,
+        "previous": 51,
+        "count": 11572184,
+        "year": 2019,
+        "week": 19
+      },
+      {
+        "time": "2019-05-12T00:00:00",
+        "ranking": 54,
+        "previous": 53,
+        "count": 10815496,
+        "year": 2019,
+        "week": 20
+      },
+      {
+        "time": "2019-05-19T00:00:00",
+        "ranking": 59,
+        "previous": 54,
+        "count": 10256025,
+        "year": 2019,
+        "week": 21
+      },
+      {
+        "time": "2019-05-26T00:00:00",
+        "ranking": 62,
+        "previous": 59,
+        "count": 9839519,
+        "year": 2019,
+        "week": 22
+      },
+      {
+        "time": "2019-06-02T00:00:00",
+        "ranking": 66,
+        "previous": 62,
+        "count": 9720430,
+        "year": 2019,
+        "week": 23
+      },
+      {
+        "time": "2019-06-09T00:00:00",
+        "ranking": 70,
+        "previous": 66,
+        "count": 9097561,
+        "year": 2019,
+        "week": 24
+      },
+      {
+        "time": "2019-06-16T00:00:00",
+        "ranking": 81,
+        "previous": 70,
+        "count": 7303171,
+        "year": 2019,
+        "week": 25
+      },
+      {
+        "time": "2019-06-23T00:00:00",
+        "ranking": 93,
+        "previous": 81,
+        "count": 7064142,
+        "year": 2019,
+        "week": 26
+      },
+      {
+        "time": "2019-06-30T00:00:00",
+        "ranking": 102,
+        "previous": 93,
+        "count": 7028349,
+        "year": 2019,
+        "week": 27
+      },
+      {
+        "time": "2019-07-07T00:00:00",
+        "ranking": 120,
+        "previous": 102,
+        "count": 5597141,
+        "year": 2019,
+        "week": 28
+      },
+      {
+        "time": "2019-07-14T00:00:00",
+        "ranking": 114,
+        "previous": 120,
+        "count": 5311874,
+        "year": 2019,
+        "week": 29
+      },
+      {
+        "time": "2019-07-21T00:00:00",
+        "ranking": 122,
+        "previous": 114,
+        "count": 4967547,
+        "year": 2019,
+        "week": 30
+      },
+      {
+        "time": "2019-07-28T00:00:00",
+        "ranking": 116,
+        "previous": 122,
+        "count": 4713762,
+        "year": 2019,
+        "week": 31
+      },
+      {
+        "time": "2019-08-04T00:00:00",
+        "ranking": 120,
+        "previous": 116,
+        "count": 4524066,
+        "year": 2019,
+        "week": 32
+      },
+      {
+        "time": "2019-08-11T00:00:00",
+        "ranking": 124,
+        "previous": 120,
+        "count": 4371198,
+        "year": 2019,
+        "week": 33
+      },
+      {
+        "time": "2019-08-18T00:00:00",
+        "ranking": 127,
+        "previous": 124,
+        "count": 4342234,
+        "year": 2019,
+        "week": 34
+      },
+      {
+        "time": "2019-08-25T00:00:00",
+        "ranking": 140,
+        "previous": 127,
+        "count": 4120672,
+        "year": 2019,
+        "week": 35
+      },
+      {
+        "time": "2019-09-01T00:00:00",
+        "ranking": 166,
+        "previous": 140,
+        "count": 3204504,
+        "year": 2019,
+        "week": 36
+      },
+      {
+        "time": "2019-09-08T00:00:00",
+        "ranking": 161,
+        "previous": 166,
+        "count": 3444316,
+        "year": 2019,
+        "week": 37
+      },
+      {
+        "time": "2019-09-15T00:00:00",
+        "ranking": 162,
+        "previous": 161,
+        "count": 3450308,
+        "year": 2019,
+        "week": 38
+      },
+      {
+        "time": "2019-09-22T00:00:00",
+        "ranking": 179,
+        "previous": 162,
+        "count": 3096609,
+        "year": 2019,
+        "week": 39
+      },
+      {
+        "time": "2019-09-29T00:00:00",
+        "ranking": 188,
+        "previous": 179,
+        "count": 2958111,
+        "year": 2019,
+        "week": 40
+      },
+      {
+        "time": "2019-10-06T00:00:00",
+        "ranking": 192,
+        "previous": 188,
+        "count": 2815022,
+        "year": 2019,
+        "week": 41
+      }
+    ]
+  }
+}
